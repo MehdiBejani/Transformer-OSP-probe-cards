@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the preprint."
+title: "Transformer-Based Approach to Optimal Sensor Placement for Structural Health Monitoring of Probe Cards"
+authors:
+  - family-names: Bejani
+    given-names: Mehdi
+  - family-names: Mauri
+    given-names: Marco
+  - family-names: Acconcia
+    given-names: Daniele
+  - family-names: Todaro
+    given-names: Simone
+  - family-names: Mariani
+    given-names: Stefano
+year: 2025
+type: software
+identifiers:
+  - type: url
+    value: "https://arxiv.org/abs/2509.07603"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Bejani
+      given-names: Mehdi
+    - family-names: Mauri
+      given-names: Marco
+    - family-names: Acconcia
+      given-names: Daniele
+    - family-names: Todaro
+      given-names: Simone
+    - family-names: Mariani
+      given-names: Stefano
+  title: "Transformer-Based Approach to Optimal Sensor Placement for Structural Health Monitoring of Probe Cards"
+  year: 2025
+  notes: "Submitted; under review. Please cite the arXiv preprint for now. We will update this entry after publication."
+  url: "https://arxiv.org/abs/2509.07603"
