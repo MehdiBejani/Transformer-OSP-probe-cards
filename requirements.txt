@@ -1,5 +1,15 @@
-numpy
-torch
-scikit-learn
-imbalanced-learn
-matplotlib
+# ----------------- core numerical stack -----------------
+numpy==1.26.4
+scipy==1.11.4
+
+# ----------------- ML & imbalance helpers -----------------
+scikit-learn==1.4.2
+imbalanced-learn==0.12.2
+
+# ----------------- PyTorch (for Deep Learning) -----------------
+# Installs PyTorch with support for CUDA 11.8
+torch==2.2.2+cu118
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# ----------------- data + plotting -----------------
+matplotlib==3.8.4
