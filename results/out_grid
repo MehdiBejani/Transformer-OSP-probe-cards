@@ -1,0 +1,1485 @@
+[2025-10-27 12:14:10] [INFO] Loading data...
+[2025-10-27 12:14:10] [INFO] Original dataset shape: (3750, 28, 150)
+[2025-10-27 12:14:10] [INFO] Original class distribution: {0: 125, 1: 2625, 2: 1000}
+[2025-10-27 12:14:10] [INFO] Grid search with 32 configurations.
+[2025-10-27 12:14:10] [GRID] Config 1/32: {'ff_dim': 256, 'l1_lambda': 1e-05, 'lr': 0.0001, 'n_heads': 2, 'n_layers': 1}
+Config 1 Fold 1 Ep 001/50 Tr Ls: 0.4662 Ac: 0.7156 | Vl Ls: 1.0388 Ac: 0.4376
+Config 1 Fold 1 Ep 010/50 Tr Ls: 0.1558 Ac: 0.9129 | Vl Ls: 0.6806 Ac: 0.6448
+Config 1 Fold 1 Ep 020/50 Tr Ls: 0.1207 Ac: 0.9350 | Vl Ls: 0.4094 Ac: 0.7856
+Config 1 Fold 1 Ep 030/50 Tr Ls: 0.0963 Ac: 0.9512 | Vl Ls: 0.2248 Ac: 0.8776
+Config 1 Fold 1 Ep 040/50 Tr Ls: 0.0775 Ac: 0.9632 | Vl Ls: 0.1815 Ac: 0.9200
+Config 1 Fold 1 Ep 050/50 Tr Ls: 0.0447 Ac: 0.9808 | Vl Ls: 0.1288 Ac: 0.9320
+Config 1 Fold 2 Ep 001/50 Tr Ls: 0.5205 Ac: 0.6558 | Vl Ls: 1.0775 Ac: 0.1936
+Config 1 Fold 2 Ep 010/50 Tr Ls: 0.1642 Ac: 0.9065 | Vl Ls: 0.7502 Ac: 0.6640
+Config 1 Fold 2 Ep 020/50 Tr Ls: 0.1331 Ac: 0.9190 | Vl Ls: 0.4607 Ac: 0.7040
+Config 1 Fold 2 Ep 030/50 Tr Ls: 0.1215 Ac: 0.9248 | Vl Ls: 0.3798 Ac: 0.7768
+Config 1 Fold 2 Ep 040/50 Tr Ls: 0.1120 Ac: 0.9349 | Vl Ls: 0.2812 Ac: 0.8664
+Config 1 Fold 2 Ep 050/50 Tr Ls: 0.0988 Ac: 0.9480 | Vl Ls: 0.4538 Ac: 0.8400
+Config 1 Fold 3 Ep 001/50 Tr Ls: 0.4340 Ac: 0.7469 | Vl Ls: 0.8227 Ac: 0.5960
+Config 1 Fold 3 Ep 010/50 Tr Ls: 0.1659 Ac: 0.9046 | Vl Ls: 0.4291 Ac: 0.8256
+Config 1 Fold 3 Ep 020/50 Tr Ls: 0.1327 Ac: 0.9199 | Vl Ls: 0.3405 Ac: 0.8704
+Config 1 Fold 3 Ep 030/50 Tr Ls: 0.1109 Ac: 0.9411 | Vl Ls: 0.2788 Ac: 0.8616
+Config 1 Fold 3 Ep 040/50 Tr Ls: 0.0908 Ac: 0.9560 | Vl Ls: 0.2222 Ac: 0.8632
+Config 1 Fold 3 Ep 050/50 Tr Ls: 0.0727 Ac: 0.9673 | Vl Ls: 0.1904 Ac: 0.9224
+[2025-10-27 13:31:59] [GRID] New best config 1: BalAcc 0.8712
+[2025-10-27 13:31:59] [GRID] Config 2/32: {'ff_dim': 256, 'l1_lambda': 1e-05, 'lr': 0.0001, 'n_heads': 2, 'n_layers': 2}
+Config 2 Fold 1 Ep 001/50 Tr Ls: 0.4206 Ac: 0.7603 | Vl Ls: 0.8253 Ac: 0.5824
+Config 2 Fold 1 Ep 010/50 Tr Ls: 0.1413 Ac: 0.9190 | Vl Ls: 0.4746 Ac: 0.8072
+Config 2 Fold 1 Ep 020/50 Tr Ls: 0.1097 Ac: 0.9423 | Vl Ls: 0.2796 Ac: 0.8376
+Config 2 Fold 1 Ep 030/50 Tr Ls: 0.0887 Ac: 0.9553 | Vl Ls: 0.1709 Ac: 0.9112
+Config 2 Fold 1 Ep 040/50 Tr Ls: 0.0696 Ac: 0.9677 | Vl Ls: 0.2019 Ac: 0.9120
+Config 2 Fold 1 Ep 050/50 Tr Ls: 0.0472 Ac: 0.9803 | Vl Ls: 0.1083 Ac: 0.9448
+Config 2 Fold 2 Ep 001/50 Tr Ls: 0.4460 Ac: 0.7310 | Vl Ls: 0.8383 Ac: 0.5784
+Config 2 Fold 2 Ep 010/50 Tr Ls: 0.1437 Ac: 0.9147 | Vl Ls: 0.4132 Ac: 0.7136
+Config 2 Fold 2 Ep 020/50 Tr Ls: 0.1178 Ac: 0.9335 | Vl Ls: 0.3791 Ac: 0.7848
+Config 2 Fold 2 Ep 030/50 Tr Ls: 0.0941 Ac: 0.9532 | Vl Ls: 0.1746 Ac: 0.9328
+Config 2 Fold 2 Ep 040/50 Tr Ls: 0.0579 Ac: 0.9745 | Vl Ls: 0.1433 Ac: 0.9448
+Config 2 Fold 2 Ep 050/50 Tr Ls: 0.0320 Ac: 0.9871 | Vl Ls: 0.1166 Ac: 0.9536
+Config 2 Fold 3 Ep 001/50 Tr Ls: 0.4201 Ac: 0.7619 | Vl Ls: 0.7116 Ac: 0.6616
+Config 2 Fold 3 Ep 010/50 Tr Ls: 0.1529 Ac: 0.9104 | Vl Ls: 0.5005 Ac: 0.7312
+Config 2 Fold 3 Ep 020/50 Tr Ls: 0.1155 Ac: 0.9388 | Vl Ls: 0.3130 Ac: 0.8216
+Config 2 Fold 3 Ep 030/50 Tr Ls: 0.0864 Ac: 0.9585 | Vl Ls: 0.1841 Ac: 0.9096
+Config 2 Fold 3 Ep 040/50 Tr Ls: 0.0635 Ac: 0.9726 | Vl Ls: 0.1513 Ac: 0.9328
+Config 2 Fold 3 Ep 050/50 Tr Ls: 0.0415 Ac: 0.9835 | Vl Ls: 0.1432 Ac: 0.9368
+[2025-10-27 15:06:56] [GRID] New best config 2: BalAcc 0.9095
+[2025-10-27 15:06:56] [GRID] Config 3/32: {'ff_dim': 256, 'l1_lambda': 1e-05, 'lr': 0.0001, 'n_heads': 4, 'n_layers': 1}
+Config 3 Fold 1 Ep 001/50 Tr Ls: 0.4445 Ac: 0.7353 | Vl Ls: 0.8756 Ac: 0.5200
+Config 3 Fold 1 Ep 010/50 Tr Ls: 0.1477 Ac: 0.9163 | Vl Ls: 0.9875 Ac: 0.6800
+Config 3 Fold 1 Ep 020/50 Tr Ls: 0.1171 Ac: 0.9348 | Vl Ls: 0.3163 Ac: 0.8128
+Config 3 Fold 1 Ep 030/50 Tr Ls: 0.0953 Ac: 0.9514 | Vl Ls: 0.1726 Ac: 0.9200
+Config 3 Fold 1 Ep 040/50 Tr Ls: 0.0793 Ac: 0.9628 | Vl Ls: 0.1845 Ac: 0.9136
+Config 3 Fold 1 Ep 050/50 Tr Ls: 0.0576 Ac: 0.9754 | Vl Ls: 0.1541 Ac: 0.9304
+Config 3 Fold 2 Ep 001/50 Tr Ls: 0.4819 Ac: 0.7018 | Vl Ls: 0.7381 Ac: 0.6008
+Config 3 Fold 2 Ep 010/50 Tr Ls: 0.1541 Ac: 0.9101 | Vl Ls: 0.4841 Ac: 0.6856
+Config 3 Fold 2 Ep 020/50 Tr Ls: 0.1247 Ac: 0.9262 | Vl Ls: 0.4462 Ac: 0.7184
+Config 3 Fold 2 Ep 030/50 Tr Ls: 0.0981 Ac: 0.9515 | Vl Ls: 0.1785 Ac: 0.9232
+Config 3 Fold 2 Ep 040/50 Tr Ls: 0.0718 Ac: 0.9676 | Vl Ls: 0.1248 Ac: 0.9528
+Config 3 Fold 2 Ep 050/50 Tr Ls: 0.0446 Ac: 0.9822 | Vl Ls: 0.1030 Ac: 0.9608
+Config 3 Fold 3 Ep 001/50 Tr Ls: 0.4220 Ac: 0.7586 | Vl Ls: 0.6812 Ac: 0.6680
+Config 3 Fold 3 Ep 010/50 Tr Ls: 0.1658 Ac: 0.9040 | Vl Ls: 0.4799 Ac: 0.8168
+Config 3 Fold 3 Ep 020/50 Tr Ls: 0.1302 Ac: 0.9201 | Vl Ls: 0.3810 Ac: 0.8640
+Config 3 Fold 3 Ep 030/50 Tr Ls: 0.1071 Ac: 0.9438 | Vl Ls: 0.2428 Ac: 0.8576
+Config 3 Fold 3 Ep 040/50 Tr Ls: 0.0867 Ac: 0.9577 | Vl Ls: 0.2280 Ac: 0.8568
+Config 3 Fold 3 Ep 050/50 Tr Ls: 0.0556 Ac: 0.9756 | Vl Ls: 0.1539 Ac: 0.9288
+[2025-10-27 16:25:44] [GRID] Config 4/32: {'ff_dim': 256, 'l1_lambda': 1e-05, 'lr': 0.0001, 'n_heads': 4, 'n_layers': 2}
+Config 4 Fold 1 Ep 001/50 Tr Ls: 0.4183 Ac: 0.7587 | Vl Ls: 0.7459 Ac: 0.6272
+Config 4 Fold 1 Ep 010/50 Tr Ls: 0.1367 Ac: 0.9217 | Vl Ls: 0.4532 Ac: 0.8216
+Config 4 Fold 1 Ep 020/50 Tr Ls: 0.1114 Ac: 0.9325 | Vl Ls: 0.3500 Ac: 0.8112
+Config 4 Fold 1 Ep 030/50 Tr Ls: 0.0886 Ac: 0.9549 | Vl Ls: 0.2819 Ac: 0.8800
+Config 4 Fold 1 Ep 040/50 Tr Ls: 0.0696 Ac: 0.9676 | Vl Ls: 0.1749 Ac: 0.9192
+Config 4 Fold 1 Ep 050/50 Tr Ls: 0.0335 Ac: 0.9864 | Vl Ls: 0.0925 Ac: 0.9640
+Config 4 Fold 2 Ep 001/50 Tr Ls: 0.4295 Ac: 0.7435 | Vl Ls: 0.7569 Ac: 0.6016
+Config 4 Fold 2 Ep 010/50 Tr Ls: 0.1403 Ac: 0.9148 | Vl Ls: 0.4809 Ac: 0.6920
+Config 4 Fold 2 Ep 020/50 Tr Ls: 0.1147 Ac: 0.9371 | Vl Ls: 0.3938 Ac: 0.7768
+Config 4 Fold 2 Ep 030/50 Tr Ls: 0.0900 Ac: 0.9560 | Vl Ls: 0.1616 Ac: 0.9232
+Config 4 Fold 2 Ep 040/50 Tr Ls: 0.0652 Ac: 0.9713 | Vl Ls: 0.1970 Ac: 0.9288
+Config 4 Fold 2 Ep 050/50 Tr Ls: 0.0404 Ac: 0.9840 | Vl Ls: 0.1712 Ac: 0.9256
+Config 4 Fold 3 Ep 001/50 Tr Ls: 0.4097 Ac: 0.7669 | Vl Ls: 0.7558 Ac: 0.6624
+Config 4 Fold 3 Ep 010/50 Tr Ls: 0.1487 Ac: 0.9112 | Vl Ls: 0.4807 Ac: 0.6824
+Config 4 Fold 3 Ep 020/50 Tr Ls: 0.1027 Ac: 0.9473 | Vl Ls: 0.2093 Ac: 0.8864
+Config 4 Fold 3 Ep 030/50 Tr Ls: 0.0787 Ac: 0.9626 | Vl Ls: 0.1926 Ac: 0.9032
+Config 4 Fold 3 Ep 040/50 Tr Ls: 0.0546 Ac: 0.9769 | Vl Ls: 0.1344 Ac: 0.9376
+Config 4 Fold 3 Ep 050/50 Tr Ls: 0.0336 Ac: 0.9869 | Vl Ls: 0.1144 Ac: 0.9520
+[2025-10-27 18:01:07] [GRID] New best config 4: BalAcc 0.9110
+[2025-10-27 18:01:07] [GRID] Config 5/32: {'ff_dim': 256, 'l1_lambda': 1e-05, 'lr': 0.0003, 'n_heads': 2, 'n_layers': 1}
+Config 5 Fold 1 Ep 001/50 Tr Ls: 0.5031 Ac: 0.6706 | Vl Ls: 0.9172 Ac: 0.6160
+Config 5 Fold 1 Ep 010/50 Tr Ls: 0.1560 Ac: 0.9134 | Vl Ls: 0.4256 Ac: 0.8424
+Config 5 Fold 1 Ep 020/50 Tr Ls: 0.1132 Ac: 0.9421 | Vl Ls: 0.3064 Ac: 0.8296
+Config 5 Fold 1 Ep 030/50 Tr Ls: 0.0910 Ac: 0.9550 | Vl Ls: 0.2167 Ac: 0.9000
+Config 5 Fold 1 Ep 040/50 Tr Ls: 0.0708 Ac: 0.9677 | Vl Ls: 0.1547 Ac: 0.9288
+Config 5 Fold 1 Ep 050/50 Tr Ls: 0.0518 Ac: 0.9791 | Vl Ls: 0.1279 Ac: 0.9464
+Config 5 Fold 2 Ep 001/50 Tr Ls: 0.5187 Ac: 0.6533 | Vl Ls: 1.0988 Ac: 0.1032
+Config 5 Fold 2 Ep 010/50 Tr Ls: 0.1552 Ac: 0.9088 | Vl Ls: 0.4894 Ac: 0.7568
+Config 5 Fold 2 Ep 020/50 Tr Ls: 0.1250 Ac: 0.9213 | Vl Ls: 0.4906 Ac: 0.7248
+Config 5 Fold 2 Ep 030/50 Tr Ls: 0.1158 Ac: 0.9262 | Vl Ls: 0.2671 Ac: 0.8416
+Config 5 Fold 2 Ep 040/50 Tr Ls: 0.0971 Ac: 0.9500 | Vl Ls: 0.3242 Ac: 0.9032
+Config 5 Fold 2 Ep 050/50 Tr Ls: 0.0766 Ac: 0.9650 | Vl Ls: 0.1371 Ac: 0.9448
+Config 5 Fold 3 Ep 001/50 Tr Ls: 0.4814 Ac: 0.7003 | Vl Ls: 0.8086 Ac: 0.5360
+Config 5 Fold 3 Ep 010/50 Tr Ls: 0.1669 Ac: 0.9039 | Vl Ls: 0.6610 Ac: 0.7504
+Config 5 Fold 3 Ep 020/50 Tr Ls: 0.1317 Ac: 0.9199 | Vl Ls: 0.3186 Ac: 0.8936
+Config 5 Fold 3 Ep 030/50 Tr Ls: 0.1044 Ac: 0.9463 | Vl Ls: 0.2285 Ac: 0.9008
+Config 5 Fold 3 Ep 040/50 Tr Ls: 0.0860 Ac: 0.9591 | Vl Ls: 0.1736 Ac: 0.9000
+Config 5 Fold 3 Ep 050/50 Tr Ls: 0.0684 Ac: 0.9695 | Vl Ls: 0.1338 Ac: 0.9392
+[2025-10-27 19:19:21] [GRID] Config 6/32: {'ff_dim': 256, 'l1_lambda': 1e-05, 'lr': 0.0003, 'n_heads': 2, 'n_layers': 2}
+Config 6 Fold 1 Ep 001/50 Tr Ls: 0.4314 Ac: 0.7517 | Vl Ls: 0.6930 Ac: 0.6368
+Config 6 Fold 1 Ep 010/50 Tr Ls: 0.1422 Ac: 0.9205 | Vl Ls: 0.4531 Ac: 0.7616
+Config 6 Fold 1 Ep 020/50 Tr Ls: 0.0995 Ac: 0.9496 | Vl Ls: 0.1766 Ac: 0.9280
+Config 6 Fold 1 Ep 030/50 Tr Ls: 0.0793 Ac: 0.9625 | Vl Ls: 0.2564 Ac: 0.8720
+Config 6 Fold 1 Ep 040/50 Tr Ls: 0.0562 Ac: 0.9762 | Vl Ls: 0.2126 Ac: 0.9128
+Config 6 Fold 1 Ep 050/50 Tr Ls: 0.0370 Ac: 0.9860 | Vl Ls: 0.1354 Ac: 0.9336
+Config 6 Fold 2 Ep 001/50 Tr Ls: 0.4447 Ac: 0.7348 | Vl Ls: 0.8687 Ac: 0.5256
+Config 6 Fold 2 Ep 010/50 Tr Ls: 0.1547 Ac: 0.9113 | Vl Ls: 0.4573 Ac: 0.7048
+Config 6 Fold 2 Ep 020/50 Tr Ls: 0.1117 Ac: 0.9447 | Vl Ls: 0.3607 Ac: 0.8336
+Config 6 Fold 2 Ep 030/50 Tr Ls: 0.0856 Ac: 0.9602 | Vl Ls: 0.1863 Ac: 0.9344
+Config 6 Fold 2 Ep 040/50 Tr Ls: 0.0588 Ac: 0.9756 | Vl Ls: 0.1389 Ac: 0.9568
+Config 6 Fold 2 Ep 050/50 Tr Ls: 0.0405 Ac: 0.9838 | Vl Ls: 0.2445 Ac: 0.8936
+Config 6 Fold 3 Ep 001/50 Tr Ls: 0.4464 Ac: 0.7355 | Vl Ls: 0.8841 Ac: 0.5192
+Config 6 Fold 3 Ep 010/50 Tr Ls: 0.1594 Ac: 0.9155 | Vl Ls: 0.5146 Ac: 0.8024
+Config 6 Fold 3 Ep 020/50 Tr Ls: 0.1046 Ac: 0.9506 | Vl Ls: 0.2059 Ac: 0.9048
+Config 6 Fold 3 Ep 030/50 Tr Ls: 0.0793 Ac: 0.9640 | Vl Ls: 0.0936 Ac: 0.9544
+Config 6 Fold 3 Ep 040/50 Tr Ls: 0.0415 Ac: 0.9830 | Vl Ls: 0.1153 Ac: 0.9512
+Config 6 Fold 3 Ep 050/50 Tr Ls: 0.0233 Ac: 0.9912 | Vl Ls: 0.1154 Ac: 0.9640
+[2025-10-27 20:54:51] [GRID] Config 7/32: {'ff_dim': 256, 'l1_lambda': 1e-05, 'lr': 0.0003, 'n_heads': 4, 'n_layers': 1}
+Config 7 Fold 1 Ep 001/50 Tr Ls: 0.4671 Ac: 0.7123 | Vl Ls: 0.7361 Ac: 0.6176
+Config 7 Fold 1 Ep 010/50 Tr Ls: 0.1511 Ac: 0.9158 | Vl Ls: 0.5768 Ac: 0.6336
+Config 7 Fold 1 Ep 020/50 Tr Ls: 0.1134 Ac: 0.9418 | Vl Ls: 0.3242 Ac: 0.8232
+Config 7 Fold 1 Ep 030/50 Tr Ls: 0.0927 Ac: 0.9539 | Vl Ls: 0.1464 Ac: 0.9256
+Config 7 Fold 1 Ep 040/50 Tr Ls: 0.0741 Ac: 0.9658 | Vl Ls: 0.1661 Ac: 0.9200
+Config 7 Fold 1 Ep 050/50 Tr Ls: 0.0529 Ac: 0.9780 | Vl Ls: 0.1156 Ac: 0.9520
+Config 7 Fold 2 Ep 001/50 Tr Ls: 0.4495 Ac: 0.7317 | Vl Ls: 0.8128 Ac: 0.5504
+Config 7 Fold 2 Ep 010/50 Tr Ls: 0.1518 Ac: 0.9096 | Vl Ls: 0.4970 Ac: 0.7072
+Config 7 Fold 2 Ep 020/50 Tr Ls: 0.1221 Ac: 0.9277 | Vl Ls: 0.3968 Ac: 0.7960
+Config 7 Fold 2 Ep 030/50 Tr Ls: 0.0969 Ac: 0.9528 | Vl Ls: 0.2045 Ac: 0.8928
+Config 7 Fold 2 Ep 040/50 Tr Ls: 0.0595 Ac: 0.9726 | Vl Ls: 0.0961 Ac: 0.9608
+Config 7 Fold 2 Ep 050/50 Tr Ls: 0.0362 Ac: 0.9851 | Vl Ls: 0.1412 Ac: 0.9440
+Config 7 Fold 3 Ep 001/50 Tr Ls: 0.4399 Ac: 0.7420 | Vl Ls: 0.6900 Ac: 0.6656
+Config 7 Fold 3 Ep 010/50 Tr Ls: 0.1609 Ac: 0.9163 | Vl Ls: 0.4773 Ac: 0.7448
+Config 7 Fold 3 Ep 020/50 Tr Ls: 0.1068 Ac: 0.9492 | Vl Ls: 0.1608 Ac: 0.9184
+Config 7 Fold 3 Ep 030/50 Tr Ls: 0.0802 Ac: 0.9638 | Vl Ls: 0.1304 Ac: 0.9384
+Config 7 Fold 3 Ep 040/50 Tr Ls: 0.0561 Ac: 0.9767 | Vl Ls: 0.1033 Ac: 0.9608
+Config 7 Fold 3 Ep 050/50 Tr Ls: 0.0224 Ac: 0.9916 | Vl Ls: 0.0834 Ac: 0.9704
+[2025-10-27 22:13:11] [GRID] New best config 7: BalAcc 0.9254
+[2025-10-27 22:13:11] [GRID] Config 8/32: {'ff_dim': 256, 'l1_lambda': 1e-05, 'lr': 0.0003, 'n_heads': 4, 'n_layers': 2}
+Config 8 Fold 1 Ep 001/50 Tr Ls: 0.4382 Ac: 0.7423 | Vl Ls: 0.7202 Ac: 0.6080
+Config 8 Fold 1 Ep 010/50 Tr Ls: 0.1458 Ac: 0.9178 | Vl Ls: 0.4020 Ac: 0.7760
+Config 8 Fold 1 Ep 020/50 Tr Ls: 0.1022 Ac: 0.9480 | Vl Ls: 0.2667 Ac: 0.8576
+Config 8 Fold 1 Ep 030/50 Tr Ls: 0.0807 Ac: 0.9615 | Vl Ls: 0.1043 Ac: 0.9440
+Config 8 Fold 1 Ep 040/50 Tr Ls: 0.0584 Ac: 0.9749 | Vl Ls: 0.1749 Ac: 0.9232
+Config 8 Fold 1 Ep 050/50 Tr Ls: 0.0373 Ac: 0.9855 | Vl Ls: 0.1051 Ac: 0.9496
+Config 8 Fold 2 Ep 001/50 Tr Ls: 0.4372 Ac: 0.7413 | Vl Ls: 0.7205 Ac: 0.6976
+Config 8 Fold 2 Ep 010/50 Tr Ls: 0.1390 Ac: 0.9257 | Vl Ls: 0.4176 Ac: 0.7928
+Config 8 Fold 2 Ep 020/50 Tr Ls: 0.0997 Ac: 0.9514 | Vl Ls: 0.3029 Ac: 0.8400
+Config 8 Fold 2 Ep 030/50 Tr Ls: 0.0746 Ac: 0.9666 | Vl Ls: 0.1410 Ac: 0.9288
+Config 8 Fold 2 Ep 040/50 Tr Ls: 0.0321 Ac: 0.9876 | Vl Ls: 0.0830 Ac: 0.9704
+Config 8 Fold 2 Ep 050/50 Tr Ls: 0.0121 Ac: 0.9960 | Vl Ls: 0.0534 Ac: 0.9768
+Config 8 Fold 3 Ep 001/50 Tr Ls: 0.4545 Ac: 0.7274 | Vl Ls: 0.8381 Ac: 0.5376
+Config 8 Fold 3 Ep 010/50 Tr Ls: 0.1533 Ac: 0.9224 | Vl Ls: 0.3731 Ac: 0.7968
+Config 8 Fold 3 Ep 020/50 Tr Ls: 0.1002 Ac: 0.9526 | Vl Ls: 0.1768 Ac: 0.9160
+Config 8 Fold 3 Ep 030/50 Tr Ls: 0.0736 Ac: 0.9673 | Vl Ls: 0.1566 Ac: 0.9336
+Config 8 Fold 3 Ep 040/50 Tr Ls: 0.0303 Ac: 0.9882 | Vl Ls: 0.1191 Ac: 0.9432
+Config 8 Fold 3 Ep 050/50 Tr Ls: 0.0109 Ac: 0.9962 | Vl Ls: 0.0470 Ac: 0.9712
+[2025-10-27 23:48:42] [GRID] New best config 8: BalAcc 0.9538
+[2025-10-27 23:48:42] [GRID] Config 9/32: {'ff_dim': 256, 'l1_lambda': 0.0001, 'lr': 0.0001, 'n_heads': 2, 'n_layers': 1}
+Config 9 Fold 1 Ep 001/50 Tr Ls: 0.4716 Ac: 0.7139 | Vl Ls: 0.8270 Ac: 0.5824
+Config 9 Fold 1 Ep 010/50 Tr Ls: 0.1565 Ac: 0.9137 | Vl Ls: 0.5084 Ac: 0.6712
+Config 9 Fold 1 Ep 020/50 Tr Ls: 0.1238 Ac: 0.9331 | Vl Ls: 0.3789 Ac: 0.7800
+Config 9 Fold 1 Ep 030/50 Tr Ls: 0.1007 Ac: 0.9496 | Vl Ls: 0.2424 Ac: 0.8896
+Config 9 Fold 1 Ep 040/50 Tr Ls: 0.0753 Ac: 0.9642 | Vl Ls: 0.1477 Ac: 0.9384
+Config 9 Fold 1 Ep 050/50 Tr Ls: 0.0594 Ac: 0.9741 | Vl Ls: 0.1651 Ac: 0.9288
+Config 9 Fold 2 Ep 001/50 Tr Ls: 0.5235 Ac: 0.6553 | Vl Ls: 1.1144 Ac: 0.1040
+Config 9 Fold 2 Ep 010/50 Tr Ls: 0.1679 Ac: 0.9057 | Vl Ls: 0.5913 Ac: 0.6760
+Config 9 Fold 2 Ep 020/50 Tr Ls: 0.1261 Ac: 0.9236 | Vl Ls: 0.5337 Ac: 0.6928
+Config 9 Fold 2 Ep 030/50 Tr Ls: 0.1164 Ac: 0.9313 | Vl Ls: 0.3726 Ac: 0.8232
+Config 9 Fold 2 Ep 040/50 Tr Ls: 0.1051 Ac: 0.9452 | Vl Ls: 0.3500 Ac: 0.8680
+Config 9 Fold 2 Ep 050/50 Tr Ls: 0.0952 Ac: 0.9523 | Vl Ls: 0.2811 Ac: 0.8768
+Config 9 Fold 3 Ep 001/50 Tr Ls: 0.4331 Ac: 0.7500 | Vl Ls: 0.8340 Ac: 0.5600
+Config 9 Fold 3 Ep 010/50 Tr Ls: 0.1677 Ac: 0.9054 | Vl Ls: 0.4775 Ac: 0.8184
+Config 9 Fold 3 Ep 020/50 Tr Ls: 0.1317 Ac: 0.9285 | Vl Ls: 0.3517 Ac: 0.8160
+Config 9 Fold 3 Ep 030/50 Tr Ls: 0.1073 Ac: 0.9470 | Vl Ls: 0.1837 Ac: 0.9128
+Config 9 Fold 3 Ep 040/50 Tr Ls: 0.0864 Ac: 0.9606 | Vl Ls: 0.1616 Ac: 0.9064
+Config 9 Fold 3 Ep 050/50 Tr Ls: 0.0672 Ac: 0.9718 | Vl Ls: 0.1283 Ac: 0.9416
+[2025-10-28 01:07:07] [GRID] Config 10/32: {'ff_dim': 256, 'l1_lambda': 0.0001, 'lr': 0.0001, 'n_heads': 2, 'n_layers': 2}
+Config 10 Fold 1 Ep 001/50 Tr Ls: 0.4229 Ac: 0.7618 | Vl Ls: 0.9538 Ac: 0.6000
+Config 10 Fold 1 Ep 010/50 Tr Ls: 0.1437 Ac: 0.9187 | Vl Ls: 0.4880 Ac: 0.8112
+Config 10 Fold 1 Ep 020/50 Tr Ls: 0.1163 Ac: 0.9321 | Vl Ls: 0.2866 Ac: 0.8136
+Config 10 Fold 1 Ep 030/50 Tr Ls: 0.0930 Ac: 0.9528 | Vl Ls: 0.2843 Ac: 0.8840
+Config 10 Fold 1 Ep 040/50 Tr Ls: 0.0755 Ac: 0.9656 | Vl Ls: 0.2197 Ac: 0.9168
+Config 10 Fold 1 Ep 050/50 Tr Ls: 0.0393 Ac: 0.9849 | Vl Ls: 0.1051 Ac: 0.9504
+Config 10 Fold 2 Ep 001/50 Tr Ls: 0.4625 Ac: 0.7210 | Vl Ls: 0.8575 Ac: 0.5256
+Config 10 Fold 2 Ep 010/50 Tr Ls: 0.1511 Ac: 0.9127 | Vl Ls: 0.6302 Ac: 0.6328
+Config 10 Fold 2 Ep 020/50 Tr Ls: 0.1215 Ac: 0.9354 | Vl Ls: 0.2526 Ac: 0.8872
+Config 10 Fold 2 Ep 030/50 Tr Ls: 0.0986 Ac: 0.9534 | Vl Ls: 0.2499 Ac: 0.8784
+Config 10 Fold 2 Ep 040/50 Tr Ls: 0.0736 Ac: 0.9681 | Vl Ls: 0.1581 Ac: 0.9392
+Config 10 Fold 2 Ep 050/50 Tr Ls: 0.0486 Ac: 0.9814 | Vl Ls: 0.1273 Ac: 0.9424
+Config 10 Fold 3 Ep 001/50 Tr Ls: 0.4090 Ac: 0.7699 | Vl Ls: 0.6856 Ac: 0.6816
+Config 10 Fold 3 Ep 010/50 Tr Ls: 0.1533 Ac: 0.9125 | Vl Ls: 0.5886 Ac: 0.7848
+Config 10 Fold 3 Ep 020/50 Tr Ls: 0.1087 Ac: 0.9459 | Vl Ls: 0.2268 Ac: 0.8784
+Config 10 Fold 3 Ep 030/50 Tr Ls: 0.0847 Ac: 0.9609 | Vl Ls: 0.3047 Ac: 0.8824
+Config 10 Fold 3 Ep 040/50 Tr Ls: 0.0626 Ac: 0.9740 | Vl Ls: 0.1697 Ac: 0.9216
+Config 10 Fold 3 Ep 050/50 Tr Ls: 0.0280 Ac: 0.9903 | Vl Ls: 0.1618 Ac: 0.9328
+[2025-10-28 02:42:29] [GRID] Config 11/32: {'ff_dim': 256, 'l1_lambda': 0.0001, 'lr': 0.0001, 'n_heads': 4, 'n_layers': 1}
+Config 11 Fold 1 Ep 001/50 Tr Ls: 0.4584 Ac: 0.7265 | Vl Ls: 0.9411 Ac: 0.4872
+Config 11 Fold 1 Ep 010/50 Tr Ls: 0.1525 Ac: 0.9163 | Vl Ls: 0.5170 Ac: 0.7192
+Config 11 Fold 1 Ep 020/50 Tr Ls: 0.1153 Ac: 0.9438 | Vl Ls: 0.3379 Ac: 0.8144
+Config 11 Fold 1 Ep 030/50 Tr Ls: 0.0903 Ac: 0.9581 | Vl Ls: 0.1758 Ac: 0.9248
+Config 11 Fold 1 Ep 040/50 Tr Ls: 0.0716 Ac: 0.9693 | Vl Ls: 0.1673 Ac: 0.9232
+Config 11 Fold 1 Ep 050/50 Tr Ls: 0.0499 Ac: 0.9805 | Vl Ls: 0.1329 Ac: 0.9376
+Config 11 Fold 2 Ep 001/50 Tr Ls: 0.4784 Ac: 0.7063 | Vl Ls: 0.7336 Ac: 0.6384
+Config 11 Fold 2 Ep 010/50 Tr Ls: 0.1606 Ac: 0.9082 | Vl Ls: 0.5641 Ac: 0.6696
+Config 11 Fold 2 Ep 020/50 Tr Ls: 0.1254 Ac: 0.9316 | Vl Ls: 0.2965 Ac: 0.8936
+Config 11 Fold 2 Ep 030/50 Tr Ls: 0.0962 Ac: 0.9548 | Vl Ls: 0.1513 Ac: 0.9336
+Config 11 Fold 2 Ep 040/50 Tr Ls: 0.0698 Ac: 0.9706 | Vl Ls: 0.1365 Ac: 0.9512
+Config 11 Fold 2 Ep 050/50 Tr Ls: 0.0323 Ac: 0.9882 | Vl Ls: 0.0997 Ac: 0.9616
+Config 11 Fold 3 Ep 001/50 Tr Ls: 0.4363 Ac: 0.7503 | Vl Ls: 0.7760 Ac: 0.6296
+Config 11 Fold 3 Ep 010/50 Tr Ls: 0.1707 Ac: 0.9038 | Vl Ls: 0.4989 Ac: 0.8136
+Config 11 Fold 3 Ep 020/50 Tr Ls: 0.1353 Ac: 0.9225 | Vl Ls: 0.3680 Ac: 0.8848
+Config 11 Fold 3 Ep 030/50 Tr Ls: 0.1072 Ac: 0.9480 | Vl Ls: 0.2863 Ac: 0.8496
+Config 11 Fold 3 Ep 040/50 Tr Ls: 0.0876 Ac: 0.9599 | Vl Ls: 0.3321 Ac: 0.8344
+Config 11 Fold 3 Ep 050/50 Tr Ls: 0.0700 Ac: 0.9703 | Vl Ls: 0.1518 Ac: 0.9192
+[2025-10-28 04:00:34] [GRID] Config 12/32: {'ff_dim': 256, 'l1_lambda': 0.0001, 'lr': 0.0001, 'n_heads': 4, 'n_layers': 2}
+Config 12 Fold 1 Ep 001/50 Tr Ls: 0.4200 Ac: 0.7605 | Vl Ls: 0.7063 Ac: 0.6232
+Config 12 Fold 1 Ep 010/50 Tr Ls: 0.1449 Ac: 0.9197 | Vl Ls: 0.4729 Ac: 0.8256
+Config 12 Fold 1 Ep 020/50 Tr Ls: 0.1170 Ac: 0.9322 | Vl Ls: 0.2758 Ac: 0.8952
+Config 12 Fold 1 Ep 030/50 Tr Ls: 0.0928 Ac: 0.9536 | Vl Ls: 0.1523 Ac: 0.9256
+Config 12 Fold 1 Ep 040/50 Tr Ls: 0.0749 Ac: 0.9660 | Vl Ls: 0.2081 Ac: 0.9088
+Config 12 Fold 1 Ep 050/50 Tr Ls: 0.0501 Ac: 0.9799 | Vl Ls: 0.1204 Ac: 0.9464
+Config 12 Fold 2 Ep 001/50 Tr Ls: 0.4409 Ac: 0.7378 | Vl Ls: 0.7977 Ac: 0.5984
+Config 12 Fold 2 Ep 010/50 Tr Ls: 0.1439 Ac: 0.9154 | Vl Ls: 0.3584 Ac: 0.7472
+Config 12 Fold 2 Ep 020/50 Tr Ls: 0.1152 Ac: 0.9395 | Vl Ls: 0.3064 Ac: 0.8488
+Config 12 Fold 2 Ep 030/50 Tr Ls: 0.0925 Ac: 0.9563 | Vl Ls: 0.1853 Ac: 0.9136
+Config 12 Fold 2 Ep 040/50 Tr Ls: 0.0680 Ac: 0.9718 | Vl Ls: 0.2288 Ac: 0.9152
+Config 12 Fold 2 Ep 050/50 Tr Ls: 0.0285 Ac: 0.9900 | Vl Ls: 0.1092 Ac: 0.9632
+Config 12 Fold 3 Ep 001/50 Tr Ls: 0.4161 Ac: 0.7657 | Vl Ls: 0.7731 Ac: 0.6560
+Config 12 Fold 3 Ep 010/50 Tr Ls: 0.1505 Ac: 0.9117 | Vl Ls: 0.4860 Ac: 0.8184
+Config 12 Fold 3 Ep 020/50 Tr Ls: 0.1127 Ac: 0.9399 | Vl Ls: 0.2233 Ac: 0.8968
+Config 12 Fold 3 Ep 030/50 Tr Ls: 0.0868 Ac: 0.9595 | Vl Ls: 0.1840 Ac: 0.8992
+Config 12 Fold 3 Ep 040/50 Tr Ls: 0.0635 Ac: 0.9735 | Vl Ls: 0.1374 Ac: 0.9384
+Config 12 Fold 3 Ep 050/50 Tr Ls: 0.0413 Ac: 0.9849 | Vl Ls: 0.1153 Ac: 0.9472
+[2025-10-28 05:36:02] [GRID] Config 13/32: {'ff_dim': 256, 'l1_lambda': 0.0001, 'lr': 0.0003, 'n_heads': 2, 'n_layers': 1}
+Config 13 Fold 1 Ep 001/50 Tr Ls: 0.5145 Ac: 0.6545 | Vl Ls: 1.0175 Ac: 0.6312
+Config 13 Fold 1 Ep 010/50 Tr Ls: 0.1536 Ac: 0.9158 | Vl Ls: 0.4931 Ac: 0.7440
+Config 13 Fold 1 Ep 020/50 Tr Ls: 0.1246 Ac: 0.9273 | Vl Ls: 0.2832 Ac: 0.8840
+Config 13 Fold 1 Ep 030/50 Tr Ls: 0.1125 Ac: 0.9328 | Vl Ls: 0.2349 Ac: 0.8512
+Config 13 Fold 1 Ep 040/50 Tr Ls: 0.0949 Ac: 0.9525 | Vl Ls: 0.1850 Ac: 0.8984
+Config 13 Fold 1 Ep 050/50 Tr Ls: 0.0770 Ac: 0.9653 | Vl Ls: 0.1835 Ac: 0.9128
+Config 13 Fold 2 Ep 001/50 Tr Ls: 0.5201 Ac: 0.6520 | Vl Ls: 1.0845 Ac: 0.7000
+Config 13 Fold 2 Ep 010/50 Tr Ls: 0.1675 Ac: 0.9048 | Vl Ls: 0.5273 Ac: 0.6504
+Config 13 Fold 2 Ep 020/50 Tr Ls: 0.1335 Ac: 0.9225 | Vl Ls: 0.4720 Ac: 0.7536
+Config 13 Fold 2 Ep 030/50 Tr Ls: 0.1103 Ac: 0.9453 | Vl Ls: 0.2838 Ac: 0.8808
+Config 13 Fold 2 Ep 040/50 Tr Ls: 0.0870 Ac: 0.9604 | Vl Ls: 0.2449 Ac: 0.9200
+Config 13 Fold 2 Ep 050/50 Tr Ls: 0.0425 Ac: 0.9837 | Vl Ls: 0.0959 Ac: 0.9552
+Config 13 Fold 3 Ep 001/50 Tr Ls: 0.4729 Ac: 0.7134 | Vl Ls: 0.7932 Ac: 0.5648
+Config 13 Fold 3 Ep 010/50 Tr Ls: 0.1845 Ac: 0.8971 | Vl Ls: 0.9473 Ac: 0.5344
+Config 13 Fold 3 Ep 020/50 Tr Ls: 0.1381 Ac: 0.9184 | Vl Ls: 0.2782 Ac: 0.8968
+Config 13 Fold 3 Ep 030/50 Tr Ls: 0.1074 Ac: 0.9473 | Vl Ls: 0.2717 Ac: 0.9200
+Config 13 Fold 3 Ep 040/50 Tr Ls: 0.0895 Ac: 0.9593 | Vl Ls: 0.3157 Ac: 0.8312
+Config 13 Fold 3 Ep 050/50 Tr Ls: 0.0705 Ac: 0.9706 | Vl Ls: 0.1926 Ac: 0.9096
+[2025-10-28 06:54:25] [GRID] Config 14/32: {'ff_dim': 256, 'l1_lambda': 0.0001, 'lr': 0.0003, 'n_heads': 2, 'n_layers': 2}
+Config 14 Fold 1 Ep 001/50 Tr Ls: 0.4272 Ac: 0.7566 | Vl Ls: 0.8941 Ac: 0.5384
+Config 14 Fold 1 Ep 010/50 Tr Ls: 0.1466 Ac: 0.9180 | Vl Ls: 0.4797 Ac: 0.8296
+Config 14 Fold 1 Ep 020/50 Tr Ls: 0.1064 Ac: 0.9481 | Vl Ls: 0.2507 Ac: 0.8624
+Config 14 Fold 1 Ep 030/50 Tr Ls: 0.0834 Ac: 0.9613 | Vl Ls: 0.2466 Ac: 0.8792
+Config 14 Fold 1 Ep 040/50 Tr Ls: 0.0475 Ac: 0.9810 | Vl Ls: 0.1650 Ac: 0.9512
+Config 14 Fold 1 Ep 050/50 Tr Ls: 0.0296 Ac: 0.9898 | Vl Ls: 0.0604 Ac: 0.9824
+Config 14 Fold 2 Ep 001/50 Tr Ls: 0.4563 Ac: 0.7283 | Vl Ls: 0.8556 Ac: 0.5408
+Config 14 Fold 2 Ep 010/50 Tr Ls: 0.1487 Ac: 0.9172 | Vl Ls: 0.4053 Ac: 0.7808
+Config 14 Fold 2 Ep 020/50 Tr Ls: 0.1071 Ac: 0.9492 | Vl Ls: 0.2003 Ac: 0.9144
+Config 14 Fold 2 Ep 030/50 Tr Ls: 0.0872 Ac: 0.9612 | Vl Ls: 0.1672 Ac: 0.9240
+Config 14 Fold 2 Ep 040/50 Tr Ls: 0.0628 Ac: 0.9748 | Vl Ls: 0.1690 Ac: 0.9440
+Config 14 Fold 2 Ep 050/50 Tr Ls: 0.0423 Ac: 0.9847 | Vl Ls: 0.2030 Ac: 0.9232
+Config 14 Fold 3 Ep 001/50 Tr Ls: 0.4460 Ac: 0.7413 | Vl Ls: 0.7275 Ac: 0.5952
+Config 14 Fold 3 Ep 010/50 Tr Ls: 0.1643 Ac: 0.9107 | Vl Ls: 0.5131 Ac: 0.8016
+Config 14 Fold 3 Ep 020/50 Tr Ls: 0.1075 Ac: 0.9495 | Vl Ls: 0.1844 Ac: 0.9288
+Config 14 Fold 3 Ep 030/50 Tr Ls: 0.0843 Ac: 0.9627 | Vl Ls: 0.1503 Ac: 0.9232
+Config 14 Fold 3 Ep 040/50 Tr Ls: 0.0622 Ac: 0.9753 | Vl Ls: 0.1359 Ac: 0.9400
+Config 14 Fold 3 Ep 050/50 Tr Ls: 0.0263 Ac: 0.9911 | Vl Ls: 0.1244 Ac: 0.9472
+[2025-10-28 08:33:53] [GRID] Config 15/32: {'ff_dim': 256, 'l1_lambda': 0.0001, 'lr': 0.0003, 'n_heads': 4, 'n_layers': 1}
+Config 15 Fold 1 Ep 001/50 Tr Ls: 0.4685 Ac: 0.7159 | Vl Ls: 0.9910 Ac: 0.4080
+Config 15 Fold 1 Ep 010/50 Tr Ls: 0.1518 Ac: 0.9165 | Vl Ls: 0.4918 Ac: 0.7144
+Config 15 Fold 1 Ep 020/50 Tr Ls: 0.1135 Ac: 0.9455 | Vl Ls: 0.2110 Ac: 0.9104
+Config 15 Fold 1 Ep 030/50 Tr Ls: 0.0879 Ac: 0.9606 | Vl Ls: 0.1684 Ac: 0.9368
+Config 15 Fold 1 Ep 040/50 Tr Ls: 0.0663 Ac: 0.9728 | Vl Ls: 0.1770 Ac: 0.9088
+Config 15 Fold 1 Ep 050/50 Tr Ls: 0.0475 Ac: 0.9823 | Vl Ls: 0.1100 Ac: 0.9512
+Config 15 Fold 2 Ep 001/50 Tr Ls: 0.4712 Ac: 0.7144 | Vl Ls: 0.8538 Ac: 0.4984
+Config 15 Fold 2 Ep 010/50 Tr Ls: 0.1526 Ac: 0.9109 | Vl Ls: 0.4645 Ac: 0.7056
+Config 15 Fold 2 Ep 020/50 Tr Ls: 0.1218 Ac: 0.9334 | Vl Ls: 0.4976 Ac: 0.7640
+Config 15 Fold 2 Ep 030/50 Tr Ls: 0.0968 Ac: 0.9542 | Vl Ls: 0.1623 Ac: 0.9432
+Config 15 Fold 2 Ep 040/50 Tr Ls: 0.0764 Ac: 0.9669 | Vl Ls: 0.0993 Ac: 0.9632
+Config 15 Fold 2 Ep 050/50 Tr Ls: 0.0345 Ac: 0.9874 | Vl Ls: 0.0734 Ac: 0.9624
+Config 15 Fold 3 Ep 001/50 Tr Ls: 0.4584 Ac: 0.7274 | Vl Ls: 0.7361 Ac: 0.6448
+Config 15 Fold 3 Ep 010/50 Tr Ls: 0.1582 Ac: 0.9175 | Vl Ls: 0.4668 Ac: 0.7848
+Config 15 Fold 3 Ep 020/50 Tr Ls: 0.1081 Ac: 0.9484 | Vl Ls: 0.2981 Ac: 0.8736
+Config 15 Fold 3 Ep 030/50 Tr Ls: 0.0845 Ac: 0.9624 | Vl Ls: 0.1150 Ac: 0.9632
+Config 15 Fold 3 Ep 040/50 Tr Ls: 0.0621 Ac: 0.9751 | Vl Ls: 0.1402 Ac: 0.9256
+Config 15 Fold 3 Ep 050/50 Tr Ls: 0.0269 Ac: 0.9910 | Vl Ls: 0.0806 Ac: 0.9680
+[2025-10-28 09:54:53] [GRID] Config 16/32: {'ff_dim': 256, 'l1_lambda': 0.0001, 'lr': 0.0003, 'n_heads': 4, 'n_layers': 2}
+Config 16 Fold 1 Ep 001/50 Tr Ls: 0.4371 Ac: 0.7454 | Vl Ls: 0.8190 Ac: 0.5640
+Config 16 Fold 1 Ep 010/50 Tr Ls: 0.1459 Ac: 0.9188 | Vl Ls: 0.4050 Ac: 0.7528
+Config 16 Fold 1 Ep 020/50 Tr Ls: 0.1031 Ac: 0.9492 | Vl Ls: 0.2359 Ac: 0.8592
+Config 16 Fold 1 Ep 030/50 Tr Ls: 0.0831 Ac: 0.9614 | Vl Ls: 0.1392 Ac: 0.9368
+Config 16 Fold 1 Ep 040/50 Tr Ls: 0.0606 Ac: 0.9746 | Vl Ls: 0.2281 Ac: 0.9008
+Config 16 Fold 1 Ep 050/50 Tr Ls: 0.0256 Ac: 0.9913 | Vl Ls: 0.0983 Ac: 0.9576
+Config 16 Fold 2 Ep 001/50 Tr Ls: 0.4522 Ac: 0.7299 | Vl Ls: 0.7714 Ac: 0.5928
+Config 16 Fold 2 Ep 010/50 Tr Ls: 0.1464 Ac: 0.9245 | Vl Ls: 0.5327 Ac: 0.7440
+Config 16 Fold 2 Ep 020/50 Tr Ls: 0.1051 Ac: 0.9512 | Vl Ls: 0.1868 Ac: 0.9264
+Config 16 Fold 2 Ep 030/50 Tr Ls: 0.0825 Ac: 0.9636 | Vl Ls: 0.1316 Ac: 0.9376
+Config 16 Fold 2 Ep 040/50 Tr Ls: 0.0567 Ac: 0.9780 | Vl Ls: 0.1042 Ac: 0.9544
+Config 16 Fold 2 Ep 050/50 Tr Ls: 0.0380 Ac: 0.9864 | Vl Ls: 0.1269 Ac: 0.9576
+Config 16 Fold 3 Ep 001/50 Tr Ls: 0.4527 Ac: 0.7312 | Vl Ls: 0.8665 Ac: 0.5352
+Config 16 Fold 3 Ep 010/50 Tr Ls: 0.1504 Ac: 0.9246 | Vl Ls: 0.3419 Ac: 0.8552
+Config 16 Fold 3 Ep 020/50 Tr Ls: 0.0980 Ac: 0.9548 | Vl Ls: 0.2570 Ac: 0.8992
+Config 16 Fold 3 Ep 030/50 Tr Ls: 0.0759 Ac: 0.9678 | Vl Ls: 0.1788 Ac: 0.9056
+Config 16 Fold 3 Ep 040/50 Tr Ls: 0.0508 Ac: 0.9811 | Vl Ls: 0.1584 Ac: 0.9272
+Config 16 Fold 3 Ep 050/50 Tr Ls: 0.0189 Ac: 0.9942 | Vl Ls: 0.0869 Ac: 0.9712
+[2025-10-28 11:32:19] [GRID] Config 17/32: {'ff_dim': 512, 'l1_lambda': 1e-05, 'lr': 0.0001, 'n_heads': 2, 'n_layers': 1}
+Config 17 Fold 1 Ep 001/50 Tr Ls: 0.4791 Ac: 0.7054 | Vl Ls: 1.0388 Ac: 0.3792
+Config 17 Fold 1 Ep 010/50 Tr Ls: 0.1483 Ac: 0.9167 | Vl Ls: 0.4465 Ac: 0.8136
+Config 17 Fold 1 Ep 020/50 Tr Ls: 0.1192 Ac: 0.9357 | Vl Ls: 0.4087 Ac: 0.7496
+Config 17 Fold 1 Ep 030/50 Tr Ls: 0.0991 Ac: 0.9498 | Vl Ls: 0.2132 Ac: 0.8600
+Config 17 Fold 1 Ep 040/50 Tr Ls: 0.0822 Ac: 0.9608 | Vl Ls: 0.2143 Ac: 0.9040
+Config 17 Fold 1 Ep 050/50 Tr Ls: 0.0512 Ac: 0.9782 | Vl Ls: 0.1313 Ac: 0.9384
+Config 17 Fold 2 Ep 001/50 Tr Ls: 0.4850 Ac: 0.6968 | Vl Ls: 0.9130 Ac: 0.5056
+Config 17 Fold 2 Ep 010/50 Tr Ls: 0.1575 Ac: 0.9091 | Vl Ls: 0.4833 Ac: 0.6968
+Config 17 Fold 2 Ep 020/50 Tr Ls: 0.1280 Ac: 0.9210 | Vl Ls: 0.4221 Ac: 0.7304
+Config 17 Fold 2 Ep 030/50 Tr Ls: 0.1166 Ac: 0.9290 | Vl Ls: 0.3101 Ac: 0.7736
+Config 17 Fold 2 Ep 040/50 Tr Ls: 0.0993 Ac: 0.9488 | Vl Ls: 0.1962 Ac: 0.9112
+Config 17 Fold 2 Ep 050/50 Tr Ls: 0.0832 Ac: 0.9603 | Vl Ls: 0.2086 Ac: 0.9112
+Config 17 Fold 3 Ep 001/50 Tr Ls: 0.4412 Ac: 0.7375 | Vl Ls: 0.7128 Ac: 0.7184
+Config 17 Fold 3 Ep 010/50 Tr Ls: 0.1565 Ac: 0.9082 | Vl Ls: 0.4412 Ac: 0.7160
+Config 17 Fold 3 Ep 020/50 Tr Ls: 0.1252 Ac: 0.9280 | Vl Ls: 0.3120 Ac: 0.7864
+Config 17 Fold 3 Ep 030/50 Tr Ls: 0.0972 Ac: 0.9524 | Vl Ls: 0.2728 Ac: 0.8536
+Config 17 Fold 3 Ep 040/50 Tr Ls: 0.0711 Ac: 0.9683 | Vl Ls: 0.4079 Ac: 0.8744
+Config 17 Fold 3 Ep 050/50 Tr Ls: 0.0321 Ac: 0.9873 | Vl Ls: 0.1117 Ac: 0.9496
+[2025-10-28 12:51:12] [GRID] Config 18/32: {'ff_dim': 512, 'l1_lambda': 1e-05, 'lr': 0.0001, 'n_heads': 2, 'n_layers': 2}
+Config 18 Fold 1 Ep 001/50 Tr Ls: 0.4305 Ac: 0.7506 | Vl Ls: 0.7440 Ac: 0.6240
+Config 18 Fold 1 Ep 010/50 Tr Ls: 0.1413 Ac: 0.9194 | Vl Ls: 0.4518 Ac: 0.8376
+Config 18 Fold 1 Ep 020/50 Tr Ls: 0.1049 Ac: 0.9465 | Vl Ls: 0.2472 Ac: 0.8408
+Config 18 Fold 1 Ep 030/50 Tr Ls: 0.0824 Ac: 0.9604 | Vl Ls: 0.2932 Ac: 0.8464
+Config 18 Fold 1 Ep 040/50 Tr Ls: 0.0585 Ac: 0.9748 | Vl Ls: 0.1042 Ac: 0.9528
+Config 18 Fold 1 Ep 050/50 Tr Ls: 0.0203 Ac: 0.9923 | Vl Ls: 0.0817 Ac: 0.9632
+Config 18 Fold 2 Ep 001/50 Tr Ls: 0.4359 Ac: 0.7389 | Vl Ls: 0.8624 Ac: 0.5800
+Config 18 Fold 2 Ep 010/50 Tr Ls: 0.1426 Ac: 0.9151 | Vl Ls: 0.4704 Ac: 0.7072
+Config 18 Fold 2 Ep 020/50 Tr Ls: 0.1092 Ac: 0.9426 | Vl Ls: 0.2444 Ac: 0.8656
+Config 18 Fold 2 Ep 030/50 Tr Ls: 0.0864 Ac: 0.9588 | Vl Ls: 0.2750 Ac: 0.8672
+Config 18 Fold 2 Ep 040/50 Tr Ls: 0.0560 Ac: 0.9761 | Vl Ls: 0.2956 Ac: 0.8912
+Config 18 Fold 2 Ep 050/50 Tr Ls: 0.0198 Ac: 0.9926 | Vl Ls: 0.0950 Ac: 0.9616
+Config 18 Fold 3 Ep 001/50 Tr Ls: 0.3953 Ac: 0.7744 | Vl Ls: 0.7027 Ac: 0.7272
+Config 18 Fold 3 Ep 010/50 Tr Ls: 0.1487 Ac: 0.9162 | Vl Ls: 0.4342 Ac: 0.7856
+Config 18 Fold 3 Ep 020/50 Tr Ls: 0.1024 Ac: 0.9507 | Vl Ls: 0.2285 Ac: 0.8768
+Config 18 Fold 3 Ep 030/50 Tr Ls: 0.0723 Ac: 0.9676 | Vl Ls: 0.2632 Ac: 0.8928
+Config 18 Fold 3 Ep 040/50 Tr Ls: 0.0300 Ac: 0.9881 | Vl Ls: 0.1546 Ac: 0.9256
+Config 18 Fold 3 Ep 050/50 Tr Ls: 0.0192 Ac: 0.9931 | Vl Ls: 0.0543 Ac: 0.9696
+[2025-10-28 14:31:10] [GRID] Config 19/32: {'ff_dim': 512, 'l1_lambda': 1e-05, 'lr': 0.0001, 'n_heads': 4, 'n_layers': 1}
+Config 19 Fold 1 Ep 001/50 Tr Ls: 0.4433 Ac: 0.7414 | Vl Ls: 0.7829 Ac: 0.5736
+Config 19 Fold 1 Ep 010/50 Tr Ls: 0.1553 Ac: 0.9138 | Vl Ls: 0.6151 Ac: 0.7464
+Config 19 Fold 1 Ep 020/50 Tr Ls: 0.1137 Ac: 0.9412 | Vl Ls: 0.4098 Ac: 0.7856
+Config 19 Fold 1 Ep 030/50 Tr Ls: 0.0931 Ac: 0.9529 | Vl Ls: 0.1986 Ac: 0.8824
+Config 19 Fold 1 Ep 040/50 Tr Ls: 0.0754 Ac: 0.9650 | Vl Ls: 0.1429 Ac: 0.9424
+Config 19 Fold 1 Ep 050/50 Tr Ls: 0.0525 Ac: 0.9779 | Vl Ls: 0.1068 Ac: 0.9456
+Config 19 Fold 2 Ep 001/50 Tr Ls: 0.4385 Ac: 0.7362 | Vl Ls: 0.8450 Ac: 0.5408
+Config 19 Fold 2 Ep 010/50 Tr Ls: 0.1525 Ac: 0.9099 | Vl Ls: 0.5874 Ac: 0.6512
+Config 19 Fold 2 Ep 020/50 Tr Ls: 0.1260 Ac: 0.9221 | Vl Ls: 0.4012 Ac: 0.7472
+Config 19 Fold 2 Ep 030/50 Tr Ls: 0.1148 Ac: 0.9292 | Vl Ls: 0.2948 Ac: 0.8056
+Config 19 Fold 2 Ep 040/50 Tr Ls: 0.0968 Ac: 0.9492 | Vl Ls: 0.3487 Ac: 0.8216
+Config 19 Fold 2 Ep 050/50 Tr Ls: 0.0777 Ac: 0.9628 | Vl Ls: 0.2370 Ac: 0.9072
+Config 19 Fold 3 Ep 001/50 Tr Ls: 0.4441 Ac: 0.7335 | Vl Ls: 0.7060 Ac: 0.7152
+Config 19 Fold 3 Ep 010/50 Tr Ls: 0.1531 Ac: 0.9104 | Vl Ls: 0.5460 Ac: 0.6840
+Config 19 Fold 3 Ep 020/50 Tr Ls: 0.1215 Ac: 0.9272 | Vl Ls: 0.2447 Ac: 0.9136
+Config 19 Fold 3 Ep 030/50 Tr Ls: 0.0938 Ac: 0.9537 | Vl Ls: 0.2722 Ac: 0.8496
+Config 19 Fold 3 Ep 040/50 Tr Ls: 0.0706 Ac: 0.9688 | Vl Ls: 0.2483 Ac: 0.8784
+Config 19 Fold 3 Ep 050/50 Tr Ls: 0.0289 Ac: 0.9888 | Vl Ls: 0.1303 Ac: 0.9432
+[2025-10-28 16:04:17] [GRID] Config 20/32: {'ff_dim': 512, 'l1_lambda': 1e-05, 'lr': 0.0001, 'n_heads': 4, 'n_layers': 2}
+Config 20 Fold 1 Ep 001/50 Tr Ls: 0.4151 Ac: 0.7642 | Vl Ls: 0.7151 Ac: 0.6264
+Config 20 Fold 1 Ep 010/50 Tr Ls: 0.1347 Ac: 0.9229 | Vl Ls: 0.3829 Ac: 0.7720
+Config 20 Fold 1 Ep 020/50 Tr Ls: 0.1002 Ac: 0.9495 | Vl Ls: 0.3735 Ac: 0.8136
+Config 20 Fold 1 Ep 030/50 Tr Ls: 0.0763 Ac: 0.9638 | Vl Ls: 0.2078 Ac: 0.8920
+Config 20 Fold 1 Ep 040/50 Tr Ls: 0.0510 Ac: 0.9786 | Vl Ls: 0.1067 Ac: 0.9480
+Config 20 Fold 1 Ep 050/50 Tr Ls: 0.0302 Ac: 0.9885 | Vl Ls: 0.0802 Ac: 0.9600
+Config 20 Fold 2 Ep 001/50 Tr Ls: 0.4232 Ac: 0.7501 | Vl Ls: 0.8247 Ac: 0.5816
+Config 20 Fold 2 Ep 010/50 Tr Ls: 0.1412 Ac: 0.9150 | Vl Ls: 0.3896 Ac: 0.7280
+Config 20 Fold 2 Ep 020/50 Tr Ls: 0.1160 Ac: 0.9299 | Vl Ls: 0.2614 Ac: 0.8376
+Config 20 Fold 2 Ep 030/50 Tr Ls: 0.0900 Ac: 0.9553 | Vl Ls: 0.2451 Ac: 0.8552
+Config 20 Fold 2 Ep 040/50 Tr Ls: 0.0603 Ac: 0.9732 | Vl Ls: 0.1780 Ac: 0.9216
+Config 20 Fold 2 Ep 050/50 Tr Ls: 0.0201 Ac: 0.9926 | Vl Ls: 0.1051 Ac: 0.9592
+Config 20 Fold 3 Ep 001/50 Tr Ls: 0.4119 Ac: 0.7605 | Vl Ls: 0.6490 Ac: 0.7144
+Config 20 Fold 3 Ep 010/50 Tr Ls: 0.1454 Ac: 0.9155 | Vl Ls: 0.4142 Ac: 0.8392
+Config 20 Fold 3 Ep 020/50 Tr Ls: 0.0994 Ac: 0.9514 | Vl Ls: 0.2436 Ac: 0.8544
+Config 20 Fold 3 Ep 030/50 Tr Ls: 0.0696 Ac: 0.9698 | Vl Ls: 0.3189 Ac: 0.8376
+Config 20 Fold 3 Ep 040/50 Tr Ls: 0.0397 Ac: 0.9843 | Vl Ls: 0.2563 Ac: 0.9200
+Config 20 Fold 3 Ep 050/50 Tr Ls: 0.0129 Ac: 0.9954 | Vl Ls: 0.0810 Ac: 0.9704
+[2025-10-28 17:49:21] [GRID] Config 21/32: {'ff_dim': 512, 'l1_lambda': 1e-05, 'lr': 0.0003, 'n_heads': 2, 'n_layers': 1}
+Config 21 Fold 1 Ep 001/50 Tr Ls: 0.5016 Ac: 0.6784 | Vl Ls: 1.0081 Ac: 0.4016
+Config 21 Fold 1 Ep 010/50 Tr Ls: 0.1494 Ac: 0.9153 | Vl Ls: 0.3550 Ac: 0.8728
+Config 21 Fold 1 Ep 020/50 Tr Ls: 0.1226 Ac: 0.9278 | Vl Ls: 0.4353 Ac: 0.7616
+Config 21 Fold 1 Ep 030/50 Tr Ls: 0.0928 Ac: 0.9500 | Vl Ls: 0.1926 Ac: 0.8632
+Config 21 Fold 1 Ep 040/50 Tr Ls: 0.0818 Ac: 0.9569 | Vl Ls: 0.1479 Ac: 0.9320
+Config 21 Fold 1 Ep 050/50 Tr Ls: 0.0711 Ac: 0.9648 | Vl Ls: 0.1200 Ac: 0.9328
+Config 21 Fold 2 Ep 001/50 Tr Ls: 0.4641 Ac: 0.7131 | Vl Ls: 0.8102 Ac: 0.6136
+Config 21 Fold 2 Ep 010/50 Tr Ls: 0.1609 Ac: 0.9071 | Vl Ls: 0.4590 Ac: 0.8288
+Config 21 Fold 2 Ep 020/50 Tr Ls: 0.1259 Ac: 0.9252 | Vl Ls: 0.2927 Ac: 0.8056
+Config 21 Fold 2 Ep 030/50 Tr Ls: 0.1001 Ac: 0.9495 | Vl Ls: 0.2600 Ac: 0.8976
+Config 21 Fold 2 Ep 040/50 Tr Ls: 0.0786 Ac: 0.9639 | Vl Ls: 0.1492 Ac: 0.9376
+Config 21 Fold 2 Ep 050/50 Tr Ls: 0.0393 Ac: 0.9839 | Vl Ls: 0.1100 Ac: 0.9592
+Config 21 Fold 3 Ep 001/50 Tr Ls: 0.4720 Ac: 0.7109 | Vl Ls: 0.8058 Ac: 0.5672
+Config 21 Fold 3 Ep 010/50 Tr Ls: 0.1553 Ac: 0.9096 | Vl Ls: 0.5564 Ac: 0.6984
+Config 21 Fold 3 Ep 020/50 Tr Ls: 0.1083 Ac: 0.9468 | Vl Ls: 0.2241 Ac: 0.8800
+Config 21 Fold 3 Ep 030/50 Tr Ls: 0.0665 Ac: 0.9694 | Vl Ls: 0.1863 Ac: 0.9000
+Config 21 Fold 3 Ep 040/50 Tr Ls: 0.0319 Ac: 0.9872 | Vl Ls: 0.1443 Ac: 0.9360
+Config 21 Fold 3 Ep 050/50 Tr Ls: 0.0148 Ac: 0.9945 | Vl Ls: 0.0725 Ac: 0.9592
+[2025-10-28 19:11:01] [GRID] Config 22/32: {'ff_dim': 512, 'l1_lambda': 1e-05, 'lr': 0.0003, 'n_heads': 2, 'n_layers': 2}
+Config 22 Fold 1 Ep 001/50 Tr Ls: 0.4231 Ac: 0.7610 | Vl Ls: 0.8227 Ac: 0.6152
+Config 22 Fold 1 Ep 010/50 Tr Ls: 0.1490 Ac: 0.9180 | Vl Ls: 0.4380 Ac: 0.8256
+Config 22 Fold 1 Ep 020/50 Tr Ls: 0.1084 Ac: 0.9462 | Vl Ls: 0.2955 Ac: 0.8240
+Config 22 Fold 1 Ep 030/50 Tr Ls: 0.0863 Ac: 0.9590 | Vl Ls: 0.2053 Ac: 0.9088
+Config 22 Fold 1 Ep 040/50 Tr Ls: 0.0503 Ac: 0.9782 | Vl Ls: 0.1012 Ac: 0.9496
+Config 22 Fold 1 Ep 050/50 Tr Ls: 0.0305 Ac: 0.9883 | Vl Ls: 0.1152 Ac: 0.9512
+Config 22 Fold 2 Ep 001/50 Tr Ls: 0.4848 Ac: 0.6953 | Vl Ls: 0.9928 Ac: 0.4192
+Config 22 Fold 2 Ep 010/50 Tr Ls: 0.1579 Ac: 0.9091 | Vl Ls: 0.5712 Ac: 0.6608
+Config 22 Fold 2 Ep 020/50 Tr Ls: 0.1217 Ac: 0.9332 | Vl Ls: 0.2641 Ac: 0.8784
+Config 22 Fold 2 Ep 030/50 Tr Ls: 0.0943 Ac: 0.9546 | Vl Ls: 0.2531 Ac: 0.8784
+Config 22 Fold 2 Ep 040/50 Tr Ls: 0.0712 Ac: 0.9688 | Vl Ls: 0.1321 Ac: 0.9560
+Config 22 Fold 2 Ep 050/50 Tr Ls: 0.0300 Ac: 0.9883 | Vl Ls: 0.0702 Ac: 0.9720
+Config 22 Fold 3 Ep 001/50 Tr Ls: 0.4237 Ac: 0.7554 | Vl Ls: 0.8486 Ac: 0.5736
+Config 22 Fold 3 Ep 010/50 Tr Ls: 0.1386 Ac: 0.9278 | Vl Ls: 0.3654 Ac: 0.8296
+Config 22 Fold 3 Ep 020/50 Tr Ls: 0.0957 Ac: 0.9549 | Vl Ls: 0.2648 Ac: 0.8688
+Config 22 Fold 3 Ep 030/50 Tr Ls: 0.0700 Ac: 0.9700 | Vl Ls: 0.4279 Ac: 0.8096
+Config 22 Fold 3 Ep 040/50 Tr Ls: 0.0279 Ac: 0.9895 | Vl Ls: 0.1274 Ac: 0.9448
+Config 22 Fold 3 Ep 050/50 Tr Ls: 0.0110 Ac: 0.9963 | Vl Ls: 0.0887 Ac: 0.9656
+[2025-10-28 20:47:15] [GRID] Config 23/32: {'ff_dim': 512, 'l1_lambda': 1e-05, 'lr': 0.0003, 'n_heads': 4, 'n_layers': 1}
+Config 23 Fold 1 Ep 001/50 Tr Ls: 0.4927 Ac: 0.6891 | Vl Ls: 1.0525 Ac: 0.3536
+Config 23 Fold 1 Ep 010/50 Tr Ls: 0.1503 Ac: 0.9159 | Vl Ls: 0.4061 Ac: 0.7608
+Config 23 Fold 1 Ep 020/50 Tr Ls: 0.1082 Ac: 0.9457 | Vl Ls: 0.2704 Ac: 0.8232
+Config 23 Fold 1 Ep 030/50 Tr Ls: 0.0861 Ac: 0.9591 | Vl Ls: 0.1646 Ac: 0.9096
+Config 23 Fold 1 Ep 040/50 Tr Ls: 0.0666 Ac: 0.9712 | Vl Ls: 0.1385 Ac: 0.9320
+Config 23 Fold 1 Ep 050/50 Tr Ls: 0.0483 Ac: 0.9801 | Vl Ls: 0.1475 Ac: 0.9096
+Config 23 Fold 2 Ep 001/50 Tr Ls: 0.4942 Ac: 0.6833 | Vl Ls: 1.0652 Ac: 0.3464
+Config 23 Fold 2 Ep 010/50 Tr Ls: 0.1583 Ac: 0.9084 | Vl Ls: 0.8536 Ac: 0.5880
+Config 23 Fold 2 Ep 020/50 Tr Ls: 0.1273 Ac: 0.9232 | Vl Ls: 0.3233 Ac: 0.8168
+Config 23 Fold 2 Ep 030/50 Tr Ls: 0.1054 Ac: 0.9457 | Vl Ls: 0.4434 Ac: 0.8104
+Config 23 Fold 2 Ep 040/50 Tr Ls: 0.0746 Ac: 0.9646 | Vl Ls: 0.1721 Ac: 0.9304
+Config 23 Fold 2 Ep 050/50 Tr Ls: 0.0459 Ac: 0.9799 | Vl Ls: 0.1048 Ac: 0.9624
+Config 23 Fold 3 Ep 001/50 Tr Ls: 0.4381 Ac: 0.7447 | Vl Ls: 0.7622 Ac: 0.7000
+Config 23 Fold 3 Ep 010/50 Tr Ls: 0.1508 Ac: 0.9112 | Vl Ls: 0.4230 Ac: 0.7192
+Config 23 Fold 3 Ep 020/50 Tr Ls: 0.1045 Ac: 0.9498 | Vl Ls: 0.2364 Ac: 0.8712
+Config 23 Fold 3 Ep 030/50 Tr Ls: 0.0760 Ac: 0.9654 | Vl Ls: 0.2416 Ac: 0.8944
+Config 23 Fold 3 Ep 040/50 Tr Ls: 0.0517 Ac: 0.9794 | Vl Ls: 0.2788 Ac: 0.9200
+Config 23 Fold 3 Ep 050/50 Tr Ls: 0.0182 Ac: 0.9932 | Vl Ls: 0.0853 Ac: 0.9616
+[2025-10-28 22:05:56] [GRID] Config 24/32: {'ff_dim': 512, 'l1_lambda': 1e-05, 'lr': 0.0003, 'n_heads': 4, 'n_layers': 2}
+Config 24 Fold 1 Ep 001/50 Tr Ls: 0.4377 Ac: 0.7435 | Vl Ls: 1.0291 Ac: 0.3720
+Config 24 Fold 1 Ep 010/50 Tr Ls: 0.1388 Ac: 0.9220 | Vl Ls: 0.5197 Ac: 0.6912
+Config 24 Fold 1 Ep 020/50 Tr Ls: 0.0981 Ac: 0.9516 | Vl Ls: 0.3885 Ac: 0.8232
+Config 24 Fold 1 Ep 030/50 Tr Ls: 0.0769 Ac: 0.9639 | Vl Ls: 0.2027 Ac: 0.8936
+Config 24 Fold 1 Ep 040/50 Tr Ls: 0.0369 Ac: 0.9849 | Vl Ls: 0.0745 Ac: 0.9648
+Config 24 Fold 1 Ep 050/50 Tr Ls: 0.0205 Ac: 0.9925 | Vl Ls: 0.0636 Ac: 0.9784
+Config 24 Fold 2 Ep 001/50 Tr Ls: 0.4685 Ac: 0.7119 | Vl Ls: 0.8230 Ac: 0.5784
+Config 24 Fold 2 Ep 010/50 Tr Ls: 0.1500 Ac: 0.9122 | Vl Ls: 0.7205 Ac: 0.7112
+Config 24 Fold 2 Ep 020/50 Tr Ls: 0.1099 Ac: 0.9429 | Vl Ls: 0.2798 Ac: 0.8528
+Config 24 Fold 2 Ep 030/50 Tr Ls: 0.0878 Ac: 0.9584 | Vl Ls: 0.2705 Ac: 0.8456
+Config 24 Fold 2 Ep 040/50 Tr Ls: 0.0616 Ac: 0.9733 | Vl Ls: 0.2141 Ac: 0.9200
+Config 24 Fold 2 Ep 050/50 Tr Ls: 0.0233 Ac: 0.9912 | Vl Ls: 0.1248 Ac: 0.9592
+Config 24 Fold 3 Ep 001/50 Tr Ls: 0.4512 Ac: 0.7246 | Vl Ls: 0.6612 Ac: 0.7432
+Config 24 Fold 3 Ep 010/50 Tr Ls: 0.1289 Ac: 0.9350 | Vl Ls: 0.4020 Ac: 0.8280
+Config 24 Fold 3 Ep 020/50 Tr Ls: 0.0876 Ac: 0.9595 | Vl Ls: 0.1312 Ac: 0.9432
+Config 24 Fold 3 Ep 030/50 Tr Ls: 0.0594 Ac: 0.9749 | Vl Ls: 0.2063 Ac: 0.9168
+Config 24 Fold 3 Ep 040/50 Tr Ls: 0.0365 Ac: 0.9863 | Vl Ls: 0.1700 Ac: 0.9200
+Config 24 Fold 3 Ep 050/50 Tr Ls: 0.0253 Ac: 0.9910 | Vl Ls: 0.1203 Ac: 0.9416
+[2025-10-28 23:42:02] [GRID] Config 25/32: {'ff_dim': 512, 'l1_lambda': 0.0001, 'lr': 0.0001, 'n_heads': 2, 'n_layers': 1}
+Config 25 Fold 1 Ep 001/50 Tr Ls: 0.4907 Ac: 0.6980 | Vl Ls: 1.0534 Ac: 0.3384
+Config 25 Fold 1 Ep 010/50 Tr Ls: 0.1515 Ac: 0.9166 | Vl Ls: 0.4198 Ac: 0.8456
+Config 25 Fold 1 Ep 020/50 Tr Ls: 0.1216 Ac: 0.9359 | Vl Ls: 0.5277 Ac: 0.7536
+Config 25 Fold 1 Ep 030/50 Tr Ls: 0.1015 Ac: 0.9498 | Vl Ls: 0.2960 Ac: 0.8376
+Config 25 Fold 1 Ep 040/50 Tr Ls: 0.0856 Ac: 0.9603 | Vl Ls: 0.1605 Ac: 0.9208
+Config 25 Fold 1 Ep 050/50 Tr Ls: 0.0661 Ac: 0.9718 | Vl Ls: 0.1398 Ac: 0.9392
+Config 25 Fold 2 Ep 001/50 Tr Ls: 0.4712 Ac: 0.7114 | Vl Ls: 0.9049 Ac: 0.4976
+Config 25 Fold 2 Ep 010/50 Tr Ls: 0.1598 Ac: 0.9093 | Vl Ls: 0.5365 Ac: 0.6744
+Config 25 Fold 2 Ep 020/50 Tr Ls: 0.1316 Ac: 0.9215 | Vl Ls: 0.4178 Ac: 0.7472
+Config 25 Fold 2 Ep 030/50 Tr Ls: 0.1208 Ac: 0.9260 | Vl Ls: 0.4543 Ac: 0.7456
+Config 25 Fold 2 Ep 040/50 Tr Ls: 0.1046 Ac: 0.9409 | Vl Ls: 0.2403 Ac: 0.8720
+Config 25 Fold 2 Ep 050/50 Tr Ls: 0.0897 Ac: 0.9561 | Vl Ls: 0.2347 Ac: 0.8976
+Config 25 Fold 3 Ep 001/50 Tr Ls: 0.4446 Ac: 0.7356 | Vl Ls: 0.7328 Ac: 0.6064
+Config 25 Fold 3 Ep 010/50 Tr Ls: 0.1591 Ac: 0.9083 | Vl Ls: 0.4391 Ac: 0.7040
+Config 25 Fold 3 Ep 020/50 Tr Ls: 0.1271 Ac: 0.9302 | Vl Ls: 0.2407 Ac: 0.9072
+Config 25 Fold 3 Ep 030/50 Tr Ls: 0.0978 Ac: 0.9538 | Vl Ls: 0.3126 Ac: 0.8424
+Config 25 Fold 3 Ep 040/50 Tr Ls: 0.0732 Ac: 0.9692 | Vl Ls: 0.2372 Ac: 0.8784
+Config 25 Fold 3 Ep 050/50 Tr Ls: 0.0339 Ac: 0.9876 | Vl Ls: 0.0975 Ac: 0.9568
+[2025-10-29 01:00:51] [GRID] Config 26/32: {'ff_dim': 512, 'l1_lambda': 0.0001, 'lr': 0.0001, 'n_heads': 2, 'n_layers': 2}
+Config 26 Fold 1 Ep 001/50 Tr Ls: 0.4209 Ac: 0.7620 | Vl Ls: 0.7381 Ac: 0.6240
+Config 26 Fold 1 Ep 010/50 Tr Ls: 0.1505 Ac: 0.9174 | Vl Ls: 0.4396 Ac: 0.8264
+Config 26 Fold 1 Ep 020/50 Tr Ls: 0.1111 Ac: 0.9440 | Vl Ls: 0.5109 Ac: 0.7600
+Config 26 Fold 1 Ep 030/50 Tr Ls: 0.0902 Ac: 0.9568 | Vl Ls: 0.1991 Ac: 0.8888
+Config 26 Fold 1 Ep 040/50 Tr Ls: 0.0705 Ac: 0.9700 | Vl Ls: 0.1164 Ac: 0.9384
+Config 26 Fold 1 Ep 050/50 Tr Ls: 0.0454 Ac: 0.9831 | Vl Ls: 0.1668 Ac: 0.9296
+Config 26 Fold 2 Ep 001/50 Tr Ls: 0.4507 Ac: 0.7275 | Vl Ls: 0.8302 Ac: 0.5784
+Config 26 Fold 2 Ep 010/50 Tr Ls: 0.1448 Ac: 0.9156 | Vl Ls: 0.4510 Ac: 0.7112
+Config 26 Fold 2 Ep 020/50 Tr Ls: 0.1108 Ac: 0.9429 | Vl Ls: 0.2558 Ac: 0.8632
+Config 26 Fold 2 Ep 030/50 Tr Ls: 0.0761 Ac: 0.9658 | Vl Ls: 0.1755 Ac: 0.9048
+Config 26 Fold 2 Ep 040/50 Tr Ls: 0.0467 Ac: 0.9815 | Vl Ls: 0.1173 Ac: 0.9536
+Config 26 Fold 2 Ep 050/50 Tr Ls: 0.0209 Ac: 0.9934 | Vl Ls: 0.0931 Ac: 0.9584
+Config 26 Fold 3 Ep 001/50 Tr Ls: 0.3998 Ac: 0.7726 | Vl Ls: 0.6743 Ac: 0.7160
+Config 26 Fold 3 Ep 010/50 Tr Ls: 0.1480 Ac: 0.9158 | Vl Ls: 0.5056 Ac: 0.6952
+Config 26 Fold 3 Ep 020/50 Tr Ls: 0.1022 Ac: 0.9520 | Vl Ls: 0.2328 Ac: 0.8608
+Config 26 Fold 3 Ep 030/50 Tr Ls: 0.0735 Ac: 0.9690 | Vl Ls: 0.3752 Ac: 0.8512
+Config 26 Fold 3 Ep 040/50 Tr Ls: 0.0433 Ac: 0.9840 | Vl Ls: 0.1826 Ac: 0.9192
+Config 26 Fold 3 Ep 050/50 Tr Ls: 0.0305 Ac: 0.9897 | Vl Ls: 0.0829 Ac: 0.9640
+[2025-10-29 02:37:22] [GRID] Config 27/32: {'ff_dim': 512, 'l1_lambda': 0.0001, 'lr': 0.0001, 'n_heads': 4, 'n_layers': 1}
+Config 27 Fold 1 Ep 001/50 Tr Ls: 0.4525 Ac: 0.7345 | Vl Ls: 0.8646 Ac: 0.5336
+Config 27 Fold 1 Ep 010/50 Tr Ls: 0.1586 Ac: 0.9135 | Vl Ls: 0.4712 Ac: 0.8352
+Config 27 Fold 1 Ep 020/50 Tr Ls: 0.1170 Ac: 0.9403 | Vl Ls: 0.4424 Ac: 0.7536
+Config 27 Fold 1 Ep 030/50 Tr Ls: 0.0964 Ac: 0.9526 | Vl Ls: 0.1935 Ac: 0.8760
+Config 27 Fold 1 Ep 040/50 Tr Ls: 0.0670 Ac: 0.9696 | Vl Ls: 0.1353 Ac: 0.9232
+Config 27 Fold 1 Ep 050/50 Tr Ls: 0.0483 Ac: 0.9808 | Vl Ls: 0.1276 Ac: 0.9400
+Config 27 Fold 2 Ep 001/50 Tr Ls: 0.4527 Ac: 0.7248 | Vl Ls: 0.8715 Ac: 0.5496
+Config 27 Fold 2 Ep 010/50 Tr Ls: 0.1583 Ac: 0.9099 | Vl Ls: 0.5785 Ac: 0.6464
+Config 27 Fold 2 Ep 020/50 Tr Ls: 0.1294 Ac: 0.9226 | Vl Ls: 0.3894 Ac: 0.7880
+Config 27 Fold 2 Ep 030/50 Tr Ls: 0.1148 Ac: 0.9374 | Vl Ls: 0.4352 Ac: 0.7472
+Config 27 Fold 2 Ep 040/50 Tr Ls: 0.0925 Ac: 0.9536 | Vl Ls: 0.2157 Ac: 0.8720
+Config 27 Fold 2 Ep 050/50 Tr Ls: 0.0762 Ac: 0.9653 | Vl Ls: 0.1654 Ac: 0.9256
+Config 27 Fold 3 Ep 001/50 Tr Ls: 0.4423 Ac: 0.7399 | Vl Ls: 0.7035 Ac: 0.6992
+Config 27 Fold 3 Ep 010/50 Tr Ls: 0.1559 Ac: 0.9104 | Vl Ls: 0.4367 Ac: 0.7008
+Config 27 Fold 3 Ep 020/50 Tr Ls: 0.1220 Ac: 0.9316 | Vl Ls: 0.2403 Ac: 0.8608
+Config 27 Fold 3 Ep 030/50 Tr Ls: 0.0951 Ac: 0.9553 | Vl Ls: 0.2531 Ac: 0.8808
+Config 27 Fold 3 Ep 040/50 Tr Ls: 0.0700 Ac: 0.9701 | Vl Ls: 0.2060 Ac: 0.8896
+Config 27 Fold 3 Ep 050/50 Tr Ls: 0.0456 Ac: 0.9829 | Vl Ls: 0.1310 Ac: 0.9384
+[2025-10-29 03:56:13] [GRID] Config 28/32: {'ff_dim': 512, 'l1_lambda': 0.0001, 'lr': 0.0001, 'n_heads': 4, 'n_layers': 2}
+Config 28 Fold 1 Ep 001/50 Tr Ls: 0.4205 Ac: 0.7637 | Vl Ls: 0.7727 Ac: 0.5808
+Config 28 Fold 1 Ep 010/50 Tr Ls: 0.1464 Ac: 0.9181 | Vl Ls: 0.4219 Ac: 0.7376
+Config 28 Fold 1 Ep 020/50 Tr Ls: 0.1065 Ac: 0.9482 | Vl Ls: 0.3007 Ac: 0.8264
+Config 28 Fold 1 Ep 030/50 Tr Ls: 0.0810 Ac: 0.9630 | Vl Ls: 0.2551 Ac: 0.9080
+Config 28 Fold 1 Ep 040/50 Tr Ls: 0.0554 Ac: 0.9777 | Vl Ls: 0.1283 Ac: 0.9368
+Config 28 Fold 1 Ep 050/50 Tr Ls: 0.0343 Ac: 0.9878 | Vl Ls: 0.0831 Ac: 0.9600
+Config 28 Fold 2 Ep 001/50 Tr Ls: 0.4236 Ac: 0.7524 | Vl Ls: 0.8347 Ac: 0.6080
+Config 28 Fold 2 Ep 010/50 Tr Ls: 0.1449 Ac: 0.9151 | Vl Ls: 0.5505 Ac: 0.6808
+Config 28 Fold 2 Ep 020/50 Tr Ls: 0.1131 Ac: 0.9385 | Vl Ls: 0.2705 Ac: 0.8608
+Config 28 Fold 2 Ep 030/50 Tr Ls: 0.0865 Ac: 0.9605 | Vl Ls: 0.2307 Ac: 0.8920
+Config 28 Fold 2 Ep 040/50 Tr Ls: 0.0545 Ac: 0.9781 | Vl Ls: 0.1424 Ac: 0.9408
+Config 28 Fold 2 Ep 050/50 Tr Ls: 0.0322 Ac: 0.9888 | Vl Ls: 0.1080 Ac: 0.9648
+Config 28 Fold 3 Ep 001/50 Tr Ls: 0.4072 Ac: 0.7674 | Vl Ls: 0.6541 Ac: 0.6352
+Config 28 Fold 3 Ep 010/50 Tr Ls: 0.1473 Ac: 0.9150 | Vl Ls: 0.4072 Ac: 0.8608
+Config 28 Fold 3 Ep 020/50 Tr Ls: 0.1043 Ac: 0.9499 | Vl Ls: 0.1798 Ac: 0.9128
+Config 28 Fold 3 Ep 030/50 Tr Ls: 0.0747 Ac: 0.9674 | Vl Ls: 0.2665 Ac: 0.8552
+Config 28 Fold 3 Ep 040/50 Tr Ls: 0.0309 Ac: 0.9893 | Vl Ls: 0.1540 Ac: 0.9328
+Config 28 Fold 3 Ep 050/50 Tr Ls: 0.0201 Ac: 0.9938 | Vl Ls: 0.0670 Ac: 0.9656
+[2025-10-29 05:32:19] [GRID] Config 29/32: {'ff_dim': 512, 'l1_lambda': 0.0001, 'lr': 0.0003, 'n_heads': 2, 'n_layers': 1}
+Config 29 Fold 1 Ep 001/50 Tr Ls: 0.5096 Ac: 0.6706 | Vl Ls: 1.0105 Ac: 0.4232
+Config 29 Fold 1 Ep 010/50 Tr Ls: 0.1590 Ac: 0.9129 | Vl Ls: 0.4501 Ac: 0.7320
+Config 29 Fold 1 Ep 020/50 Tr Ls: 0.1166 Ac: 0.9425 | Vl Ls: 0.2966 Ac: 0.8216
+Config 29 Fold 1 Ep 030/50 Tr Ls: 0.0950 Ac: 0.9542 | Vl Ls: 0.1653 Ac: 0.9000
+Config 29 Fold 1 Ep 040/50 Tr Ls: 0.0778 Ac: 0.9657 | Vl Ls: 0.1328 Ac: 0.9344
+Config 29 Fold 1 Ep 050/50 Tr Ls: 0.0578 Ac: 0.9768 | Vl Ls: 0.1202 Ac: 0.9384
+Config 29 Fold 2 Ep 001/50 Tr Ls: 0.5133 Ac: 0.6586 | Vl Ls: 1.0127 Ac: 0.4672
+Config 29 Fold 2 Ep 010/50 Tr Ls: 0.1696 Ac: 0.9054 | Vl Ls: 0.6048 Ac: 0.7648
+Config 29 Fold 2 Ep 020/50 Tr Ls: 0.1349 Ac: 0.9232 | Vl Ls: 0.6659 Ac: 0.6904
+Config 29 Fold 2 Ep 030/50 Tr Ls: 0.1088 Ac: 0.9461 | Vl Ls: 0.2865 Ac: 0.8624
+Config 29 Fold 2 Ep 040/50 Tr Ls: 0.0857 Ac: 0.9619 | Vl Ls: 0.2232 Ac: 0.9008
+Config 29 Fold 2 Ep 050/50 Tr Ls: 0.0551 Ac: 0.9785 | Vl Ls: 0.1194 Ac: 0.9440
+Config 29 Fold 3 Ep 001/50 Tr Ls: 0.4538 Ac: 0.7298 | Vl Ls: 0.7863 Ac: 0.7040
+Config 29 Fold 3 Ep 010/50 Tr Ls: 0.1569 Ac: 0.9097 | Vl Ls: 0.4696 Ac: 0.7328
+Config 29 Fold 3 Ep 020/50 Tr Ls: 0.1116 Ac: 0.9464 | Vl Ls: 0.2887 Ac: 0.8480
+Config 29 Fold 3 Ep 030/50 Tr Ls: 0.0865 Ac: 0.9618 | Vl Ls: 0.2366 Ac: 0.8800
+Config 29 Fold 3 Ep 040/50 Tr Ls: 0.0401 Ac: 0.9846 | Vl Ls: 0.2334 Ac: 0.8952
+Config 29 Fold 3 Ep 050/50 Tr Ls: 0.0261 Ac: 0.9914 | Vl Ls: 0.1155 Ac: 0.9480
+[2025-10-29 06:51:09] [GRID] Config 30/32: {'ff_dim': 512, 'l1_lambda': 0.0001, 'lr': 0.0003, 'n_heads': 2, 'n_layers': 2}
+Config 30 Fold 1 Ep 001/50 Tr Ls: 0.4343 Ac: 0.7547 | Vl Ls: 0.8540 Ac: 0.5696
+Config 30 Fold 1 Ep 010/50 Tr Ls: 0.1477 Ac: 0.9186 | Vl Ls: 0.5378 Ac: 0.7704
+Config 30 Fold 1 Ep 020/50 Tr Ls: 0.1087 Ac: 0.9482 | Vl Ls: 0.2706 Ac: 0.8448
+Config 30 Fold 1 Ep 030/50 Tr Ls: 0.0888 Ac: 0.9603 | Vl Ls: 0.1787 Ac: 0.9120
+Config 30 Fold 1 Ep 040/50 Tr Ls: 0.0527 Ac: 0.9786 | Vl Ls: 0.1389 Ac: 0.9424
+Config 30 Fold 1 Ep 050/50 Tr Ls: 0.0339 Ac: 0.9880 | Vl Ls: 0.1000 Ac: 0.9552
+Config 30 Fold 2 Ep 001/50 Tr Ls: 0.4424 Ac: 0.7413 | Vl Ls: 1.0060 Ac: 0.4088
+Config 30 Fold 2 Ep 010/50 Tr Ls: 0.1559 Ac: 0.9096 | Vl Ls: 0.6715 Ac: 0.6328
+Config 30 Fold 2 Ep 020/50 Tr Ls: 0.1239 Ac: 0.9324 | Vl Ls: 0.2613 Ac: 0.8488
+Config 30 Fold 2 Ep 030/50 Tr Ls: 0.0988 Ac: 0.9529 | Vl Ls: 0.2655 Ac: 0.8656
+Config 30 Fold 2 Ep 040/50 Tr Ls: 0.0580 Ac: 0.9759 | Vl Ls: 0.1286 Ac: 0.9520
+Config 30 Fold 2 Ep 050/50 Tr Ls: 0.0347 Ac: 0.9878 | Vl Ls: 0.1000 Ac: 0.9616
+Config 30 Fold 3 Ep 001/50 Tr Ls: 0.4281 Ac: 0.7563 | Vl Ls: 0.7448 Ac: 0.6264
+Config 30 Fold 3 Ep 010/50 Tr Ls: 0.1462 Ac: 0.9241 | Vl Ls: 0.4161 Ac: 0.8112
+Config 30 Fold 3 Ep 020/50 Tr Ls: 0.1019 Ac: 0.9533 | Vl Ls: 0.2418 Ac: 0.8664
+Config 30 Fold 3 Ep 030/50 Tr Ls: 0.0738 Ac: 0.9692 | Vl Ls: 0.3552 Ac: 0.8376
+Config 30 Fold 3 Ep 040/50 Tr Ls: 0.0490 Ac: 0.9818 | Vl Ls: 0.1292 Ac: 0.9472
+Config 30 Fold 3 Ep 050/50 Tr Ls: 0.0345 Ac: 0.9883 | Vl Ls: 0.1314 Ac: 0.9456
+[2025-10-29 08:27:15] [GRID] Config 31/32: {'ff_dim': 512, 'l1_lambda': 0.0001, 'lr': 0.0003, 'n_heads': 4, 'n_layers': 1}
+Config 31 Fold 1 Ep 001/50 Tr Ls: 0.5020 Ac: 0.6791 | Vl Ls: 1.0830 Ac: 0.4296
+Config 31 Fold 1 Ep 010/50 Tr Ls: 0.1529 Ac: 0.9160 | Vl Ls: 0.4493 Ac: 0.7480
+Config 31 Fold 1 Ep 020/50 Tr Ls: 0.1183 Ac: 0.9392 | Vl Ls: 0.2656 Ac: 0.8184
+Config 31 Fold 1 Ep 030/50 Tr Ls: 0.0979 Ac: 0.9523 | Vl Ls: 0.2505 Ac: 0.8560
+Config 31 Fold 1 Ep 040/50 Tr Ls: 0.0807 Ac: 0.9624 | Vl Ls: 0.1444 Ac: 0.9184
+Config 31 Fold 1 Ep 050/50 Tr Ls: 0.0489 Ac: 0.9804 | Vl Ls: 0.0990 Ac: 0.9480
+Config 31 Fold 2 Ep 001/50 Tr Ls: 0.4413 Ac: 0.7391 | Vl Ls: 0.8825 Ac: 0.5176
+Config 31 Fold 2 Ep 010/50 Tr Ls: 0.1565 Ac: 0.9098 | Vl Ls: 0.5199 Ac: 0.7184
+Config 31 Fold 2 Ep 020/50 Tr Ls: 0.1203 Ac: 0.9387 | Vl Ls: 0.3438 Ac: 0.8472
+Config 31 Fold 2 Ep 030/50 Tr Ls: 0.0952 Ac: 0.9565 | Vl Ls: 0.3559 Ac: 0.8504
+Config 31 Fold 2 Ep 040/50 Tr Ls: 0.0684 Ac: 0.9726 | Vl Ls: 0.1571 Ac: 0.9256
+Config 31 Fold 2 Ep 050/50 Tr Ls: 0.0273 Ac: 0.9910 | Vl Ls: 0.1023 Ac: 0.9624
+Config 31 Fold 3 Ep 001/50 Tr Ls: 0.4530 Ac: 0.7308 | Vl Ls: 0.7091 Ac: 0.7472
+Config 31 Fold 3 Ep 010/50 Tr Ls: 0.1506 Ac: 0.9143 | Vl Ls: 0.3650 Ac: 0.8024
+Config 31 Fold 3 Ep 020/50 Tr Ls: 0.1041 Ac: 0.9515 | Vl Ls: 0.1660 Ac: 0.9216
+Config 31 Fold 3 Ep 030/50 Tr Ls: 0.0792 Ac: 0.9655 | Vl Ls: 0.3208 Ac: 0.8520
+Config 31 Fold 3 Ep 040/50 Tr Ls: 0.0537 Ac: 0.9795 | Vl Ls: 0.2138 Ac: 0.9088
+Config 31 Fold 3 Ep 050/50 Tr Ls: 0.0226 Ac: 0.9930 | Vl Ls: 0.0598 Ac: 0.9720
+[2025-10-29 09:46:17] [GRID] Config 32/32: {'ff_dim': 512, 'l1_lambda': 0.0001, 'lr': 0.0003, 'n_heads': 4, 'n_layers': 2}
+Config 32 Fold 1 Ep 001/50 Tr Ls: 0.4225 Ac: 0.7604 | Vl Ls: 0.7617 Ac: 0.6144
+Config 32 Fold 1 Ep 010/50 Tr Ls: 0.1388 Ac: 0.9286 | Vl Ls: 0.6186 Ac: 0.6456
+Config 32 Fold 1 Ep 020/50 Tr Ls: 0.1014 Ac: 0.9513 | Vl Ls: 0.2325 Ac: 0.8496
+Config 32 Fold 1 Ep 030/50 Tr Ls: 0.0809 Ac: 0.9638 | Vl Ls: 0.1690 Ac: 0.9280
+Config 32 Fold 1 Ep 040/50 Tr Ls: 0.0582 Ac: 0.9766 | Vl Ls: 0.1211 Ac: 0.9520
+Config 32 Fold 1 Ep 050/50 Tr Ls: 0.0237 Ac: 0.9923 | Vl Ls: 0.0713 Ac: 0.9688
+Config 32 Fold 2 Ep 001/50 Tr Ls: 0.4703 Ac: 0.7152 | Vl Ls: 0.8382 Ac: 0.5672
+Config 32 Fold 2 Ep 010/50 Tr Ls: 0.1510 Ac: 0.9123 | Vl Ls: 0.6782 Ac: 0.7280
+Config 32 Fold 2 Ep 020/50 Tr Ls: 0.1093 Ac: 0.9465 | Vl Ls: 0.2590 Ac: 0.8824
+Config 32 Fold 2 Ep 030/50 Tr Ls: 0.0710 Ac: 0.9685 | Vl Ls: 0.1779 Ac: 0.9264
+Config 32 Fold 2 Ep 040/50 Tr Ls: 0.0398 Ac: 0.9848 | Vl Ls: 0.0826 Ac: 0.9648
+Config 32 Fold 2 Ep 050/50 Tr Ls: 0.0249 Ac: 0.9918 | Vl Ls: 0.1093 Ac: 0.9624
+Config 32 Fold 3 Ep 001/50 Tr Ls: 0.4485 Ac: 0.7341 | Vl Ls: 0.7831 Ac: 0.5264
+Config 32 Fold 3 Ep 010/50 Tr Ls: 0.1384 Ac: 0.9271 | Vl Ls: 0.3943 Ac: 0.8280
+Config 32 Fold 3 Ep 020/50 Tr Ls: 0.0940 Ac: 0.9573 | Vl Ls: 0.1494 Ac: 0.9384
+Config 32 Fold 3 Ep 030/50 Tr Ls: 0.0661 Ac: 0.9726 | Vl Ls: 0.1544 Ac: 0.9272
+Config 32 Fold 3 Ep 040/50 Tr Ls: 0.0262 Ac: 0.9912 | Vl Ls: 0.1012 Ac: 0.9592
+Config 32 Fold 3 Ep 050/50 Tr Ls: 0.0110 Ac: 0.9970 | Vl Ls: 0.0605 Ac: 0.9792
+[2025-10-29 11:22:53] [GRID] Best config: {'ff_dim': 256, 'l1_lambda': 1e-05, 'lr': 0.0003, 'n_heads': 4, 'n_layers': 2} with score 0.9538
+[2025-10-29 11:22:53] [FULL] Running full CV with best config: {'ff_dim': 256, 'l1_lambda': 1e-05, 'lr': 0.0003, 'n_heads': 4, 'n_layers': 2}
+[2025-10-29 11:22:53] ========= Repetition 1/3 =========
+[2025-10-29 11:22:53] [Rep 1] SKF seed: 42, Model training seed for this rep: 42
+[2025-10-29 11:22:53] --- Rep 1, Fold 1/10 ---
+[2025-10-29 11:22:53] [Rep 1, F 1] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-29 11:22:53] [Rep 1, F 1] Orig Train dist: {0: 112, 1: 2363, 2: 900}
+[2025-10-29 11:22:53] [Rep 1, F 1] Applying SMOTE with default k_neighbors...
+[2025-10-29 11:22:53] [Rep 1, F 1] After SMOTE Train: (7089, 28, 150)
+[2025-10-29 11:22:53] [Rep 1, F 1] After SMOTE Train dist: {0: 2363, 1: 2363, 2: 2363}
+[2025-10-29 11:22:53] [Rep 1, F 1] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2363
+[2025-10-29 11:23:11] [Rep 1, F 1] Combined Train (SMOTE + Custom Aug) shape: (148869, 28, 150)
+[2025-10-29 11:23:11] [Rep 1, F 1] Combined Train class dist: {0: 49623, 1: 49623, 2: 49623}
+[2025-10-29 11:23:15] [Rep 1, F 1] Applied Class weights: [1. 1. 1.]
+[2025-10-29 11:23:15] --- Training: Rep 1, Fold 1, Seed 42 ---
+Rep 1, Fold 1, Seed 42, Ep [001/100] Tr Ls: 0.5114 Ac: 0.6489 | Vl Ls: 1.0964 Ac: 0.2667
+Rep 1, Fold 1, Seed 42, Ep [010/100] Tr Ls: 0.1440 Ac: 0.9160 | Vl Ls: 0.3613 Ac: 0.7520
+Rep 1, Fold 1, Seed 42, Ep [020/100] Tr Ls: 0.1047 Ac: 0.9467 | Vl Ls: 0.2793 Ac: 0.8613
+Rep 1, Fold 1, Seed 42, Ep [030/100] Tr Ls: 0.0806 Ac: 0.9606 | Vl Ls: 0.1413 Ac: 0.9360
+Rep 1, Fold 1, Seed 42, Ep [040/100] Tr Ls: 0.0626 Ac: 0.9723 | Vl Ls: 0.1631 Ac: 0.9440
+Rep 1, Fold 1, Seed 42, Ep [050/100] Tr Ls: 0.0266 Ac: 0.9899 | Vl Ls: 0.0640 Ac: 0.9707
+Rep 1, Fold 1, Seed 42, Ep [060/100] Tr Ls: 0.0160 Ac: 0.9944 | Vl Ls: 0.0688 Ac: 0.9733
+Rep 1, Fold 1, Seed 42, Ep [070/100] Tr Ls: 0.0124 Ac: 0.9958 | Vl Ls: 0.0550 Ac: 0.9680
+Rep 1, Fold 1, Seed 42, Ep [080/100] Tr Ls: 0.0102 Ac: 0.9965 | Vl Ls: 0.0298 Ac: 0.9787
+Rep 1, Fold 1, Seed 42, Ep [090/100] Tr Ls: 0.0087 Ac: 0.9971 | Vl Ls: 0.0150 Ac: 0.9920
+Rep 1, Fold 1, Seed 42, Ep [100/100] Tr Ls: 0.0085 Ac: 0.9973 | Vl Ls: 0.0394 Ac: 0.9813
+[2025-10-29 12:48:53] Rep 1, Fold 1, Seed 42: Loaded best model (Val Acc: 0.9973)
+[2025-10-29 12:48:53] [Rep 1, F 1] Val Met: Acc=0.9813, BalAcc=0.9180, AUC=0.9977
+[2025-10-29 12:48:53] --- Rep 1, Fold 2/10 ---
+[2025-10-29 12:48:53] [Rep 1, F 2] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-29 12:48:53] [Rep 1, F 2] Orig Train dist: {0: 112, 1: 2363, 2: 900}
+[2025-10-29 12:48:53] [Rep 1, F 2] Applying SMOTE with default k_neighbors...
+[2025-10-29 12:48:53] [Rep 1, F 2] After SMOTE Train: (7089, 28, 150)
+[2025-10-29 12:48:53] [Rep 1, F 2] After SMOTE Train dist: {0: 2363, 1: 2363, 2: 2363}
+[2025-10-29 12:48:53] [Rep 1, F 2] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2363
+[2025-10-29 12:49:11] [Rep 1, F 2] Combined Train (SMOTE + Custom Aug) shape: (148869, 28, 150)
+[2025-10-29 12:49:11] [Rep 1, F 2] Combined Train class dist: {0: 49623, 1: 49623, 2: 49623}
+[2025-10-29 12:49:15] [Rep 1, F 2] Applied Class weights: [1. 1. 1.]
+[2025-10-29 12:49:15] --- Training: Rep 1, Fold 2, Seed 42 ---
+Rep 1, Fold 2, Seed 42, Ep [001/100] Tr Ls: 0.4936 Ac: 0.6785 | Vl Ls: 1.2045 Ac: 0.5653
+Rep 1, Fold 2, Seed 42, Ep [010/100] Tr Ls: 0.1366 Ac: 0.9217 | Vl Ls: 0.4106 Ac: 0.7253
+Rep 1, Fold 2, Seed 42, Ep [020/100] Tr Ls: 0.1016 Ac: 0.9466 | Vl Ls: 0.1774 Ac: 0.9387
+Rep 1, Fold 2, Seed 42, Ep [030/100] Tr Ls: 0.0829 Ac: 0.9589 | Vl Ls: 0.1181 Ac: 0.9600
+Rep 1, Fold 2, Seed 42, Ep [040/100] Tr Ls: 0.0630 Ac: 0.9716 | Vl Ls: 0.0861 Ac: 0.9680
+Rep 1, Fold 2, Seed 42, Ep [050/100] Tr Ls: 0.0413 Ac: 0.9835 | Vl Ls: 0.1062 Ac: 0.9707
+Rep 1, Fold 2, Seed 42, Ep [060/100] Tr Ls: 0.0284 Ac: 0.9895 | Vl Ls: 0.0677 Ac: 0.9733
+Rep 1, Fold 2, Seed 42, Ep [070/100] Tr Ls: 0.0217 Ac: 0.9920 | Vl Ls: 0.0939 Ac: 0.9627
+Rep 1, Fold 2, Seed 42, Ep [080/100] Tr Ls: 0.0182 Ac: 0.9936 | Vl Ls: 0.0473 Ac: 0.9760
+Rep 1, Fold 2, Seed 42, Ep [090/100] Tr Ls: 0.0182 Ac: 0.9937 | Vl Ls: 0.0343 Ac: 0.9840
+Rep 1, Fold 2, Seed 42, Ep [100/100] Tr Ls: 0.0055 Ac: 0.9982 | Vl Ls: 0.0249 Ac: 0.9920
+[2025-10-29 14:14:53] Rep 1, Fold 2, Seed 42: Loaded best model (Val Acc: 0.9947)
+[2025-10-29 14:14:53] [Rep 1, F 2] Val Met: Acc=0.9920, BalAcc=0.9941, AUC=0.9999
+[2025-10-29 14:14:53] --- Rep 1, Fold 3/10 ---
+[2025-10-29 14:14:53] [Rep 1, F 3] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-29 14:14:53] [Rep 1, F 3] Orig Train dist: {0: 112, 1: 2363, 2: 900}
+[2025-10-29 14:14:53] [Rep 1, F 3] Applying SMOTE with default k_neighbors...
+[2025-10-29 14:14:53] [Rep 1, F 3] After SMOTE Train: (7089, 28, 150)
+[2025-10-29 14:14:53] [Rep 1, F 3] After SMOTE Train dist: {0: 2363, 1: 2363, 2: 2363}
+[2025-10-29 14:14:53] [Rep 1, F 3] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2363
+[2025-10-29 14:15:11] [Rep 1, F 3] Combined Train (SMOTE + Custom Aug) shape: (148869, 28, 150)
+[2025-10-29 14:15:11] [Rep 1, F 3] Combined Train class dist: {0: 49623, 1: 49623, 2: 49623}
+[2025-10-29 14:15:14] [Rep 1, F 3] Applied Class weights: [1. 1. 1.]
+[2025-10-29 14:15:14] --- Training: Rep 1, Fold 3, Seed 42 ---
+Rep 1, Fold 3, Seed 42, Ep [001/100] Tr Ls: 0.4748 Ac: 0.6959 | Vl Ls: 1.1680 Ac: 0.2880
+Rep 1, Fold 3, Seed 42, Ep [010/100] Tr Ls: 0.1412 Ac: 0.9160 | Vl Ls: 0.4953 Ac: 0.7013
+Rep 1, Fold 3, Seed 42, Ep [020/100] Tr Ls: 0.1043 Ac: 0.9456 | Vl Ls: 0.1706 Ac: 0.9253
+Rep 1, Fold 3, Seed 42, Ep [030/100] Tr Ls: 0.0831 Ac: 0.9597 | Vl Ls: 0.1624 Ac: 0.9253
+Rep 1, Fold 3, Seed 42, Ep [040/100] Tr Ls: 0.0623 Ac: 0.9728 | Vl Ls: 0.1432 Ac: 0.9387
+Rep 1, Fold 3, Seed 42, Ep [050/100] Tr Ls: 0.0400 Ac: 0.9845 | Vl Ls: 0.1182 Ac: 0.9627
+Rep 1, Fold 3, Seed 42, Ep [060/100] Tr Ls: 0.0272 Ac: 0.9896 | Vl Ls: 0.1610 Ac: 0.9440
+Rep 1, Fold 3, Seed 42, Ep [070/100] Tr Ls: 0.0217 Ac: 0.9924 | Vl Ls: 0.0782 Ac: 0.9760
+Rep 1, Fold 3, Seed 42, Ep [080/100] Tr Ls: 0.0174 Ac: 0.9940 | Vl Ls: 0.0831 Ac: 0.9680
+Rep 1, Fold 3, Seed 42, Ep [090/100] Tr Ls: 0.0166 Ac: 0.9943 | Vl Ls: 0.0389 Ac: 0.9893
+Rep 1, Fold 3, Seed 42, Ep [100/100] Tr Ls: 0.0144 Ac: 0.9951 | Vl Ls: 0.0274 Ac: 0.9893
+[2025-10-29 15:40:56] Rep 1, Fold 3, Seed 42: Loaded best model (Val Acc: 0.9973)
+[2025-10-29 15:40:56] [Rep 1, F 3] Val Met: Acc=0.9893, BalAcc=0.9949, AUC=1.0000
+[2025-10-29 15:40:56] --- Rep 1, Fold 4/10 ---
+[2025-10-29 15:40:56] [Rep 1, F 4] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-29 15:40:56] [Rep 1, F 4] Orig Train dist: {0: 112, 1: 2363, 2: 900}
+[2025-10-29 15:40:56] [Rep 1, F 4] Applying SMOTE with default k_neighbors...
+[2025-10-29 15:40:56] [Rep 1, F 4] After SMOTE Train: (7089, 28, 150)
+[2025-10-29 15:40:56] [Rep 1, F 4] After SMOTE Train dist: {0: 2363, 1: 2363, 2: 2363}
+[2025-10-29 15:40:56] [Rep 1, F 4] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2363
+[2025-10-29 15:41:14] [Rep 1, F 4] Combined Train (SMOTE + Custom Aug) shape: (148869, 28, 150)
+[2025-10-29 15:41:14] [Rep 1, F 4] Combined Train class dist: {0: 49623, 1: 49623, 2: 49623}
+[2025-10-29 15:41:17] [Rep 1, F 4] Applied Class weights: [1. 1. 1.]
+[2025-10-29 15:41:17] --- Training: Rep 1, Fold 4, Seed 42 ---
+Rep 1, Fold 4, Seed 42, Ep [001/100] Tr Ls: 0.4267 Ac: 0.7512 | Vl Ls: 1.5057 Ac: 0.2427
+Rep 1, Fold 4, Seed 42, Ep [010/100] Tr Ls: 0.1361 Ac: 0.9235 | Vl Ls: 0.3676 Ac: 0.8400
+Rep 1, Fold 4, Seed 42, Ep [020/100] Tr Ls: 0.0994 Ac: 0.9498 | Vl Ls: 0.1458 Ac: 0.9253
+Rep 1, Fold 4, Seed 42, Ep [030/100] Tr Ls: 0.0783 Ac: 0.9639 | Vl Ls: 0.0988 Ac: 0.9600
+Rep 1, Fold 4, Seed 42, Ep [040/100] Tr Ls: 0.0517 Ac: 0.9794 | Vl Ls: 0.0599 Ac: 0.9707
+Rep 1, Fold 4, Seed 42, Ep [050/100] Tr Ls: 0.0180 Ac: 0.9934 | Vl Ls: 0.0627 Ac: 0.9653
+Rep 1, Fold 4, Seed 42, Ep [060/100] Tr Ls: 0.0125 Ac: 0.9955 | Vl Ls: 0.0219 Ac: 0.9893
+Rep 1, Fold 4, Seed 42, Ep [070/100] Tr Ls: 0.0108 Ac: 0.9963 | Vl Ls: 0.0396 Ac: 0.9840
+Rep 1, Fold 4, Seed 42, Ep [080/100] Tr Ls: 0.0094 Ac: 0.9967 | Vl Ls: 0.0330 Ac: 0.9840
+Rep 1, Fold 4, Seed 42, Ep [090/100] Tr Ls: 0.0089 Ac: 0.9971 | Vl Ls: 0.0120 Ac: 1.0000
+Rep 1, Fold 4, Seed 42, Ep [100/100] Tr Ls: 0.0075 Ac: 0.9975 | Vl Ls: 0.0044 Ac: 0.9973
+[2025-10-29 17:07:17] Rep 1, Fold 4, Seed 42: Loaded best model (Val Acc: 1.0000)
+[2025-10-29 17:07:17] [Rep 1, F 4] Val Met: Acc=0.9973, BalAcc=0.9987, AUC=1.0000
+[2025-10-29 17:07:17] --- Rep 1, Fold 5/10 ---
+[2025-10-29 17:07:17] [Rep 1, F 5] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-29 17:07:17] [Rep 1, F 5] Orig Train dist: {0: 112, 1: 2363, 2: 900}
+[2025-10-29 17:07:17] [Rep 1, F 5] Applying SMOTE with default k_neighbors...
+[2025-10-29 17:07:17] [Rep 1, F 5] After SMOTE Train: (7089, 28, 150)
+[2025-10-29 17:07:17] [Rep 1, F 5] After SMOTE Train dist: {0: 2363, 1: 2363, 2: 2363}
+[2025-10-29 17:07:17] [Rep 1, F 5] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2363
+[2025-10-29 17:07:35] [Rep 1, F 5] Combined Train (SMOTE + Custom Aug) shape: (148869, 28, 150)
+[2025-10-29 17:07:35] [Rep 1, F 5] Combined Train class dist: {0: 49623, 1: 49623, 2: 49623}
+[2025-10-29 17:07:39] [Rep 1, F 5] Applied Class weights: [1. 1. 1.]
+[2025-10-29 17:07:39] --- Training: Rep 1, Fold 5, Seed 42 ---
+Rep 1, Fold 5, Seed 42, Ep [001/100] Tr Ls: 0.4001 Ac: 0.7734 | Vl Ls: 1.1943 Ac: 0.3840
+Rep 1, Fold 5, Seed 42, Ep [010/100] Tr Ls: 0.1309 Ac: 0.9320 | Vl Ls: 0.5580 Ac: 0.7467
+Rep 1, Fold 5, Seed 42, Ep [020/100] Tr Ls: 0.0989 Ac: 0.9514 | Vl Ls: 0.0895 Ac: 0.9547
+Rep 1, Fold 5, Seed 42, Ep [030/100] Tr Ls: 0.0754 Ac: 0.9656 | Vl Ls: 0.0875 Ac: 0.9680
+Rep 1, Fold 5, Seed 42, Ep [040/100] Tr Ls: 0.0528 Ac: 0.9787 | Vl Ls: 0.2233 Ac: 0.9413
+Rep 1, Fold 5, Seed 42, Ep [050/100] Tr Ls: 0.0340 Ac: 0.9870 | Vl Ls: 0.0799 Ac: 0.9653
+Rep 1, Fold 5, Seed 42, Ep [060/100] Tr Ls: 0.0258 Ac: 0.9907 | Vl Ls: 0.1806 Ac: 0.9387
+Rep 1, Fold 5, Seed 42, Ep [070/100] Tr Ls: 0.0206 Ac: 0.9926 | Vl Ls: 0.0658 Ac: 0.9653
+Rep 1, Fold 5, Seed 42, Ep [080/100] Tr Ls: 0.0181 Ac: 0.9938 | Vl Ls: 0.1591 Ac: 0.9333
+Rep 1, Fold 5, Seed 42, Ep [090/100] Tr Ls: 0.0157 Ac: 0.9948 | Vl Ls: 0.0893 Ac: 0.9627
+Rep 1, Fold 5, Seed 42, Ep [100/100] Tr Ls: 0.0142 Ac: 0.9950 | Vl Ls: 0.0619 Ac: 0.9653
+[2025-10-29 18:33:40] Rep 1, Fold 5, Seed 42: Loaded best model (Val Acc: 0.9920)
+[2025-10-29 18:33:40] [Rep 1, F 5] Val Met: Acc=0.9653, BalAcc=0.9752, AUC=0.9994
+[2025-10-29 18:33:40] --- Rep 1, Fold 6/10 ---
+[2025-10-29 18:33:40] [Rep 1, F 6] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-29 18:33:40] [Rep 1, F 6] Orig Train dist: {0: 113, 1: 2362, 2: 900}
+[2025-10-29 18:33:40] [Rep 1, F 6] Applying SMOTE with default k_neighbors...
+[2025-10-29 18:33:41] [Rep 1, F 6] After SMOTE Train: (7086, 28, 150)
+[2025-10-29 18:33:41] [Rep 1, F 6] After SMOTE Train dist: {0: 2362, 1: 2362, 2: 2362}
+[2025-10-29 18:33:41] [Rep 1, F 6] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2362
+[2025-10-29 18:33:58] [Rep 1, F 6] Combined Train (SMOTE + Custom Aug) shape: (148806, 28, 150)
+[2025-10-29 18:33:58] [Rep 1, F 6] Combined Train class dist: {0: 49602, 1: 49602, 2: 49602}
+[2025-10-29 18:34:02] [Rep 1, F 6] Applied Class weights: [1. 1. 1.]
+[2025-10-29 18:34:02] --- Training: Rep 1, Fold 6, Seed 42 ---
+Rep 1, Fold 6, Seed 42, Ep [001/100] Tr Ls: 0.3879 Ac: 0.7821 | Vl Ls: 0.7292 Ac: 0.5520
+Rep 1, Fold 6, Seed 42, Ep [010/100] Tr Ls: 0.1316 Ac: 0.9258 | Vl Ls: 0.2991 Ac: 0.8667
+Rep 1, Fold 6, Seed 42, Ep [020/100] Tr Ls: 0.0987 Ac: 0.9498 | Vl Ls: 0.2658 Ac: 0.8853
+Rep 1, Fold 6, Seed 42, Ep [030/100] Tr Ls: 0.0801 Ac: 0.9623 | Vl Ls: 0.1445 Ac: 0.9493
+Rep 1, Fold 6, Seed 42, Ep [040/100] Tr Ls: 0.0583 Ac: 0.9751 | Vl Ls: 0.0874 Ac: 0.9680
+Rep 1, Fold 6, Seed 42, Ep [050/100] Tr Ls: 0.0383 Ac: 0.9851 | Vl Ls: 0.0796 Ac: 0.9707
+Rep 1, Fold 6, Seed 42, Ep [060/100] Tr Ls: 0.0277 Ac: 0.9899 | Vl Ls: 0.1507 Ac: 0.9627
+Rep 1, Fold 6, Seed 42, Ep [070/100] Tr Ls: 0.0225 Ac: 0.9922 | Vl Ls: 0.1606 Ac: 0.9653
+Rep 1, Fold 6, Seed 42, Ep [080/100] Tr Ls: 0.0196 Ac: 0.9931 | Vl Ls: 0.1542 Ac: 0.9627
+Rep 1, Fold 6, Seed 42, Ep [090/100] Tr Ls: 0.0177 Ac: 0.9941 | Vl Ls: 0.0944 Ac: 0.9600
+Rep 1, Fold 6, Seed 42, Ep [100/100] Tr Ls: 0.0152 Ac: 0.9947 | Vl Ls: 0.0765 Ac: 0.9653
+[2025-10-29 19:59:58] Rep 1, Fold 6, Seed 42: Loaded best model (Val Acc: 0.9867)
+[2025-10-29 19:59:58] [Rep 1, F 6] Val Met: Acc=0.9653, BalAcc=0.9753, AUC=0.9994
+[2025-10-29 19:59:58] --- Rep 1, Fold 7/10 ---
+[2025-10-29 19:59:58] [Rep 1, F 7] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-29 19:59:58] [Rep 1, F 7] Orig Train dist: {0: 113, 1: 2362, 2: 900}
+[2025-10-29 19:59:58] [Rep 1, F 7] Applying SMOTE with default k_neighbors...
+[2025-10-29 19:59:58] [Rep 1, F 7] After SMOTE Train: (7086, 28, 150)
+[2025-10-29 19:59:58] [Rep 1, F 7] After SMOTE Train dist: {0: 2362, 1: 2362, 2: 2362}
+[2025-10-29 19:59:58] [Rep 1, F 7] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2362
+[2025-10-29 20:00:17] [Rep 1, F 7] Combined Train (SMOTE + Custom Aug) shape: (148806, 28, 150)
+[2025-10-29 20:00:17] [Rep 1, F 7] Combined Train class dist: {0: 49602, 1: 49602, 2: 49602}
+[2025-10-29 20:00:20] [Rep 1, F 7] Applied Class weights: [1. 1. 1.]
+[2025-10-29 20:00:20] --- Training: Rep 1, Fold 7, Seed 42 ---
+Rep 1, Fold 7, Seed 42, Ep [001/100] Tr Ls: 0.4238 Ac: 0.7417 | Vl Ls: 0.7366 Ac: 0.6053
+Rep 1, Fold 7, Seed 42, Ep [010/100] Tr Ls: 0.1416 Ac: 0.9176 | Vl Ls: 0.2786 Ac: 0.8213
+Rep 1, Fold 7, Seed 42, Ep [020/100] Tr Ls: 0.1014 Ac: 0.9482 | Vl Ls: 0.1444 Ac: 0.9493
+Rep 1, Fold 7, Seed 42, Ep [030/100] Tr Ls: 0.0801 Ac: 0.9616 | Vl Ls: 0.1946 Ac: 0.8960
+Rep 1, Fold 7, Seed 42, Ep [040/100] Tr Ls: 0.0565 Ac: 0.9756 | Vl Ls: 0.0942 Ac: 0.9467
+Rep 1, Fold 7, Seed 42, Ep [050/100] Tr Ls: 0.0372 Ac: 0.9852 | Vl Ls: 0.1141 Ac: 0.9573
+Rep 1, Fold 7, Seed 42, Ep [060/100] Tr Ls: 0.0112 Ac: 0.9963 | Vl Ls: 0.0323 Ac: 0.9787
+Rep 1, Fold 7, Seed 42, Ep [070/100] Tr Ls: 0.0099 Ac: 0.9968 | Vl Ls: 0.0143 Ac: 0.9947
+Rep 1, Fold 7, Seed 42, Ep [080/100] Tr Ls: 0.0088 Ac: 0.9973 | Vl Ls: 0.0151 Ac: 0.9973
+Rep 1, Fold 7, Seed 42, Ep [090/100] Tr Ls: 0.0080 Ac: 0.9974 | Vl Ls: 0.0174 Ac: 0.9920
+Rep 1, Fold 7, Seed 42, Ep [100/100] Tr Ls: 0.0033 Ac: 0.9990 | Vl Ls: 0.0084 Ac: 0.9947
+[2025-10-29 21:26:14] Rep 1, Fold 7, Seed 42: Loaded best model (Val Acc: 1.0000)
+[2025-10-29 21:26:14] [Rep 1, F 7] Val Met: Acc=0.9947, BalAcc=0.9933, AUC=1.0000
+[2025-10-29 21:26:14] --- Rep 1, Fold 8/10 ---
+[2025-10-29 21:26:14] [Rep 1, F 8] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-29 21:26:14] [Rep 1, F 8] Orig Train dist: {0: 113, 1: 2362, 2: 900}
+[2025-10-29 21:26:14] [Rep 1, F 8] Applying SMOTE with default k_neighbors...
+[2025-10-29 21:26:14] [Rep 1, F 8] After SMOTE Train: (7086, 28, 150)
+[2025-10-29 21:26:14] [Rep 1, F 8] After SMOTE Train dist: {0: 2362, 1: 2362, 2: 2362}
+[2025-10-29 21:26:14] [Rep 1, F 8] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2362
+[2025-10-29 21:26:31] [Rep 1, F 8] Combined Train (SMOTE + Custom Aug) shape: (148806, 28, 150)
+[2025-10-29 21:26:31] [Rep 1, F 8] Combined Train class dist: {0: 49602, 1: 49602, 2: 49602}
+[2025-10-29 21:26:35] [Rep 1, F 8] Applied Class weights: [1. 1. 1.]
+[2025-10-29 21:26:35] --- Training: Rep 1, Fold 8, Seed 42 ---
+Rep 1, Fold 8, Seed 42, Ep [001/100] Tr Ls: 0.4772 Ac: 0.6969 | Vl Ls: 0.9182 Ac: 0.4720
+Rep 1, Fold 8, Seed 42, Ep [010/100] Tr Ls: 0.1294 Ac: 0.9320 | Vl Ls: 0.2584 Ac: 0.9120
+Rep 1, Fold 8, Seed 42, Ep [020/100] Tr Ls: 0.0946 Ac: 0.9525 | Vl Ls: 0.1477 Ac: 0.9253
+Rep 1, Fold 8, Seed 42, Ep [030/100] Tr Ls: 0.0743 Ac: 0.9649 | Vl Ls: 0.1032 Ac: 0.9600
+Rep 1, Fold 8, Seed 42, Ep [040/100] Tr Ls: 0.0543 Ac: 0.9769 | Vl Ls: 0.0918 Ac: 0.9600
+Rep 1, Fold 8, Seed 42, Ep [050/100] Tr Ls: 0.0349 Ac: 0.9861 | Vl Ls: 0.0819 Ac: 0.9600
+Rep 1, Fold 8, Seed 42, Ep [060/100] Tr Ls: 0.0261 Ac: 0.9905 | Vl Ls: 0.0883 Ac: 0.9680
+Rep 1, Fold 8, Seed 42, Ep [070/100] Tr Ls: 0.0202 Ac: 0.9928 | Vl Ls: 0.0700 Ac: 0.9787
+Rep 1, Fold 8, Seed 42, Ep [080/100] Tr Ls: 0.0180 Ac: 0.9936 | Vl Ls: 0.0658 Ac: 0.9760
+Rep 1, Fold 8, Seed 42, Ep [090/100] Tr Ls: 0.0079 Ac: 0.9975 | Vl Ls: 0.0196 Ac: 0.9867
+Rep 1, Fold 8, Seed 42, Ep [100/100] Tr Ls: 0.0050 Ac: 0.9984 | Vl Ls: 0.0125 Ac: 0.9947
+[2025-10-29 22:52:21] Rep 1, Fold 8, Seed 42: Loaded best model (Val Acc: 1.0000)
+[2025-10-29 22:52:21] [Rep 1, F 8] Val Met: Acc=0.9947, BalAcc=0.9975, AUC=1.0000
+[2025-10-29 22:52:21] --- Rep 1, Fold 9/10 ---
+[2025-10-29 22:52:21] [Rep 1, F 9] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-29 22:52:21] [Rep 1, F 9] Orig Train dist: {0: 113, 1: 2362, 2: 900}
+[2025-10-29 22:52:21] [Rep 1, F 9] Applying SMOTE with default k_neighbors...
+[2025-10-29 22:52:21] [Rep 1, F 9] After SMOTE Train: (7086, 28, 150)
+[2025-10-29 22:52:21] [Rep 1, F 9] After SMOTE Train dist: {0: 2362, 1: 2362, 2: 2362}
+[2025-10-29 22:52:21] [Rep 1, F 9] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2362
+[2025-10-29 22:52:39] [Rep 1, F 9] Combined Train (SMOTE + Custom Aug) shape: (148806, 28, 150)
+[2025-10-29 22:52:39] [Rep 1, F 9] Combined Train class dist: {0: 49602, 1: 49602, 2: 49602}
+[2025-10-29 22:52:42] [Rep 1, F 9] Applied Class weights: [1. 1. 1.]
+[2025-10-29 22:52:42] --- Training: Rep 1, Fold 9, Seed 42 ---
+Rep 1, Fold 9, Seed 42, Ep [001/100] Tr Ls: 0.4578 Ac: 0.7159 | Vl Ls: 1.0258 Ac: 0.3627
+Rep 1, Fold 9, Seed 42, Ep [010/100] Tr Ls: 0.1365 Ac: 0.9212 | Vl Ls: 0.3247 Ac: 0.7867
+Rep 1, Fold 9, Seed 42, Ep [020/100] Tr Ls: 0.0982 Ac: 0.9496 | Vl Ls: 0.1680 Ac: 0.9307
+Rep 1, Fold 9, Seed 42, Ep [030/100] Tr Ls: 0.0799 Ac: 0.9625 | Vl Ls: 0.1403 Ac: 0.9413
+Rep 1, Fold 9, Seed 42, Ep [040/100] Tr Ls: 0.0562 Ac: 0.9762 | Vl Ls: 0.1308 Ac: 0.9493
+Rep 1, Fold 9, Seed 42, Ep [050/100] Tr Ls: 0.0366 Ac: 0.9859 | Vl Ls: 0.1142 Ac: 0.9627
+Rep 1, Fold 9, Seed 42, Ep [060/100] Tr Ls: 0.0241 Ac: 0.9914 | Vl Ls: 0.0498 Ac: 0.9813
+Rep 1, Fold 9, Seed 42, Ep [070/100] Tr Ls: 0.0183 Ac: 0.9936 | Vl Ls: 0.0804 Ac: 0.9707
+Rep 1, Fold 9, Seed 42, Ep [080/100] Tr Ls: 0.0159 Ac: 0.9945 | Vl Ls: 0.0484 Ac: 0.9840
+Rep 1, Fold 9, Seed 42, Ep [090/100] Tr Ls: 0.0141 Ac: 0.9950 | Vl Ls: 0.0450 Ac: 0.9840
+Rep 1, Fold 9, Seed 42, Ep [100/100] Tr Ls: 0.0051 Ac: 0.9986 | Vl Ls: 0.0115 Ac: 0.9947
+[2025-10-30 00:18:45] Rep 1, Fold 9, Seed 42: Loaded best model (Val Acc: 1.0000)
+[2025-10-30 00:18:45] [Rep 1, F 9] Val Met: Acc=0.9947, BalAcc=0.9975, AUC=1.0000
+[2025-10-30 00:18:45] --- Rep 1, Fold 10/10 ---
+[2025-10-30 00:18:45] [Rep 1, F 10] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-30 00:18:45] [Rep 1, F 10] Orig Train dist: {0: 113, 1: 2362, 2: 900}
+[2025-10-30 00:18:45] [Rep 1, F 10] Applying SMOTE with default k_neighbors...
+[2025-10-30 00:18:45] [Rep 1, F 10] After SMOTE Train: (7086, 28, 150)
+[2025-10-30 00:18:45] [Rep 1, F 10] After SMOTE Train dist: {0: 2362, 1: 2362, 2: 2362}
+[2025-10-30 00:18:45] [Rep 1, F 10] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2362
+[2025-10-30 00:19:03] [Rep 1, F 10] Combined Train (SMOTE + Custom Aug) shape: (148806, 28, 150)
+[2025-10-30 00:19:03] [Rep 1, F 10] Combined Train class dist: {0: 49602, 1: 49602, 2: 49602}
+[2025-10-30 00:19:07] [Rep 1, F 10] Applied Class weights: [1. 1. 1.]
+[2025-10-30 00:19:07] --- Training: Rep 1, Fold 10, Seed 42 ---
+Rep 1, Fold 10, Seed 42, Ep [001/100] Tr Ls: 0.5020 Ac: 0.6655 | Vl Ls: 1.2344 Ac: 0.2853
+Rep 1, Fold 10, Seed 42, Ep [010/100] Tr Ls: 0.1419 Ac: 0.9176 | Vl Ls: 0.2469 Ac: 0.9040
+Rep 1, Fold 10, Seed 42, Ep [020/100] Tr Ls: 0.1009 Ac: 0.9496 | Vl Ls: 0.3543 Ac: 0.8667
+Rep 1, Fold 10, Seed 42, Ep [030/100] Tr Ls: 0.0782 Ac: 0.9634 | Vl Ls: 0.0874 Ac: 0.9653
+Rep 1, Fold 10, Seed 42, Ep [040/100] Tr Ls: 0.0555 Ac: 0.9765 | Vl Ls: 0.1244 Ac: 0.9573
+Rep 1, Fold 10, Seed 42, Ep [050/100] Tr Ls: 0.0355 Ac: 0.9864 | Vl Ls: 0.0681 Ac: 0.9707
+Rep 1, Fold 10, Seed 42, Ep [060/100] Tr Ls: 0.0255 Ac: 0.9903 | Vl Ls: 0.1011 Ac: 0.9733
+Rep 1, Fold 10, Seed 42, Ep [070/100] Tr Ls: 0.0199 Ac: 0.9927 | Vl Ls: 0.0830 Ac: 0.9707
+Rep 1, Fold 10, Seed 42, Ep [080/100] Tr Ls: 0.0066 Ac: 0.9979 | Vl Ls: 0.0009 Ac: 1.0000
+Rep 1, Fold 10, Seed 42, Ep [090/100] Tr Ls: 0.0058 Ac: 0.9981 | Vl Ls: 0.0018 Ac: 1.0000
+Rep 1, Fold 10, Seed 42, Ep [100/100] Tr Ls: 0.0023 Ac: 0.9993 | Vl Ls: 0.0014 Ac: 1.0000
+[2025-10-30 01:45:08] Rep 1, Fold 10, Seed 42: Loaded best model (Val Acc: 1.0000)
+[2025-10-30 01:45:08] [Rep 1, F 10] Val Met: Acc=1.0000, BalAcc=1.0000, AUC=1.0000
+[2025-10-30 01:45:08] ========= Repetition 2/3 =========
+[2025-10-30 01:45:08] [Rep 2] SKF seed: 123, Model training seed for this rep: 123
+[2025-10-30 01:45:08] --- Rep 2, Fold 1/10 ---
+[2025-10-30 01:45:08] [Rep 2, F 1] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-30 01:45:08] [Rep 2, F 1] Orig Train dist: {0: 112, 1: 2363, 2: 900}
+[2025-10-30 01:45:08] [Rep 2, F 1] Applying SMOTE with default k_neighbors...
+[2025-10-30 01:45:08] [Rep 2, F 1] After SMOTE Train: (7089, 28, 150)
+[2025-10-30 01:45:08] [Rep 2, F 1] After SMOTE Train dist: {0: 2363, 1: 2363, 2: 2363}
+[2025-10-30 01:45:08] [Rep 2, F 1] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2363
+[2025-10-30 01:45:26] [Rep 2, F 1] Combined Train (SMOTE + Custom Aug) shape: (148869, 28, 150)
+[2025-10-30 01:45:26] [Rep 2, F 1] Combined Train class dist: {0: 49623, 1: 49623, 2: 49623}
+[2025-10-30 01:45:29] [Rep 2, F 1] Applied Class weights: [1. 1. 1.]
+[2025-10-30 01:45:29] --- Training: Rep 2, Fold 1, Seed 123 ---
+Rep 2, Fold 1, Seed 123, Ep [001/100] Tr Ls: 0.4923 Ac: 0.6800 | Vl Ls: 0.8950 Ac: 0.4187
+Rep 2, Fold 1, Seed 123, Ep [010/100] Tr Ls: 0.1355 Ac: 0.9224 | Vl Ls: 0.2742 Ac: 0.8400
+Rep 2, Fold 1, Seed 123, Ep [020/100] Tr Ls: 0.0972 Ac: 0.9505 | Vl Ls: 0.1813 Ac: 0.9173
+Rep 2, Fold 1, Seed 123, Ep [030/100] Tr Ls: 0.0759 Ac: 0.9647 | Vl Ls: 0.1458 Ac: 0.9333
+Rep 2, Fold 1, Seed 123, Ep [040/100] Tr Ls: 0.0528 Ac: 0.9780 | Vl Ls: 0.0685 Ac: 0.9707
+Rep 2, Fold 1, Seed 123, Ep [050/100] Tr Ls: 0.0329 Ac: 0.9875 | Vl Ls: 0.0832 Ac: 0.9707
+Rep 2, Fold 1, Seed 123, Ep [060/100] Tr Ls: 0.0251 Ac: 0.9910 | Vl Ls: 0.0763 Ac: 0.9627
+Rep 2, Fold 1, Seed 123, Ep [070/100] Tr Ls: 0.0203 Ac: 0.9928 | Vl Ls: 0.0412 Ac: 0.9813
+Rep 2, Fold 1, Seed 123, Ep [080/100] Tr Ls: 0.0169 Ac: 0.9941 | Vl Ls: 0.0722 Ac: 0.9680
+Rep 2, Fold 1, Seed 123, Ep [090/100] Tr Ls: 0.0154 Ac: 0.9945 | Vl Ls: 0.0405 Ac: 0.9867
+Rep 2, Fold 1, Seed 123, Ep [100/100] Tr Ls: 0.0146 Ac: 0.9950 | Vl Ls: 0.0787 Ac: 0.9707
+[2025-10-30 03:11:21] Rep 2, Fold 1, Seed 123: Loaded best model (Val Acc: 0.9893)
+[2025-10-30 03:11:21] [Rep 2, F 1] Val Met: Acc=0.9707, BalAcc=0.9716, AUC=0.9988
+[2025-10-30 03:11:21] --- Rep 2, Fold 2/10 ---
+[2025-10-30 03:11:21] [Rep 2, F 2] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-30 03:11:21] [Rep 2, F 2] Orig Train dist: {0: 112, 1: 2363, 2: 900}
+[2025-10-30 03:11:21] [Rep 2, F 2] Applying SMOTE with default k_neighbors...
+[2025-10-30 03:11:21] [Rep 2, F 2] After SMOTE Train: (7089, 28, 150)
+[2025-10-30 03:11:21] [Rep 2, F 2] After SMOTE Train dist: {0: 2363, 1: 2363, 2: 2363}
+[2025-10-30 03:11:21] [Rep 2, F 2] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2363
+[2025-10-30 03:11:39] [Rep 2, F 2] Combined Train (SMOTE + Custom Aug) shape: (148869, 28, 150)
+[2025-10-30 03:11:39] [Rep 2, F 2] Combined Train class dist: {0: 49623, 1: 49623, 2: 49623}
+[2025-10-30 03:11:42] [Rep 2, F 2] Applied Class weights: [1. 1. 1.]
+[2025-10-30 03:11:42] --- Training: Rep 2, Fold 2, Seed 123 ---
+Rep 2, Fold 2, Seed 123, Ep [001/100] Tr Ls: 0.4159 Ac: 0.7577 | Vl Ls: 0.9947 Ac: 0.3973
+Rep 2, Fold 2, Seed 123, Ep [010/100] Tr Ls: 0.1401 Ac: 0.9215 | Vl Ls: 0.3279 Ac: 0.8667
+Rep 2, Fold 2, Seed 123, Ep [020/100] Tr Ls: 0.1020 Ac: 0.9488 | Vl Ls: 0.1613 Ac: 0.9173
+Rep 2, Fold 2, Seed 123, Ep [030/100] Tr Ls: 0.0793 Ac: 0.9628 | Vl Ls: 0.1442 Ac: 0.9253
+Rep 2, Fold 2, Seed 123, Ep [040/100] Tr Ls: 0.0546 Ac: 0.9773 | Vl Ls: 0.0841 Ac: 0.9653
+Rep 2, Fold 2, Seed 123, Ep [050/100] Tr Ls: 0.0346 Ac: 0.9867 | Vl Ls: 0.0400 Ac: 0.9867
+Rep 2, Fold 2, Seed 123, Ep [060/100] Tr Ls: 0.0255 Ac: 0.9905 | Vl Ls: 0.0300 Ac: 0.9840
+Rep 2, Fold 2, Seed 123, Ep [070/100] Tr Ls: 0.0201 Ac: 0.9929 | Vl Ls: 0.0260 Ac: 0.9920
+Rep 2, Fold 2, Seed 123, Ep [080/100] Tr Ls: 0.0172 Ac: 0.9940 | Vl Ls: 0.0485 Ac: 0.9787
+Rep 2, Fold 2, Seed 123, Ep [090/100] Tr Ls: 0.0159 Ac: 0.9949 | Vl Ls: 0.0066 Ac: 0.9973
+Rep 2, Fold 2, Seed 123, Ep [100/100] Tr Ls: 0.0141 Ac: 0.9950 | Vl Ls: 0.0444 Ac: 0.9840
+[2025-10-30 04:37:28] Rep 2, Fold 2, Seed 123: Loaded best model (Val Acc: 1.0000)
+[2025-10-30 04:37:28] [Rep 2, F 2] Val Met: Acc=0.9840, BalAcc=0.9821, AUC=0.9999
+[2025-10-30 04:37:28] --- Rep 2, Fold 3/10 ---
+[2025-10-30 04:37:28] [Rep 2, F 3] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-30 04:37:28] [Rep 2, F 3] Orig Train dist: {0: 112, 1: 2363, 2: 900}
+[2025-10-30 04:37:28] [Rep 2, F 3] Applying SMOTE with default k_neighbors...
+[2025-10-30 04:37:28] [Rep 2, F 3] After SMOTE Train: (7089, 28, 150)
+[2025-10-30 04:37:28] [Rep 2, F 3] After SMOTE Train dist: {0: 2363, 1: 2363, 2: 2363}
+[2025-10-30 04:37:28] [Rep 2, F 3] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2363
+[2025-10-30 04:37:46] [Rep 2, F 3] Combined Train (SMOTE + Custom Aug) shape: (148869, 28, 150)
+[2025-10-30 04:37:46] [Rep 2, F 3] Combined Train class dist: {0: 49623, 1: 49623, 2: 49623}
+[2025-10-30 04:37:50] [Rep 2, F 3] Applied Class weights: [1. 1. 1.]
+[2025-10-30 04:37:50] --- Training: Rep 2, Fold 3, Seed 123 ---
+Rep 2, Fold 3, Seed 123, Ep [001/100] Tr Ls: 0.4592 Ac: 0.7153 | Vl Ls: 0.7677 Ac: 0.5787
+Rep 2, Fold 3, Seed 123, Ep [010/100] Tr Ls: 0.1247 Ac: 0.9338 | Vl Ls: 0.2053 Ac: 0.8693
+Rep 2, Fold 3, Seed 123, Ep [020/100] Tr Ls: 0.0926 Ac: 0.9547 | Vl Ls: 0.1616 Ac: 0.9413
+Rep 2, Fold 3, Seed 123, Ep [030/100] Tr Ls: 0.0704 Ac: 0.9686 | Vl Ls: 0.1204 Ac: 0.9467
+Rep 2, Fold 3, Seed 123, Ep [040/100] Tr Ls: 0.0461 Ac: 0.9815 | Vl Ls: 0.0277 Ac: 0.9920
+Rep 2, Fold 3, Seed 123, Ep [050/100] Tr Ls: 0.0291 Ac: 0.9891 | Vl Ls: 0.1006 Ac: 0.9547
+Rep 2, Fold 3, Seed 123, Ep [060/100] Tr Ls: 0.0214 Ac: 0.9920 | Vl Ls: 0.0578 Ac: 0.9733
+Rep 2, Fold 3, Seed 123, Ep [070/100] Tr Ls: 0.0182 Ac: 0.9938 | Vl Ls: 0.0257 Ac: 0.9867
+Rep 2, Fold 3, Seed 123, Ep [080/100] Tr Ls: 0.0161 Ac: 0.9946 | Vl Ls: 0.0216 Ac: 0.9920
+Rep 2, Fold 3, Seed 123, Ep [090/100] Tr Ls: 0.0138 Ac: 0.9955 | Vl Ls: 0.0267 Ac: 0.9947
+Rep 2, Fold 3, Seed 123, Ep [100/100] Tr Ls: 0.0047 Ac: 0.9986 | Vl Ls: 0.0038 Ac: 1.0000
+[2025-10-30 06:04:32] Rep 2, Fold 3, Seed 123: Loaded best model (Val Acc: 1.0000)
+[2025-10-30 06:04:32] [Rep 2, F 3] Val Met: Acc=1.0000, BalAcc=1.0000, AUC=1.0000
+[2025-10-30 06:04:32] --- Rep 2, Fold 4/10 ---
+[2025-10-30 06:04:32] [Rep 2, F 4] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-30 06:04:32] [Rep 2, F 4] Orig Train dist: {0: 112, 1: 2363, 2: 900}
+[2025-10-30 06:04:32] [Rep 2, F 4] Applying SMOTE with default k_neighbors...
+[2025-10-30 06:04:32] [Rep 2, F 4] After SMOTE Train: (7089, 28, 150)
+[2025-10-30 06:04:32] [Rep 2, F 4] After SMOTE Train dist: {0: 2363, 1: 2363, 2: 2363}
+[2025-10-30 06:04:32] [Rep 2, F 4] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2363
+[2025-10-30 06:04:50] [Rep 2, F 4] Combined Train (SMOTE + Custom Aug) shape: (148869, 28, 150)
+[2025-10-30 06:04:50] [Rep 2, F 4] Combined Train class dist: {0: 49623, 1: 49623, 2: 49623}
+[2025-10-30 06:04:54] [Rep 2, F 4] Applied Class weights: [1. 1. 1.]
+[2025-10-30 06:04:54] --- Training: Rep 2, Fold 4, Seed 123 ---
+Rep 2, Fold 4, Seed 123, Ep [001/100] Tr Ls: 0.4770 Ac: 0.7006 | Vl Ls: 1.1240 Ac: 0.2613
+Rep 2, Fold 4, Seed 123, Ep [010/100] Tr Ls: 0.1353 Ac: 0.9192 | Vl Ls: 0.5014 Ac: 0.7493
+Rep 2, Fold 4, Seed 123, Ep [020/100] Tr Ls: 0.0948 Ac: 0.9515 | Vl Ls: 0.2493 Ac: 0.8853
+Rep 2, Fold 4, Seed 123, Ep [030/100] Tr Ls: 0.0752 Ac: 0.9639 | Vl Ls: 0.1105 Ac: 0.9520
+Rep 2, Fold 4, Seed 123, Ep [040/100] Tr Ls: 0.0512 Ac: 0.9783 | Vl Ls: 0.1058 Ac: 0.9413
+Rep 2, Fold 4, Seed 123, Ep [050/100] Tr Ls: 0.0322 Ac: 0.9877 | Vl Ls: 0.1369 Ac: 0.9360
+Rep 2, Fold 4, Seed 123, Ep [060/100] Tr Ls: 0.0235 Ac: 0.9916 | Vl Ls: 0.1584 Ac: 0.9360
+Rep 2, Fold 4, Seed 123, Ep [070/100] Tr Ls: 0.0214 Ac: 0.9927 | Vl Ls: 0.1175 Ac: 0.9627
+Rep 2, Fold 4, Seed 123, Ep [080/100] Tr Ls: 0.0167 Ac: 0.9941 | Vl Ls: 0.0621 Ac: 0.9653
+Rep 2, Fold 4, Seed 123, Ep [090/100] Tr Ls: 0.0143 Ac: 0.9951 | Vl Ls: 0.0702 Ac: 0.9653
+Rep 2, Fold 4, Seed 123, Ep [100/100] Tr Ls: 0.0133 Ac: 0.9955 | Vl Ls: 0.0661 Ac: 0.9653
+[2025-10-30 07:31:03] Rep 2, Fold 4, Seed 123: Loaded best model (Val Acc: 0.9813)
+[2025-10-30 07:31:03] [Rep 2, F 4] Val Met: Acc=0.9653, BalAcc=0.9711, AUC=0.9993
+[2025-10-30 07:31:03] --- Rep 2, Fold 5/10 ---
+[2025-10-30 07:31:03] [Rep 2, F 5] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-30 07:31:03] [Rep 2, F 5] Orig Train dist: {0: 112, 1: 2363, 2: 900}
+[2025-10-30 07:31:03] [Rep 2, F 5] Applying SMOTE with default k_neighbors...
+[2025-10-30 07:31:03] [Rep 2, F 5] After SMOTE Train: (7089, 28, 150)
+[2025-10-30 07:31:03] [Rep 2, F 5] After SMOTE Train dist: {0: 2363, 1: 2363, 2: 2363}
+[2025-10-30 07:31:03] [Rep 2, F 5] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2363
+[2025-10-30 07:31:22] [Rep 2, F 5] Combined Train (SMOTE + Custom Aug) shape: (148869, 28, 150)
+[2025-10-30 07:31:22] [Rep 2, F 5] Combined Train class dist: {0: 49623, 1: 49623, 2: 49623}
+[2025-10-30 07:31:25] [Rep 2, F 5] Applied Class weights: [1. 1. 1.]
+[2025-10-30 07:31:25] --- Training: Rep 2, Fold 5, Seed 123 ---
+Rep 2, Fold 5, Seed 123, Ep [001/100] Tr Ls: 0.4902 Ac: 0.6805 | Vl Ls: 0.8967 Ac: 0.5947
+Rep 2, Fold 5, Seed 123, Ep [010/100] Tr Ls: 0.1387 Ac: 0.9209 | Vl Ls: 0.3412 Ac: 0.7893
+Rep 2, Fold 5, Seed 123, Ep [020/100] Tr Ls: 0.1024 Ac: 0.9480 | Vl Ls: 0.1737 Ac: 0.9307
+Rep 2, Fold 5, Seed 123, Ep [030/100] Tr Ls: 0.0783 Ac: 0.9639 | Vl Ls: 0.1547 Ac: 0.9387
+Rep 2, Fold 5, Seed 123, Ep [040/100] Tr Ls: 0.0537 Ac: 0.9777 | Vl Ls: 0.1637 Ac: 0.9467
+Rep 2, Fold 5, Seed 123, Ep [050/100] Tr Ls: 0.0347 Ac: 0.9871 | Vl Ls: 0.0808 Ac: 0.9707
+Rep 2, Fold 5, Seed 123, Ep [060/100] Tr Ls: 0.0120 Ac: 0.9959 | Vl Ls: 0.0469 Ac: 0.9733
+Rep 2, Fold 5, Seed 123, Ep [070/100] Tr Ls: 0.0105 Ac: 0.9966 | Vl Ls: 0.0321 Ac: 0.9840
+Rep 2, Fold 5, Seed 123, Ep [080/100] Tr Ls: 0.0089 Ac: 0.9971 | Vl Ls: 0.0323 Ac: 0.9813
+Rep 2, Fold 5, Seed 123, Ep [090/100] Tr Ls: 0.0082 Ac: 0.9973 | Vl Ls: 0.0565 Ac: 0.9840
+Rep 2, Fold 5, Seed 123, Ep [100/100] Tr Ls: 0.0032 Ac: 0.9992 | Vl Ls: 0.0063 Ac: 1.0000
+[2025-10-30 09:02:27] Rep 2, Fold 5, Seed 123: Loaded best model (Val Acc: 1.0000)
+[2025-10-30 09:02:27] [Rep 2, F 5] Val Met: Acc=1.0000, BalAcc=1.0000, AUC=1.0000
+[2025-10-30 09:02:27] --- Rep 2, Fold 6/10 ---
+[2025-10-30 09:02:27] [Rep 2, F 6] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-30 09:02:27] [Rep 2, F 6] Orig Train dist: {0: 113, 1: 2362, 2: 900}
+[2025-10-30 09:02:27] [Rep 2, F 6] Applying SMOTE with default k_neighbors...
+[2025-10-30 09:02:27] [Rep 2, F 6] After SMOTE Train: (7086, 28, 150)
+[2025-10-30 09:02:27] [Rep 2, F 6] After SMOTE Train dist: {0: 2362, 1: 2362, 2: 2362}
+[2025-10-30 09:02:27] [Rep 2, F 6] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2362
+[2025-10-30 09:02:45] [Rep 2, F 6] Combined Train (SMOTE + Custom Aug) shape: (148806, 28, 150)
+[2025-10-30 09:02:45] [Rep 2, F 6] Combined Train class dist: {0: 49602, 1: 49602, 2: 49602}
+[2025-10-30 09:02:49] [Rep 2, F 6] Applied Class weights: [1. 1. 1.]
+[2025-10-30 09:02:49] --- Training: Rep 2, Fold 6, Seed 123 ---
+Rep 2, Fold 6, Seed 123, Ep [001/100] Tr Ls: 0.5125 Ac: 0.6478 | Vl Ls: 1.0936 Ac: 0.7013
+Rep 2, Fold 6, Seed 123, Ep [010/100] Tr Ls: 0.1423 Ac: 0.9139 | Vl Ls: 0.3729 Ac: 0.8320
+Rep 2, Fold 6, Seed 123, Ep [020/100] Tr Ls: 0.1104 Ac: 0.9377 | Vl Ls: 0.2333 Ac: 0.8960
+Rep 2, Fold 6, Seed 123, Ep [030/100] Tr Ls: 0.0869 Ac: 0.9566 | Vl Ls: 0.1983 Ac: 0.9040
+Rep 2, Fold 6, Seed 123, Ep [040/100] Tr Ls: 0.0646 Ac: 0.9715 | Vl Ls: 0.1433 Ac: 0.9307
+Rep 2, Fold 6, Seed 123, Ep [050/100] Tr Ls: 0.0419 Ac: 0.9836 | Vl Ls: 0.1169 Ac: 0.9493
+Rep 2, Fold 6, Seed 123, Ep [060/100] Tr Ls: 0.0284 Ac: 0.9901 | Vl Ls: 0.3151 Ac: 0.9040
+Rep 2, Fold 6, Seed 123, Ep [070/100] Tr Ls: 0.0213 Ac: 0.9927 | Vl Ls: 0.1225 Ac: 0.9600
+Rep 2, Fold 6, Seed 123, Ep [080/100] Tr Ls: 0.0176 Ac: 0.9938 | Vl Ls: 0.2260 Ac: 0.9493
+Rep 2, Fold 6, Seed 123, Ep [090/100] Tr Ls: 0.0153 Ac: 0.9949 | Vl Ls: 0.0745 Ac: 0.9680
+Rep 2, Fold 6, Seed 123, Ep [100/100] Tr Ls: 0.0145 Ac: 0.9951 | Vl Ls: 0.1254 Ac: 0.9627
+[2025-10-30 10:31:25] Rep 2, Fold 6, Seed 123: Loaded best model (Val Acc: 0.9733)
+[2025-10-30 10:31:26] [Rep 2, F 6] Val Met: Acc=0.9627, BalAcc=0.9823, AUC=0.9995
+[2025-10-30 10:31:26] --- Rep 2, Fold 7/10 ---
+[2025-10-30 10:31:26] [Rep 2, F 7] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-30 10:31:26] [Rep 2, F 7] Orig Train dist: {0: 113, 1: 2362, 2: 900}
+[2025-10-30 10:31:26] [Rep 2, F 7] Applying SMOTE with default k_neighbors...
+[2025-10-30 10:31:26] [Rep 2, F 7] After SMOTE Train: (7086, 28, 150)
+[2025-10-30 10:31:26] [Rep 2, F 7] After SMOTE Train dist: {0: 2362, 1: 2362, 2: 2362}
+[2025-10-30 10:31:26] [Rep 2, F 7] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2362
+[2025-10-30 10:31:44] [Rep 2, F 7] Combined Train (SMOTE + Custom Aug) shape: (148806, 28, 150)
+[2025-10-30 10:31:44] [Rep 2, F 7] Combined Train class dist: {0: 49602, 1: 49602, 2: 49602}
+[2025-10-30 10:31:48] [Rep 2, F 7] Applied Class weights: [1. 1. 1.]
+[2025-10-30 10:31:48] --- Training: Rep 2, Fold 7, Seed 123 ---
+Rep 2, Fold 7, Seed 123, Ep [001/100] Tr Ls: 0.4507 Ac: 0.7255 | Vl Ls: 0.7773 Ac: 0.6107
+Rep 2, Fold 7, Seed 123, Ep [010/100] Tr Ls: 0.1280 Ac: 0.9320 | Vl Ls: 0.3505 Ac: 0.7973
+Rep 2, Fold 7, Seed 123, Ep [020/100] Tr Ls: 0.0937 Ac: 0.9529 | Vl Ls: 0.2382 Ac: 0.8853
+Rep 2, Fold 7, Seed 123, Ep [030/100] Tr Ls: 0.0717 Ac: 0.9660 | Vl Ls: 0.2082 Ac: 0.8933
+Rep 2, Fold 7, Seed 123, Ep [040/100] Tr Ls: 0.0504 Ac: 0.9786 | Vl Ls: 0.1458 Ac: 0.9387
+Rep 2, Fold 7, Seed 123, Ep [050/100] Tr Ls: 0.0339 Ac: 0.9869 | Vl Ls: 0.1079 Ac: 0.9520
+Rep 2, Fold 7, Seed 123, Ep [060/100] Tr Ls: 0.0248 Ac: 0.9909 | Vl Ls: 0.1104 Ac: 0.9493
+Rep 2, Fold 7, Seed 123, Ep [070/100] Tr Ls: 0.0101 Ac: 0.9966 | Vl Ls: 0.0604 Ac: 0.9680
+Rep 2, Fold 7, Seed 123, Ep [080/100] Tr Ls: 0.0081 Ac: 0.9973 | Vl Ls: 0.0555 Ac: 0.9733
+Rep 2, Fold 7, Seed 123, Ep [090/100] Tr Ls: 0.0071 Ac: 0.9978 | Vl Ls: 0.0715 Ac: 0.9760
+Rep 2, Fold 7, Seed 123, Ep [100/100] Tr Ls: 0.0064 Ac: 0.9979 | Vl Ls: 0.0459 Ac: 0.9733
+[2025-10-30 12:00:13] Rep 2, Fold 7, Seed 123: Loaded best model (Val Acc: 0.9867)
+[2025-10-30 12:00:13] [Rep 2, F 7] Val Met: Acc=0.9733, BalAcc=0.9853, AUC=1.0000
+[2025-10-30 12:00:13] --- Rep 2, Fold 8/10 ---
+[2025-10-30 12:00:13] [Rep 2, F 8] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-30 12:00:13] [Rep 2, F 8] Orig Train dist: {0: 113, 1: 2362, 2: 900}
+[2025-10-30 12:00:13] [Rep 2, F 8] Applying SMOTE with default k_neighbors...
+[2025-10-30 12:00:13] [Rep 2, F 8] After SMOTE Train: (7086, 28, 150)
+[2025-10-30 12:00:13] [Rep 2, F 8] After SMOTE Train dist: {0: 2362, 1: 2362, 2: 2362}
+[2025-10-30 12:00:13] [Rep 2, F 8] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2362
+[2025-10-30 12:00:41] [Rep 2, F 8] Combined Train (SMOTE + Custom Aug) shape: (148806, 28, 150)
+[2025-10-30 12:00:41] [Rep 2, F 8] Combined Train class dist: {0: 49602, 1: 49602, 2: 49602}
+[2025-10-30 12:00:47] [Rep 2, F 8] Applied Class weights: [1. 1. 1.]
+[2025-10-30 12:00:47] --- Training: Rep 2, Fold 8, Seed 123 ---
+Rep 2, Fold 8, Seed 123, Ep [001/100] Tr Ls: 0.4454 Ac: 0.7306 | Vl Ls: 0.8572 Ac: 0.5253
+Rep 2, Fold 8, Seed 123, Ep [010/100] Tr Ls: 0.1297 Ac: 0.9307 | Vl Ls: 0.4006 Ac: 0.7920
+Rep 2, Fold 8, Seed 123, Ep [020/100] Tr Ls: 0.0950 Ac: 0.9536 | Vl Ls: 0.1123 Ac: 0.9600
+Rep 2, Fold 8, Seed 123, Ep [030/100] Tr Ls: 0.0713 Ac: 0.9680 | Vl Ls: 0.1842 Ac: 0.9013
+Rep 2, Fold 8, Seed 123, Ep [040/100] Tr Ls: 0.0478 Ac: 0.9809 | Vl Ls: 0.0888 Ac: 0.9520
+Rep 2, Fold 8, Seed 123, Ep [050/100] Tr Ls: 0.0310 Ac: 0.9884 | Vl Ls: 0.1104 Ac: 0.9413
+Rep 2, Fold 8, Seed 123, Ep [060/100] Tr Ls: 0.0231 Ac: 0.9914 | Vl Ls: 0.0703 Ac: 0.9813
+Rep 2, Fold 8, Seed 123, Ep [070/100] Tr Ls: 0.0191 Ac: 0.9933 | Vl Ls: 0.0392 Ac: 0.9840
+Rep 2, Fold 8, Seed 123, Ep [080/100] Tr Ls: 0.0166 Ac: 0.9944 | Vl Ls: 0.0099 Ac: 0.9973
+Rep 2, Fold 8, Seed 123, Ep [090/100] Tr Ls: 0.0141 Ac: 0.9950 | Vl Ls: 0.1604 Ac: 0.9627
+Rep 2, Fold 8, Seed 123, Ep [100/100] Tr Ls: 0.0122 Ac: 0.9959 | Vl Ls: 0.0169 Ac: 0.9973
+[2025-10-30 13:26:34] Rep 2, Fold 8, Seed 123: Loaded best model (Val Acc: 1.0000)
+[2025-10-30 13:26:34] [Rep 2, F 8] Val Met: Acc=0.9973, BalAcc=0.9722, AUC=1.0000
+[2025-10-30 13:26:34] --- Rep 2, Fold 9/10 ---
+[2025-10-30 13:26:34] [Rep 2, F 9] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-30 13:26:34] [Rep 2, F 9] Orig Train dist: {0: 113, 1: 2362, 2: 900}
+[2025-10-30 13:26:34] [Rep 2, F 9] Applying SMOTE with default k_neighbors...
+[2025-10-30 13:26:34] [Rep 2, F 9] After SMOTE Train: (7086, 28, 150)
+[2025-10-30 13:26:34] [Rep 2, F 9] After SMOTE Train dist: {0: 2362, 1: 2362, 2: 2362}
+[2025-10-30 13:26:34] [Rep 2, F 9] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2362
+[2025-10-30 13:26:54] [Rep 2, F 9] Combined Train (SMOTE + Custom Aug) shape: (148806, 28, 150)
+[2025-10-30 13:26:54] [Rep 2, F 9] Combined Train class dist: {0: 49602, 1: 49602, 2: 49602}
+[2025-10-30 13:27:09] [Rep 2, F 9] Applied Class weights: [1. 1. 1.]
+[2025-10-30 13:27:09] --- Training: Rep 2, Fold 9, Seed 123 ---
+Rep 2, Fold 9, Seed 123, Ep [001/100] Tr Ls: 0.4697 Ac: 0.7119 | Vl Ls: 1.1341 Ac: 0.2827
+Rep 2, Fold 9, Seed 123, Ep [010/100] Tr Ls: 0.1360 Ac: 0.9232 | Vl Ls: 0.5949 Ac: 0.6907
+Rep 2, Fold 9, Seed 123, Ep [020/100] Tr Ls: 0.0992 Ac: 0.9502 | Vl Ls: 0.1643 Ac: 0.9200
+Rep 2, Fold 9, Seed 123, Ep [030/100] Tr Ls: 0.0779 Ac: 0.9643 | Vl Ls: 0.1354 Ac: 0.9440
+Rep 2, Fold 9, Seed 123, Ep [040/100] Tr Ls: 0.0520 Ac: 0.9784 | Vl Ls: 0.0955 Ac: 0.9520
+Rep 2, Fold 9, Seed 123, Ep [050/100] Tr Ls: 0.0333 Ac: 0.9875 | Vl Ls: 0.0847 Ac: 0.9787
+Rep 2, Fold 9, Seed 123, Ep [060/100] Tr Ls: 0.0251 Ac: 0.9913 | Vl Ls: 0.0507 Ac: 0.9813
+Rep 2, Fold 9, Seed 123, Ep [070/100] Tr Ls: 0.0198 Ac: 0.9933 | Vl Ls: 0.4417 Ac: 0.9093
+Rep 2, Fold 9, Seed 123, Ep [080/100] Tr Ls: 0.0162 Ac: 0.9945 | Vl Ls: 0.0403 Ac: 0.9867
+Rep 2, Fold 9, Seed 123, Ep [090/100] Tr Ls: 0.0150 Ac: 0.9951 | Vl Ls: 0.0238 Ac: 0.9893
+Rep 2, Fold 9, Seed 123, Ep [100/100] Tr Ls: 0.0128 Ac: 0.9957 | Vl Ls: 0.0296 Ac: 0.9893
+[2025-10-30 15:14:02] Rep 2, Fold 9, Seed 123: Loaded best model (Val Acc: 0.9973)
+[2025-10-30 15:14:02] [Rep 2, F 9] Val Met: Acc=0.9893, BalAcc=0.9949, AUC=1.0000
+[2025-10-30 15:14:02] --- Rep 2, Fold 10/10 ---
+[2025-10-30 15:14:02] [Rep 2, F 10] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-30 15:14:02] [Rep 2, F 10] Orig Train dist: {0: 113, 1: 2362, 2: 900}
+[2025-10-30 15:14:02] [Rep 2, F 10] Applying SMOTE with default k_neighbors...
+[2025-10-30 15:14:03] [Rep 2, F 10] After SMOTE Train: (7086, 28, 150)
+[2025-10-30 15:14:03] [Rep 2, F 10] After SMOTE Train dist: {0: 2362, 1: 2362, 2: 2362}
+[2025-10-30 15:14:03] [Rep 2, F 10] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2362
+[2025-10-30 15:14:22] [Rep 2, F 10] Combined Train (SMOTE + Custom Aug) shape: (148806, 28, 150)
+[2025-10-30 15:14:22] [Rep 2, F 10] Combined Train class dist: {0: 49602, 1: 49602, 2: 49602}
+[2025-10-30 15:14:28] [Rep 2, F 10] Applied Class weights: [1. 1. 1.]
+[2025-10-30 15:14:28] --- Training: Rep 2, Fold 10, Seed 123 ---
+Rep 2, Fold 10, Seed 123, Ep [001/100] Tr Ls: 0.5021 Ac: 0.6645 | Vl Ls: 0.9832 Ac: 0.3360
+Rep 2, Fold 10, Seed 123, Ep [010/100] Tr Ls: 0.1323 Ac: 0.9280 | Vl Ls: 0.2560 Ac: 0.8773
+Rep 2, Fold 10, Seed 123, Ep [020/100] Tr Ls: 0.0965 Ac: 0.9495 | Vl Ls: 0.1517 Ac: 0.9307
+Rep 2, Fold 10, Seed 123, Ep [030/100] Tr Ls: 0.0751 Ac: 0.9645 | Vl Ls: 0.1013 Ac: 0.9493
+Rep 2, Fold 10, Seed 123, Ep [040/100] Tr Ls: 0.0497 Ac: 0.9788 | Vl Ls: 0.1109 Ac: 0.9520
+Rep 2, Fold 10, Seed 123, Ep [050/100] Tr Ls: 0.0322 Ac: 0.9877 | Vl Ls: 0.0949 Ac: 0.9547
+Rep 2, Fold 10, Seed 123, Ep [060/100] Tr Ls: 0.0240 Ac: 0.9912 | Vl Ls: 0.1032 Ac: 0.9573
+Rep 2, Fold 10, Seed 123, Ep [070/100] Tr Ls: 0.0189 Ac: 0.9932 | Vl Ls: 0.1041 Ac: 0.9547
+Rep 2, Fold 10, Seed 123, Ep [080/100] Tr Ls: 0.0180 Ac: 0.9938 | Vl Ls: 0.0762 Ac: 0.9680
+Rep 2, Fold 10, Seed 123, Ep [090/100] Tr Ls: 0.0155 Ac: 0.9947 | Vl Ls: 0.0916 Ac: 0.9600
+Rep 2, Fold 10, Seed 123, Ep [100/100] Tr Ls: 0.0059 Ac: 0.9981 | Vl Ls: 0.0246 Ac: 0.9840
+[2025-10-30 16:44:09] Rep 2, Fold 10, Seed 123: Loaded best model (Val Acc: 0.9893)
+[2025-10-30 16:44:09] [Rep 2, F 10] Val Met: Acc=0.9840, BalAcc=0.9903, AUC=1.0000
+[2025-10-30 16:44:09] ========= Repetition 3/3 =========
+[2025-10-30 16:44:09] [Rep 3] SKF seed: 789, Model training seed for this rep: 789
+[2025-10-30 16:44:09] --- Rep 3, Fold 1/10 ---
+[2025-10-30 16:44:09] [Rep 3, F 1] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-30 16:44:09] [Rep 3, F 1] Orig Train dist: {0: 112, 1: 2363, 2: 900}
+[2025-10-30 16:44:09] [Rep 3, F 1] Applying SMOTE with default k_neighbors...
+[2025-10-30 16:44:09] [Rep 3, F 1] After SMOTE Train: (7089, 28, 150)
+[2025-10-30 16:44:09] [Rep 3, F 1] After SMOTE Train dist: {0: 2363, 1: 2363, 2: 2363}
+[2025-10-30 16:44:09] [Rep 3, F 1] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2363
+[2025-10-30 16:44:35] [Rep 3, F 1] Combined Train (SMOTE + Custom Aug) shape: (148869, 28, 150)
+[2025-10-30 16:44:35] [Rep 3, F 1] Combined Train class dist: {0: 49623, 1: 49623, 2: 49623}
+[2025-10-30 16:44:41] [Rep 3, F 1] Applied Class weights: [1. 1. 1.]
+[2025-10-30 16:44:41] --- Training: Rep 3, Fold 1, Seed 789 ---
+Rep 3, Fold 1, Seed 789, Ep [001/100] Tr Ls: 0.5055 Ac: 0.6587 | Vl Ls: 0.9482 Ac: 0.4667
+Rep 3, Fold 1, Seed 789, Ep [010/100] Tr Ls: 0.1312 Ac: 0.9280 | Vl Ls: 0.2821 Ac: 0.8480
+Rep 3, Fold 1, Seed 789, Ep [020/100] Tr Ls: 0.1012 Ac: 0.9470 | Vl Ls: 0.1661 Ac: 0.8987
+Rep 3, Fold 1, Seed 789, Ep [030/100] Tr Ls: 0.0837 Ac: 0.9596 | Vl Ls: 0.1105 Ac: 0.9520
+Rep 3, Fold 1, Seed 789, Ep [040/100] Tr Ls: 0.0602 Ac: 0.9738 | Vl Ls: 0.1238 Ac: 0.9627
+Rep 3, Fold 1, Seed 789, Ep [050/100] Tr Ls: 0.0398 Ac: 0.9841 | Vl Ls: 0.0600 Ac: 0.9760
+Rep 3, Fold 1, Seed 789, Ep [060/100] Tr Ls: 0.0272 Ac: 0.9898 | Vl Ls: 0.0371 Ac: 0.9813
+Rep 3, Fold 1, Seed 789, Ep [070/100] Tr Ls: 0.0219 Ac: 0.9919 | Vl Ls: 0.0508 Ac: 0.9733
+Rep 3, Fold 1, Seed 789, Ep [080/100] Tr Ls: 0.0192 Ac: 0.9933 | Vl Ls: 0.1218 Ac: 0.9733
+Rep 3, Fold 1, Seed 789, Ep [090/100] Tr Ls: 0.0165 Ac: 0.9945 | Vl Ls: 0.1198 Ac: 0.9653
+Rep 3, Fold 1, Seed 789, Ep [100/100] Tr Ls: 0.0149 Ac: 0.9948 | Vl Ls: 0.0664 Ac: 0.9893
+[2025-10-30 18:10:44] Rep 3, Fold 1, Seed 789: Loaded best model (Val Acc: 0.9920)
+[2025-10-30 18:10:44] [Rep 3, F 1] Val Met: Acc=0.9893, BalAcc=0.9705, AUC=0.9981
+[2025-10-30 18:10:44] --- Rep 3, Fold 2/10 ---
+[2025-10-30 18:10:44] [Rep 3, F 2] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-30 18:10:44] [Rep 3, F 2] Orig Train dist: {0: 112, 1: 2363, 2: 900}
+[2025-10-30 18:10:44] [Rep 3, F 2] Applying SMOTE with default k_neighbors...
+[2025-10-30 18:10:44] [Rep 3, F 2] After SMOTE Train: (7089, 28, 150)
+[2025-10-30 18:10:44] [Rep 3, F 2] After SMOTE Train dist: {0: 2363, 1: 2363, 2: 2363}
+[2025-10-30 18:10:44] [Rep 3, F 2] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2363
+[2025-10-30 18:11:02] [Rep 3, F 2] Combined Train (SMOTE + Custom Aug) shape: (148869, 28, 150)
+[2025-10-30 18:11:02] [Rep 3, F 2] Combined Train class dist: {0: 49623, 1: 49623, 2: 49623}
+[2025-10-30 18:11:06] [Rep 3, F 2] Applied Class weights: [1. 1. 1.]
+[2025-10-30 18:11:06] --- Training: Rep 3, Fold 2, Seed 789 ---
+Rep 3, Fold 2, Seed 789, Ep [001/100] Tr Ls: 0.4085 Ac: 0.7587 | Vl Ls: 0.6561 Ac: 0.6480
+Rep 3, Fold 2, Seed 789, Ep [010/100] Tr Ls: 0.1353 Ac: 0.9168 | Vl Ls: 0.4087 Ac: 0.7600
+Rep 3, Fold 2, Seed 789, Ep [020/100] Tr Ls: 0.1008 Ac: 0.9468 | Vl Ls: 0.3377 Ac: 0.8347
+Rep 3, Fold 2, Seed 789, Ep [030/100] Tr Ls: 0.0833 Ac: 0.9598 | Vl Ls: 0.0862 Ac: 0.9627
+Rep 3, Fold 2, Seed 789, Ep [040/100] Tr Ls: 0.0608 Ac: 0.9733 | Vl Ls: 0.1864 Ac: 0.9440
+Rep 3, Fold 2, Seed 789, Ep [050/100] Tr Ls: 0.0413 Ac: 0.9838 | Vl Ls: 0.1362 Ac: 0.9600
+Rep 3, Fold 2, Seed 789, Ep [060/100] Tr Ls: 0.0281 Ac: 0.9895 | Vl Ls: 0.0795 Ac: 0.9760
+Rep 3, Fold 2, Seed 789, Ep [070/100] Tr Ls: 0.0231 Ac: 0.9920 | Vl Ls: 0.0613 Ac: 0.9760
+Rep 3, Fold 2, Seed 789, Ep [080/100] Tr Ls: 0.0073 Ac: 0.9974 | Vl Ls: 0.0158 Ac: 0.9947
+Rep 3, Fold 2, Seed 789, Ep [090/100] Tr Ls: 0.0063 Ac: 0.9981 | Vl Ls: 0.0047 Ac: 0.9973
+Rep 3, Fold 2, Seed 789, Ep [100/100] Tr Ls: 0.0025 Ac: 0.9993 | Vl Ls: 0.0016 Ac: 1.0000
+[2025-10-30 19:36:55] Rep 3, Fold 2, Seed 789: Loaded best model (Val Acc: 1.0000)
+[2025-10-30 19:36:55] [Rep 3, F 2] Val Met: Acc=1.0000, BalAcc=1.0000, AUC=1.0000
+[2025-10-30 19:36:55] --- Rep 3, Fold 3/10 ---
+[2025-10-30 19:36:55] [Rep 3, F 3] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-30 19:36:55] [Rep 3, F 3] Orig Train dist: {0: 112, 1: 2363, 2: 900}
+[2025-10-30 19:36:55] [Rep 3, F 3] Applying SMOTE with default k_neighbors...
+[2025-10-30 19:36:55] [Rep 3, F 3] After SMOTE Train: (7089, 28, 150)
+[2025-10-30 19:36:55] [Rep 3, F 3] After SMOTE Train dist: {0: 2363, 1: 2363, 2: 2363}
+[2025-10-30 19:36:55] [Rep 3, F 3] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2363
+[2025-10-30 19:37:13] [Rep 3, F 3] Combined Train (SMOTE + Custom Aug) shape: (148869, 28, 150)
+[2025-10-30 19:37:13] [Rep 3, F 3] Combined Train class dist: {0: 49623, 1: 49623, 2: 49623}
+[2025-10-30 19:37:16] [Rep 3, F 3] Applied Class weights: [1. 1. 1.]
+[2025-10-30 19:37:16] --- Training: Rep 3, Fold 3, Seed 789 ---
+Rep 3, Fold 3, Seed 789, Ep [001/100] Tr Ls: 0.4683 Ac: 0.7059 | Vl Ls: 1.0186 Ac: 0.3813
+Rep 3, Fold 3, Seed 789, Ep [010/100] Tr Ls: 0.1311 Ac: 0.9272 | Vl Ls: 0.6193 Ac: 0.7387
+Rep 3, Fold 3, Seed 789, Ep [020/100] Tr Ls: 0.0947 Ac: 0.9525 | Vl Ls: 0.1007 Ac: 0.9493
+Rep 3, Fold 3, Seed 789, Ep [030/100] Tr Ls: 0.0701 Ac: 0.9685 | Vl Ls: 0.2040 Ac: 0.9067
+Rep 3, Fold 3, Seed 789, Ep [040/100] Tr Ls: 0.0426 Ac: 0.9826 | Vl Ls: 0.0898 Ac: 0.9680
+Rep 3, Fold 3, Seed 789, Ep [050/100] Tr Ls: 0.0283 Ac: 0.9898 | Vl Ls: 0.0343 Ac: 0.9867
+Rep 3, Fold 3, Seed 789, Ep [060/100] Tr Ls: 0.0212 Ac: 0.9926 | Vl Ls: 0.0330 Ac: 0.9787
+Rep 3, Fold 3, Seed 789, Ep [070/100] Tr Ls: 0.0185 Ac: 0.9938 | Vl Ls: 0.0309 Ac: 0.9867
+Rep 3, Fold 3, Seed 789, Ep [080/100] Tr Ls: 0.0057 Ac: 0.9982 | Vl Ls: 0.0134 Ac: 0.9947
+Rep 3, Fold 3, Seed 789, Ep [090/100] Tr Ls: 0.0029 Ac: 0.9991 | Vl Ls: 0.0012 Ac: 1.0000
+Rep 3, Fold 3, Seed 789, Ep [100/100] Tr Ls: 0.0022 Ac: 0.9994 | Vl Ls: 0.0010 Ac: 1.0000
+[2025-10-30 21:03:07] Rep 3, Fold 3, Seed 789: Loaded best model (Val Acc: 1.0000)
+[2025-10-30 21:03:07] [Rep 3, F 3] Val Met: Acc=1.0000, BalAcc=1.0000, AUC=1.0000
+[2025-10-30 21:03:07] --- Rep 3, Fold 4/10 ---
+[2025-10-30 21:03:07] [Rep 3, F 4] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-30 21:03:07] [Rep 3, F 4] Orig Train dist: {0: 112, 1: 2363, 2: 900}
+[2025-10-30 21:03:07] [Rep 3, F 4] Applying SMOTE with default k_neighbors...
+[2025-10-30 21:03:08] [Rep 3, F 4] After SMOTE Train: (7089, 28, 150)
+[2025-10-30 21:03:08] [Rep 3, F 4] After SMOTE Train dist: {0: 2363, 1: 2363, 2: 2363}
+[2025-10-30 21:03:08] [Rep 3, F 4] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2363
+[2025-10-30 21:03:25] [Rep 3, F 4] Combined Train (SMOTE + Custom Aug) shape: (148869, 28, 150)
+[2025-10-30 21:03:25] [Rep 3, F 4] Combined Train class dist: {0: 49623, 1: 49623, 2: 49623}
+[2025-10-30 21:03:29] [Rep 3, F 4] Applied Class weights: [1. 1. 1.]
+[2025-10-30 21:03:29] --- Training: Rep 3, Fold 4, Seed 789 ---
+Rep 3, Fold 4, Seed 789, Ep [001/100] Tr Ls: 0.4919 Ac: 0.6829 | Vl Ls: 1.0728 Ac: 0.3067
+Rep 3, Fold 4, Seed 789, Ep [010/100] Tr Ls: 0.1388 Ac: 0.9248 | Vl Ls: 0.3421 Ac: 0.8107
+Rep 3, Fold 4, Seed 789, Ep [020/100] Tr Ls: 0.1034 Ac: 0.9478 | Vl Ls: 0.2343 Ac: 0.9200
+Rep 3, Fold 4, Seed 789, Ep [030/100] Tr Ls: 0.0822 Ac: 0.9619 | Vl Ls: 0.1408 Ac: 0.9440
+Rep 3, Fold 4, Seed 789, Ep [040/100] Tr Ls: 0.0562 Ac: 0.9766 | Vl Ls: 0.0574 Ac: 0.9787
+Rep 3, Fold 4, Seed 789, Ep [050/100] Tr Ls: 0.0350 Ac: 0.9866 | Vl Ls: 0.0526 Ac: 0.9787
+Rep 3, Fold 4, Seed 789, Ep [060/100] Tr Ls: 0.0241 Ac: 0.9907 | Vl Ls: 0.0619 Ac: 0.9733
+Rep 3, Fold 4, Seed 789, Ep [070/100] Tr Ls: 0.0202 Ac: 0.9926 | Vl Ls: 0.0367 Ac: 0.9787
+Rep 3, Fold 4, Seed 789, Ep [080/100] Tr Ls: 0.0167 Ac: 0.9940 | Vl Ls: 0.0672 Ac: 0.9760
+Rep 3, Fold 4, Seed 789, Ep [090/100] Tr Ls: 0.0062 Ac: 0.9980 | Vl Ls: 0.0224 Ac: 0.9920
+Rep 3, Fold 4, Seed 789, Ep [100/100] Tr Ls: 0.0059 Ac: 0.9982 | Vl Ls: 0.0039 Ac: 1.0000
+[2025-10-30 22:29:13] Rep 3, Fold 4, Seed 789: Loaded best model (Val Acc: 1.0000)
+[2025-10-30 22:29:13] [Rep 3, F 4] Val Met: Acc=1.0000, BalAcc=1.0000, AUC=1.0000
+[2025-10-30 22:29:13] --- Rep 3, Fold 5/10 ---
+[2025-10-30 22:29:13] [Rep 3, F 5] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-30 22:29:13] [Rep 3, F 5] Orig Train dist: {0: 112, 1: 2363, 2: 900}
+[2025-10-30 22:29:13] [Rep 3, F 5] Applying SMOTE with default k_neighbors...
+[2025-10-30 22:29:13] [Rep 3, F 5] After SMOTE Train: (7089, 28, 150)
+[2025-10-30 22:29:13] [Rep 3, F 5] After SMOTE Train dist: {0: 2363, 1: 2363, 2: 2363}
+[2025-10-30 22:29:13] [Rep 3, F 5] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2363
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2363
+[2025-10-30 22:29:31] [Rep 3, F 5] Combined Train (SMOTE + Custom Aug) shape: (148869, 28, 150)
+[2025-10-30 22:29:31] [Rep 3, F 5] Combined Train class dist: {0: 49623, 1: 49623, 2: 49623}
+[2025-10-30 22:29:35] [Rep 3, F 5] Applied Class weights: [1. 1. 1.]
+[2025-10-30 22:29:35] --- Training: Rep 3, Fold 5, Seed 789 ---
+Rep 3, Fold 5, Seed 789, Ep [001/100] Tr Ls: 0.4197 Ac: 0.7542 | Vl Ls: 0.9152 Ac: 0.5280
+Rep 3, Fold 5, Seed 789, Ep [010/100] Tr Ls: 0.1197 Ac: 0.9342 | Vl Ls: 0.3487 Ac: 0.8373
+Rep 3, Fold 5, Seed 789, Ep [020/100] Tr Ls: 0.0863 Ac: 0.9573 | Vl Ls: 0.1478 Ac: 0.9040
+Rep 3, Fold 5, Seed 789, Ep [030/100] Tr Ls: 0.0659 Ac: 0.9703 | Vl Ls: 0.1454 Ac: 0.9333
+Rep 3, Fold 5, Seed 789, Ep [040/100] Tr Ls: 0.0428 Ac: 0.9825 | Vl Ls: 0.0880 Ac: 0.9547
+Rep 3, Fold 5, Seed 789, Ep [050/100] Tr Ls: 0.0145 Ac: 0.9946 | Vl Ls: 0.0673 Ac: 0.9520
+Rep 3, Fold 5, Seed 789, Ep [060/100] Tr Ls: 0.0106 Ac: 0.9962 | Vl Ls: 0.0592 Ac: 0.9680
+Rep 3, Fold 5, Seed 789, Ep [070/100] Tr Ls: 0.0096 Ac: 0.9968 | Vl Ls: 0.0280 Ac: 0.9947
+Rep 3, Fold 5, Seed 789, Ep [080/100] Tr Ls: 0.0086 Ac: 0.9970 | Vl Ls: 0.0351 Ac: 0.9893
+Rep 3, Fold 5, Seed 789, Ep [090/100] Tr Ls: 0.0085 Ac: 0.9975 | Vl Ls: 0.0452 Ac: 0.9813
+Rep 3, Fold 5, Seed 789, Ep [100/100] Tr Ls: 0.0076 Ac: 0.9976 | Vl Ls: 0.0696 Ac: 0.9680
+[2025-10-30 23:55:31] Rep 3, Fold 5, Seed 789: Loaded best model (Val Acc: 0.9947)
+[2025-10-30 23:55:31] [Rep 3, F 5] Val Met: Acc=0.9680, BalAcc=0.9339, AUC=0.9986
+[2025-10-30 23:55:31] --- Rep 3, Fold 6/10 ---
+[2025-10-30 23:55:31] [Rep 3, F 6] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-30 23:55:31] [Rep 3, F 6] Orig Train dist: {0: 113, 1: 2362, 2: 900}
+[2025-10-30 23:55:31] [Rep 3, F 6] Applying SMOTE with default k_neighbors...
+[2025-10-30 23:55:31] [Rep 3, F 6] After SMOTE Train: (7086, 28, 150)
+[2025-10-30 23:55:31] [Rep 3, F 6] After SMOTE Train dist: {0: 2362, 1: 2362, 2: 2362}
+[2025-10-30 23:55:31] [Rep 3, F 6] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2362
+[2025-10-30 23:55:49] [Rep 3, F 6] Combined Train (SMOTE + Custom Aug) shape: (148806, 28, 150)
+[2025-10-30 23:55:49] [Rep 3, F 6] Combined Train class dist: {0: 49602, 1: 49602, 2: 49602}
+[2025-10-30 23:55:52] [Rep 3, F 6] Applied Class weights: [1. 1. 1.]
+[2025-10-30 23:55:52] --- Training: Rep 3, Fold 6, Seed 789 ---
+Rep 3, Fold 6, Seed 789, Ep [001/100] Tr Ls: 0.4273 Ac: 0.7471 | Vl Ls: 0.8041 Ac: 0.6160
+Rep 3, Fold 6, Seed 789, Ep [010/100] Tr Ls: 0.1349 Ac: 0.9282 | Vl Ls: 0.3547 Ac: 0.8267
+Rep 3, Fold 6, Seed 789, Ep [020/100] Tr Ls: 0.0986 Ac: 0.9508 | Vl Ls: 0.1624 Ac: 0.9227
+Rep 3, Fold 6, Seed 789, Ep [030/100] Tr Ls: 0.0757 Ac: 0.9651 | Vl Ls: 0.1066 Ac: 0.9520
+Rep 3, Fold 6, Seed 789, Ep [040/100] Tr Ls: 0.0507 Ac: 0.9795 | Vl Ls: 0.0605 Ac: 0.9733
+Rep 3, Fold 6, Seed 789, Ep [050/100] Tr Ls: 0.0321 Ac: 0.9881 | Vl Ls: 0.0821 Ac: 0.9680
+Rep 3, Fold 6, Seed 789, Ep [060/100] Tr Ls: 0.0232 Ac: 0.9918 | Vl Ls: 0.1026 Ac: 0.9440
+Rep 3, Fold 6, Seed 789, Ep [070/100] Tr Ls: 0.0188 Ac: 0.9932 | Vl Ls: 0.0684 Ac: 0.9653
+Rep 3, Fold 6, Seed 789, Ep [080/100] Tr Ls: 0.0169 Ac: 0.9942 | Vl Ls: 0.0407 Ac: 0.9867
+Rep 3, Fold 6, Seed 789, Ep [090/100] Tr Ls: 0.0063 Ac: 0.9981 | Vl Ls: 0.0119 Ac: 0.9920
+Rep 3, Fold 6, Seed 789, Ep [100/100] Tr Ls: 0.0053 Ac: 0.9984 | Vl Ls: 0.0230 Ac: 0.9947
+[2025-10-31 01:21:53] Rep 3, Fold 6, Seed 789: Loaded best model (Val Acc: 1.0000)
+[2025-10-31 01:21:53] [Rep 3, F 6] Val Met: Acc=0.9947, BalAcc=0.9933, AUC=0.9999
+[2025-10-31 01:21:53] --- Rep 3, Fold 7/10 ---
+[2025-10-31 01:21:53] [Rep 3, F 7] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-31 01:21:53] [Rep 3, F 7] Orig Train dist: {0: 113, 1: 2362, 2: 900}
+[2025-10-31 01:21:53] [Rep 3, F 7] Applying SMOTE with default k_neighbors...
+[2025-10-31 01:21:53] [Rep 3, F 7] After SMOTE Train: (7086, 28, 150)
+[2025-10-31 01:21:53] [Rep 3, F 7] After SMOTE Train dist: {0: 2362, 1: 2362, 2: 2362}
+[2025-10-31 01:21:53] [Rep 3, F 7] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2362
+[2025-10-31 01:22:11] [Rep 3, F 7] Combined Train (SMOTE + Custom Aug) shape: (148806, 28, 150)
+[2025-10-31 01:22:11] [Rep 3, F 7] Combined Train class dist: {0: 49602, 1: 49602, 2: 49602}
+[2025-10-31 01:22:15] [Rep 3, F 7] Applied Class weights: [1. 1. 1.]
+[2025-10-31 01:22:15] --- Training: Rep 3, Fold 7, Seed 789 ---
+Rep 3, Fold 7, Seed 789, Ep [001/100] Tr Ls: 0.4353 Ac: 0.7391 | Vl Ls: 1.3374 Ac: 0.2560
+Rep 3, Fold 7, Seed 789, Ep [010/100] Tr Ls: 0.1438 Ac: 0.9179 | Vl Ls: 0.2365 Ac: 0.8960
+Rep 3, Fold 7, Seed 789, Ep [020/100] Tr Ls: 0.1067 Ac: 0.9450 | Vl Ls: 0.2639 Ac: 0.8747
+Rep 3, Fold 7, Seed 789, Ep [030/100] Tr Ls: 0.0859 Ac: 0.9586 | Vl Ls: 0.0850 Ac: 0.9733
+Rep 3, Fold 7, Seed 789, Ep [040/100] Tr Ls: 0.0641 Ac: 0.9726 | Vl Ls: 0.0588 Ac: 0.9787
+Rep 3, Fold 7, Seed 789, Ep [050/100] Tr Ls: 0.0421 Ac: 0.9835 | Vl Ls: 0.0411 Ac: 0.9840
+Rep 3, Fold 7, Seed 789, Ep [060/100] Tr Ls: 0.0285 Ac: 0.9893 | Vl Ls: 0.0561 Ac: 0.9867
+Rep 3, Fold 7, Seed 789, Ep [070/100] Tr Ls: 0.0212 Ac: 0.9924 | Vl Ls: 0.0352 Ac: 0.9840
+Rep 3, Fold 7, Seed 789, Ep [080/100] Tr Ls: 0.0178 Ac: 0.9937 | Vl Ls: 0.0897 Ac: 0.9733
+Rep 3, Fold 7, Seed 789, Ep [090/100] Tr Ls: 0.0158 Ac: 0.9947 | Vl Ls: 0.0180 Ac: 0.9947
+Rep 3, Fold 7, Seed 789, Ep [100/100] Tr Ls: 0.0052 Ac: 0.9983 | Vl Ls: 0.0057 Ac: 1.0000
+[2025-10-31 02:48:13] Rep 3, Fold 7, Seed 789: Loaded best model (Val Acc: 1.0000)
+[2025-10-31 02:48:13] [Rep 3, F 7] Val Met: Acc=1.0000, BalAcc=1.0000, AUC=1.0000
+[2025-10-31 02:48:13] --- Rep 3, Fold 8/10 ---
+[2025-10-31 02:48:13] [Rep 3, F 8] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-31 02:48:13] [Rep 3, F 8] Orig Train dist: {0: 113, 1: 2362, 2: 900}
+[2025-10-31 02:48:13] [Rep 3, F 8] Applying SMOTE with default k_neighbors...
+[2025-10-31 02:48:14] [Rep 3, F 8] After SMOTE Train: (7086, 28, 150)
+[2025-10-31 02:48:14] [Rep 3, F 8] After SMOTE Train dist: {0: 2362, 1: 2362, 2: 2362}
+[2025-10-31 02:48:14] [Rep 3, F 8] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2362
+[2025-10-31 02:48:32] [Rep 3, F 8] Combined Train (SMOTE + Custom Aug) shape: (148806, 28, 150)
+[2025-10-31 02:48:32] [Rep 3, F 8] Combined Train class dist: {0: 49602, 1: 49602, 2: 49602}
+[2025-10-31 02:48:35] [Rep 3, F 8] Applied Class weights: [1. 1. 1.]
+[2025-10-31 02:48:35] --- Training: Rep 3, Fold 8, Seed 789 ---
+Rep 3, Fold 8, Seed 789, Ep [001/100] Tr Ls: 0.4881 Ac: 0.6875 | Vl Ls: 1.1211 Ac: 0.3493
+Rep 3, Fold 8, Seed 789, Ep [010/100] Tr Ls: 0.1323 Ac: 0.9225 | Vl Ls: 0.3914 Ac: 0.8693
+Rep 3, Fold 8, Seed 789, Ep [020/100] Tr Ls: 0.0976 Ac: 0.9489 | Vl Ls: 0.1925 Ac: 0.9333
+Rep 3, Fold 8, Seed 789, Ep [030/100] Tr Ls: 0.0771 Ac: 0.9632 | Vl Ls: 0.2075 Ac: 0.9093
+Rep 3, Fold 8, Seed 789, Ep [040/100] Tr Ls: 0.0584 Ac: 0.9745 | Vl Ls: 0.1151 Ac: 0.9467
+Rep 3, Fold 8, Seed 789, Ep [050/100] Tr Ls: 0.0367 Ac: 0.9858 | Vl Ls: 0.0651 Ac: 0.9733
+Rep 3, Fold 8, Seed 789, Ep [060/100] Tr Ls: 0.0253 Ac: 0.9906 | Vl Ls: 0.0483 Ac: 0.9813
+Rep 3, Fold 8, Seed 789, Ep [070/100] Tr Ls: 0.0205 Ac: 0.9929 | Vl Ls: 0.0247 Ac: 0.9867
+Rep 3, Fold 8, Seed 789, Ep [080/100] Tr Ls: 0.0161 Ac: 0.9945 | Vl Ls: 0.0295 Ac: 0.9867
+Rep 3, Fold 8, Seed 789, Ep [090/100] Tr Ls: 0.0138 Ac: 0.9954 | Vl Ls: 0.0428 Ac: 0.9787
+Rep 3, Fold 8, Seed 789, Ep [100/100] Tr Ls: 0.0121 Ac: 0.9961 | Vl Ls: 0.0499 Ac: 0.9893
+[2025-10-31 04:15:06] Rep 3, Fold 8, Seed 789: Loaded best model (Val Acc: 1.0000)
+[2025-10-31 04:15:06] [Rep 3, F 8] Val Met: Acc=0.9893, BalAcc=0.9867, AUC=0.9999
+[2025-10-31 04:15:06] --- Rep 3, Fold 9/10 ---
+[2025-10-31 04:15:06] [Rep 3, F 9] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-31 04:15:06] [Rep 3, F 9] Orig Train dist: {0: 113, 1: 2362, 2: 900}
+[2025-10-31 04:15:06] [Rep 3, F 9] Applying SMOTE with default k_neighbors...
+[2025-10-31 04:15:07] [Rep 3, F 9] After SMOTE Train: (7086, 28, 150)
+[2025-10-31 04:15:07] [Rep 3, F 9] After SMOTE Train dist: {0: 2362, 1: 2362, 2: 2362}
+[2025-10-31 04:15:07] [Rep 3, F 9] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2362
+[2025-10-31 04:15:24] [Rep 3, F 9] Combined Train (SMOTE + Custom Aug) shape: (148806, 28, 150)
+[2025-10-31 04:15:24] [Rep 3, F 9] Combined Train class dist: {0: 49602, 1: 49602, 2: 49602}
+[2025-10-31 04:15:28] [Rep 3, F 9] Applied Class weights: [1. 1. 1.]
+[2025-10-31 04:15:28] --- Training: Rep 3, Fold 9, Seed 789 ---
+Rep 3, Fold 9, Seed 789, Ep [001/100] Tr Ls: 0.5067 Ac: 0.6649 | Vl Ls: 1.1292 Ac: 0.2080
+Rep 3, Fold 9, Seed 789, Ep [010/100] Tr Ls: 0.1347 Ac: 0.9243 | Vl Ls: 0.3005 Ac: 0.8213
+Rep 3, Fold 9, Seed 789, Ep [020/100] Tr Ls: 0.0943 Ac: 0.9530 | Vl Ls: 0.2075 Ac: 0.9173
+Rep 3, Fold 9, Seed 789, Ep [030/100] Tr Ls: 0.0716 Ac: 0.9669 | Vl Ls: 0.1749 Ac: 0.9200
+Rep 3, Fold 9, Seed 789, Ep [040/100] Tr Ls: 0.0493 Ac: 0.9796 | Vl Ls: 0.0994 Ac: 0.9653
+Rep 3, Fold 9, Seed 789, Ep [050/100] Tr Ls: 0.0317 Ac: 0.9879 | Vl Ls: 0.1119 Ac: 0.9707
+Rep 3, Fold 9, Seed 789, Ep [060/100] Tr Ls: 0.0238 Ac: 0.9915 | Vl Ls: 0.0902 Ac: 0.9760
+Rep 3, Fold 9, Seed 789, Ep [070/100] Tr Ls: 0.0185 Ac: 0.9934 | Vl Ls: 0.0531 Ac: 0.9787
+Rep 3, Fold 9, Seed 789, Ep [080/100] Tr Ls: 0.0159 Ac: 0.9947 | Vl Ls: 0.0786 Ac: 0.9760
+Rep 3, Fold 9, Seed 789, Ep [090/100] Tr Ls: 0.0151 Ac: 0.9951 | Vl Ls: 0.0168 Ac: 0.9947
+Rep 3, Fold 9, Seed 789, Ep [100/100] Tr Ls: 0.0128 Ac: 0.9956 | Vl Ls: 0.0404 Ac: 0.9867
+[2025-10-31 05:41:14] Rep 3, Fold 9, Seed 789: Loaded best model (Val Acc: 0.9973)
+[2025-10-31 05:41:14] [Rep 3, F 9] Val Met: Acc=0.9867, BalAcc=0.9937, AUC=0.9998
+[2025-10-31 05:41:14] --- Rep 3, Fold 10/10 ---
+[2025-10-31 05:41:15] [Rep 3, F 10] Orig Train: (3375, 28, 150), Orig Val: (375, 28, 150)
+[2025-10-31 05:41:15] [Rep 3, F 10] Orig Train dist: {0: 113, 1: 2362, 2: 900}
+[2025-10-31 05:41:15] [Rep 3, F 10] Applying SMOTE with default k_neighbors...
+[2025-10-31 05:41:15] [Rep 3, F 10] After SMOTE Train: (7086, 28, 150)
+[2025-10-31 05:41:15] [Rep 3, F 10] After SMOTE Train dist: {0: 2362, 1: 2362, 2: 2362}
+[2025-10-31 05:41:15] [Rep 3, F 10] Custom Aug factors (on post-SMOTE data): [20, 20, 20]
+  - Custom Aug Class 0 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 1 (post-SMOTE): Factor=20, Samples=2362
+  - Custom Aug Class 2 (post-SMOTE): Factor=20, Samples=2362
+[2025-10-31 05:41:32] [Rep 3, F 10] Combined Train (SMOTE + Custom Aug) shape: (148806, 28, 150)
+[2025-10-31 05:41:32] [Rep 3, F 10] Combined Train class dist: {0: 49602, 1: 49602, 2: 49602}
+[2025-10-31 05:41:36] [Rep 3, F 10] Applied Class weights: [1. 1. 1.]
+[2025-10-31 05:41:36] --- Training: Rep 3, Fold 10, Seed 789 ---
+Rep 3, Fold 10, Seed 789, Ep [001/100] Tr Ls: 0.4308 Ac: 0.7400 | Vl Ls: 0.9033 Ac: 0.4533
+Rep 3, Fold 10, Seed 789, Ep [010/100] Tr Ls: 0.1312 Ac: 0.9281 | Vl Ls: 0.2994 Ac: 0.8107
+Rep 3, Fold 10, Seed 789, Ep [020/100] Tr Ls: 0.0945 Ac: 0.9537 | Vl Ls: 0.1188 Ac: 0.9547
+Rep 3, Fold 10, Seed 789, Ep [030/100] Tr Ls: 0.0689 Ac: 0.9688 | Vl Ls: 0.3072 Ac: 0.8933
+Rep 3, Fold 10, Seed 789, Ep [040/100] Tr Ls: 0.0432 Ac: 0.9826 | Vl Ls: 0.1060 Ac: 0.9600
+Rep 3, Fold 10, Seed 789, Ep [050/100] Tr Ls: 0.0288 Ac: 0.9894 | Vl Ls: 0.1221 Ac: 0.9760
+Rep 3, Fold 10, Seed 789, Ep [060/100] Tr Ls: 0.0226 Ac: 0.9918 | Vl Ls: 0.0611 Ac: 0.9680
+Rep 3, Fold 10, Seed 789, Ep [070/100] Tr Ls: 0.0194 Ac: 0.9933 | Vl Ls: 0.0779 Ac: 0.9733
+Rep 3, Fold 10, Seed 789, Ep [080/100] Tr Ls: 0.0075 Ac: 0.9975 | Vl Ls: 0.0416 Ac: 0.9840
+Rep 3, Fold 10, Seed 789, Ep [090/100] Tr Ls: 0.0056 Ac: 0.9982 | Vl Ls: 0.0169 Ac: 0.9893
+Rep 3, Fold 10, Seed 789, Ep [100/100] Tr Ls: 0.0050 Ac: 0.9985 | Vl Ls: 0.0122 Ac: 0.9947
+[2025-10-31 07:08:08] Rep 3, Fold 10, Seed 789: Loaded best model (Val Acc: 1.0000)
+[2025-10-31 07:08:08] [Rep 3, F 10] Val Met: Acc=0.9947, BalAcc=0.9975, AUC=1.0000
+[2025-10-31 07:08:08] [INFO] Aggregating results and generating plots...
+=== Overall Metrics (Aggregated across All Folds from All Repetitions) ===
+{
+  "accuracy": 0.9874666666666667,
+  "balanced_acc": 0.9856607849183532,
+  "precision": [
+    0.8411644606795368,
+    0.9984734114385521,
+    0.98783400271657
+  ],
+  "recall": [
+    0.9818376068376069,
+    0.9878114145841194,
+    0.9873333333333333
+  ],
+  "f1": [
+    0.8964760492861241,
+    0.9930596604264252,
+    0.987353387848978
+  ],
+  "roc_auc": 0.9996726082797555,
+  "conf_matrix": [
+    [
+      368,
+      4,
+      3
+    ],
+    [
+      61,
+      7779,
+      35
+    ],
+    [
+      30,
+      8,
+      2962
+    ]
+  ]
+}
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+[2025-10-31 07:08:09] [PLOT] Saved overall_sensor_ranking.eps
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+[2025-10-31 07:08:09] [PLOT] Saved model_accuracy_boxplot.eps
+[2025-10-31 07:08:09] [PLOT] Saved confusion_matrix.eps
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+[2025-10-31 07:08:09] [PLOT] Saved sensor_importance_variability.eps
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+[2025-10-31 07:08:10] [PLOT] Saved overall_model_learning_curves.eps
+
+[2025-10-31 07:08:10] [DONE] Script finished.
